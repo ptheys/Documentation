@@ -28,11 +28,11 @@ Este documento está organizado para fornecer uma visão geral clara e acessíve
 ### Tópicos abordados:
 1. **Sobre a Opus**
 2. [**Conceitos iniciais do Open Finance:**](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/readme.md)
-   - [O ecossistema Open Finance Brasil](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md)
-   - [Perfis de atuação](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md)
-   - [Certificações](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md)
-   - [Jornada de consentimento](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md)
-   - [Requisitos não funcionais (SLAs)](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md)
+   - [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
+   - [Perfis de atuação][Perfis de Atuação]
+   - [Certificações][Certificações]
+   - [Jornada de consentimento][Jornada de Consentimento]
+   - [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
 3. [**Arquitetura e segurança do produto**](./Visão%20geral/Arquitetura%20e%20segurança/readme.md)
 4. [**Implantação**](./Visão%20geral/Implantação/readme.md)
 
@@ -43,3 +43,10 @@ Este documento está organizado para fornecer uma visão geral clara e acessíve
 Sabemos que a implementação de uma nova plataforma pode trazer desafios únicos. Por isso, nossa equipe de suporte está pronta para assisti-lo em cada etapa do processo. 
 
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato conosco**. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
+
+
+[O Ecossistema Open Finance Brasil]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md
+[Perfis de Atuação]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md
+[Certificações]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md
+[Jornada de Consentimento]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md
+[Requisitos Não Funcionais]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md
