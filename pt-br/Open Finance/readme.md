@@ -27,14 +27,14 @@ Este documento está organizado para fornecer uma visão geral clara e acessíve
 
 ### Tópicos abordados:
 1. **Sobre a Opus**
-2. [**Conceitos iniciais do Open Finance:**](./Visão%20de%20negócio/Conceitos%20iniciais%20Open%20Finance/readme.md)
-   - [O ecossistema](./Visão%20de%20negócio/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md)
-   - [Perfis de atuação](./Visão%20de%20negócio/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md)
-   - [Certificações](./Visão%20de%20negócio/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md)
-   - [Jornada de consentimento](./Visão%20de%20negócio/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md)
-   - [Requisitos não funcionais (SLAs)](./Visão%20de%20negócio/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md)
-3. [**Arquitetura e segurança do produto**]
-4. [**Implantação**]
+2. [**Conceitos iniciais do Open Finance:**](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/readme.md)
+   - [O ecossistema](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md)
+   - [Perfis de atuação](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md)
+   - [Certificações](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md)
+   - [Jornada de consentimento](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md)
+   - [Requisitos não funcionais (SLAs)](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md)
+3. [**Arquitetura e segurança do produto**](./Visão%20geral/Arquitetura%20e%20segurança/readme.md)
+4. [**Implantação**](./Visão%20geral/Implantação/readme.md)
 
 ---
 
