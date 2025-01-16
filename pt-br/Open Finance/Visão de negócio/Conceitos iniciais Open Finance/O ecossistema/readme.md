@@ -19,7 +19,8 @@ O Open Finance tem um escopo de implementação em 4 diferentes fases, conhecida
 
 Cada fase é descrita em detalhes na imagem abaixo:
 
-![Escopo Open Finance](/images/Escopo_OF)
+![Escopo Open Finance](./images/Escopo_OF.png)
+[Fonte: Banco Central](https://openfinancebrasil.org.br/conheca-o-open-finance/)
 
 ---
 
@@ -27,15 +28,18 @@ Cada fase é descrita em detalhes na imagem abaixo:
 
 Para garantir a implementação do Open Finance, o Banco Central definiu uma estrutura para concretizar os objetivos do ecossistema. A estrutura está dividida da seguinte forma:
 
+![Organograma Open Finance](./images/Organograma_OF.png)
+Fonte: Opus
+
 ### Banco Central
 É responsável pela definição das diretrizes estratégicas do Open Finance e mantém contato direto com o Conselho Deliberativo para analisar o andamento das atividades. O principal canal para divulgação de novas diretrizes e requisitos é através da publicação de instruções normativas.
 
-[Consulte o repositório de normativos do Banco Central](#).
+[Consulte o repositório de normativos do Banco Central](https://www.bcb.gov.br/estabilidadefinanceira/buscanormas).
 
 ---
 
 ### Conselho Deliberativo
-Decide as questões estratégicas necessárias para a implementação do projeto no Brasil e propõe os padrões técnicos ao Banco Central.
+Decide as questões estratégicas necessárias para a implementação do projeto no Brasil e propõe os padrões técnicos ao [Banco Central](https://www.bcb.gov.br/).
 
 ---
 
@@ -48,7 +52,7 @@ Atua como elo principal com o Conselho Deliberativo, informando sobre o andament
 São responsáveis por estudos, propostas técnicas e planos voltados para a implementação e gestão do Open Finance. Incluem profissionais de empresas de tecnologia e acadêmicos. Atualmente, existem oito GTs:
 
 1. **GT Especificações**: Define escopo de dados e interfaces para produtos e serviços.
-2. **GT Experiência do Cliente**: Desenvolve o Guia de Experiência do Usuário.
+2. **GT Experiência do Cliente**: Desenvolve o Guia de [Experiência do Usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio).
 3. **GT Infraestrutura**: Gestão de plataformas e ferramentas do ecossistema.
 4. **GT Política, Riscos e Compliance**: Análises regulatórias e de conformidade.
 5. **GT Estrutura Definitiva**: Define natureza jurídica e função da estrutura.
@@ -67,9 +71,9 @@ As instituições participantes devem acompanhar o andamento do ecossistema para
 
 ## Links Relevantes para o Regulatório
 
-- Informas
-- Portal do desenvolvedor
-- [Instruções normativas do Bacen](#)
-- Repositório de decisões do Conselho Deliberativo
-- Canal do Open Finance no YouTube
-- Relatórios anuais
+- [Informas](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17367115/Reposit+rio+de+Informes)
+- [Portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/overview)
+- [Instruções normativas do Bacen](https://www.bcb.gov.br/estabilidadefinanceira/buscanormas)
+- [Repositório de decisões do Conselho Deliberativo](https://openfinancebrasil.org.br/decisoes-do-conselho-deliberativo/)
+- [Canal do Open Finance no YouTube](https://www.youtube.com/@openfinancebrasil/videos)
+- [Relatórios anuais](https://openfinancebrasil.org.br/relatorios/)
