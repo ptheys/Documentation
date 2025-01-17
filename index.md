@@ -2,8 +2,7 @@
 title: Bem-vindo à Plataforma Opus Open Finance
 layout: default
 ---
-
-# Bem-vindo ao Opus Open Finance
+## Bem-vindo ao Opus Open Finance
 
 Explore a documentação do nosso produto:
 
