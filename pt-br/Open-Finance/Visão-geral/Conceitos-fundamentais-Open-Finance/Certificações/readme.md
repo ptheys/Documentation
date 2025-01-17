@@ -2,10 +2,6 @@
 title: Certificações do Open Finance Brasil
 layout: sidebar
 ---
-# Certificações oficiais do Open Finance Brasil
-
-## Introdução
-
 Para participar do Open Finance, as instituições financeiras devem realizar os procedimentos para obter dois tipos de certificação:
 
 - **Certificação de segurança OpenID**
@@ -31,13 +27,15 @@ O protocolo de segurança adotado pelo Open Finance brasileiro segue os requisit
 
 Um motor de conformidade de segurança garante que uma instituição atende aos requisitos desse protocolo, realizando os testes necessários na camada FAPI-BR dentro da estrutura da OpenID.
 
-### Tipos de certificação:
+### Tipos de certificação
+
 1. **OpenID Providers (OP)**:  
    Obrigatória para os perfis de Detentora de Conta e Transmissora de Dados.
 2. **Relying Parties (RP)**:  
    Obrigatória para os perfis de Iniciadora de Transação de Pagamento (ITP) e Receptora de Dados.
 
-### Recursos para certificação:
+### Recursos para certificação
+
 - [Guia de certificação de Conformidade](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/155910145/Guia+de+Certifica+o+de+Conformidade)
 - [Diretrizes Técnicas de Certificação de Conformidade](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378905/Diretrizes+T+cnicas+de+Certifica+o+de+Conformidade)
 - [Orientações para certificação](https://openfinancebrasil.atlassian.net/wiki/download/attachments/17378905/20230124_Orienta%C3%A7%C3%B5es%20sobre%20certifica%C3%A7%C3%B5es.pptx?api=v2)
@@ -52,7 +50,8 @@ No contexto de homologação do Open Finance Brasil, as diversas especificaçõe
 
 É possível acompanhar os testes publicados das instituições participantes [através desse link](https://web.conformance.directory.openbankingbrasil.org.br/plans.html?public=true).
 
-### Etapas para certificação:
+### Etapas para certificação
+
 1. Criar conta no [sandbox](https://web.sandbox.directory.openbankingbrasil.org.br/organisations) do diretório de participantes.
 2. Configurar o diretório de [sandbox](https://web.sandbox.directory.openbankingbrasil.org.br/organisations).
 3. Certificar o ambiente de homologação (Certificação de segurança OpenID).
@@ -80,7 +79,8 @@ Os certificados digitais são divididos em 4 tipos:
 4. **Certificado de Assinatura**:
    - Realiza assinatura do payload usando JWS (JSON Web Signature).
 
-### Necessidade de certificados por perfil:
+### Necessidade de certificados por perfil
+
 | Certificado         | Detentora de Conta | ITP | Transmissora de Dados | Receptora de Dados |
 |---------------------|:--------------------:|:-----:|:-----------------------:|:--------------------:|
 | Transporte          | Sim                | Não | Sim                   | Não                |
@@ -88,7 +88,8 @@ Os certificados digitais são divididos em 4 tipos:
 | Autenticação        | Sim                | Sim | Sim                   | Sim                |
 | Assinatura          | Sim                | Não | Sim                   | Não                |
 
-### Autoridades certificadoras homologadas pelo Open Finance Brasil:
+### Autoridades certificadoras homologadas pelo Open Finance Brasil
+
 - **CertiSign**
 - **Serpro**
 - **Soluti**
