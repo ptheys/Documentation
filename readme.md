@@ -1,6 +1,6 @@
 ## [PT-BR] Repositório de Documentação da Plataforma Opus Open Finance
 
-Para acessar a documentação em português clique [aqui](./pt-br/Open%20Finance/readme.md).
+Para acessar a documentação em português clique [aqui](./pt-br/Open-Finance/readme.md).
 
 ---
 
