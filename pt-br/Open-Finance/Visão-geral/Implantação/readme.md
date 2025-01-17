@@ -31,7 +31,7 @@ Durante a implantação, um **Delivery Manager** do time da Opus é designado pa
 
 ### 3. **Certificação OpenID**
 - Execução de testes para validação do ambiente de homologação.
-- Preparação das evidências para envio à OpenID ([certificações RP e OP](../Conceitos-fundamentais-Open-Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md)).
+- Preparação das evidências para envio à OpenID ([certificações RP e OP](../Conceitos-fundamentais-Open-Finance/Certificações/readme.md)).
 - Efetuação do pagamento da taxa de certificação.
 - Publicação da instituição no [site oficial da OpenID](https://openid.net/certification/#FAPI_OPs).
 
