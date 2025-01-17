@@ -1,4 +1,9 @@
-# Infraestrutura Core do Opus Open Finance
+---
+title: Deploy Opus Open Finance
+layout: sidebar
+---
+
+## Infraestrutura Core do Opus Open Finance
 
 Este documento tem como objetivo orientar a replicação de nossa infraestrutura de Open Finance nos ambientes dos clientes. Ele contém os comandos e instruções técnicas necessários para garantir uma integração eficiente e segura. Abaixo, fornecemos uma visão geral do Open Finance Brasil e das tecnologias que utilizamos para oferecer resiliência, escalabilidade e segurança.
 
