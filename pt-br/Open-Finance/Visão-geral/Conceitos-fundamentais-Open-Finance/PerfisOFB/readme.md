@@ -1,12 +1,12 @@
-# Perfis de Atuação
+# Perfis de Participação
 
 ## Introdução
 
-O Open Finance conta com diferentes perfis de atuação. Para toda interação no ecossistema, é necessária uma entidade ativa, que inicia uma nova jornada do Open Finance, e uma entidade passiva, que recebe a solicitação para essa jornada.
+As instituições financeiras podem participar do Open Finance Brasil cumprindo vários papéis específicos, aqui denominados Perfis de Paticipação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instiuições podem, voluntariamente, exercer todos os perfis existentes.
 
 ![Perfis do Open Finance](./images/Perfis_OF.png)
 
-Atualmente, existem **2 entidades ativas** e **2 passivas**:
+Os perfis exercidos pelas instituições financeiras podem ser divididos nos dois ecossistemas existentes: compartilhamento de dados e pagamentos. Em cada um deles existe uma parte ativa (que é quem inicia uma ação) e uma parte passiva, que responde à ação disparada pela parte ativa.
 
 ### No ecossistema de Dados:
 - **Transmissora de Dados** - Parte passiva.
@@ -15,8 +15,6 @@ Atualmente, existem **2 entidades ativas** e **2 passivas**:
 ### No ecossistema de Pagamentos:
 - **Detentora de Conta** - Parte passiva.
 - **Iniciadora de Transação de Pagamento (ITP)** - Parte ativa.
-
-**Nota**: Apenas o perfil de **Detentor de Conta** é regulatório. Os demais perfis são opcionais para as instituições participantes, exceto para bancos classificados como S1 e S2, que são obrigados a participar do ecossistema de dados.
 
 ---
 
@@ -39,6 +37,6 @@ Os perfis de atuação podem ser entendidos conforme a tabela abaixo:
 
 ---
 
-## Soluções da Opus
+## A Plataforma Opus Open Finance
 
-A Opus oferece uma solução completa para atender a todos os requisitos necessários para uma instituição se tornar participante de qualquer perfil do Open Finance.
+A Plataforma Opus Open Finance oferece uma solução completa para atender aos requisitos necessários a todos os perfis de participação do Open Finance Brasil.

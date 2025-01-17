@@ -1,13 +1,13 @@
-# Certificações
+# Certificações oficiais do Open Finance Brasil
 
 ## Introdução
 
-Para participar do Open Finance, a sua instituição deve realizar os procedimentos para obter duas certificações:
+Para participar do Open Finance, as instituições financeiras devem realizar os procedimentos para obter dois tipos de certificação:
 
 - **Certificação de segurança OpenID**
 - **Certificação funcional**
 
-Além disso, o ecossistema exige que as participantes tenham alguns certificados:
+Além disso, o ecossistema exige que as participantes contratem alguns certificados digitais:
 
 - **Certificado de Transporte**
 - **Certificado de EV**
@@ -16,8 +16,8 @@ Além disso, o ecossistema exige que as participantes tenham alguns certificados
 
 **Certificações e certificados são diferentes!**
 
-- **Certificações**: Evidências de que a implementação do Open Finance na participante está de acordo com as especificações funcionais e de segurança.
-- **Certificados**: Gerados por uma certificadora autorizada, são utilizados para encriptar e garantir segurança na comunicação entre as participantes do Open Finance.
+- **Certificações**: Evidências de que a implementação do Open Finance Brasil do participantes está de acordo com as especificações funcionais e de segurança.
+- **Certificados**: Gerados por uma certificadora autorizada, são utilizados para encriptar e garantir segurança na comunicação entre as participantes do Open Finance Brasil.
 
 ---
 
@@ -38,13 +38,13 @@ Um motor de conformidade de segurança garante que uma instituição atende aos 
 - [Diretrizes Técnicas de Certificação de Conformidade](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378905/Diretrizes+T+cnicas+de+Certifica+o+de+Conformidade)
 - [Orientações para certificação](https://openfinancebrasil.atlassian.net/wiki/download/attachments/17378905/20230124_Orienta%C3%A7%C3%B5es%20sobre%20certifica%C3%A7%C3%B5es.pptx?api=v2)
 
-*A Opus cuida de todo o processo de certificação de segurança para sua instituição.*
+*Durante o processo de implantação a Opus cuida de todo o processo de certificação de segurança para sua instituição.*
 
 ---
 
 ## Certificação funcional
 
-No contexto de homologação do Open Finance, as diversas especificações de APIs devem ser implementadas pela instituição participante. Para garantir que a participantes esteja com toda a jornada daquela funcionalidade nos parâmetros esperados, a governança do Open Finance disponibiliza, através da Radiam, o motor funcional. Dentro dele são disponibilizados diversos planos de testes para que cada uma das APIs regulatórias seja testada e certificada de acordo com o seu sucesso.
+No contexto de homologação do Open Finance Brasil, as diversas especificações de APIs devem ser implementadas pela instituição participante. Para garantir que a participante esteja com toda a jornada daquela funcionalidade nos parâmetros esperados, a governança do Open Finance Brasil disponibilizaum  motor funcional. Dentro dele são disponibilizados diversos planos de testes para que cada uma das APIs regulatórias seja testada e certificada de acordo com o grau de aderência de seu comportamento às normas regulatórias.
 
 É possível acompanhar os testes publicados das instituições participantes [através desse link](https://web.conformance.directory.openbankingbrasil.org.br/plans.html?public=true).
 
@@ -68,7 +68,7 @@ Os certificados digitais são divididos em 4 tipos:
    - Realiza autenticação da aplicação cliente via OAuth2.0 mTLS ou private_key_jwt.
 
 2. **Certificado EV**:
-   - Utilizado para serviços como páginas web, garantindo maior interoperabilidade.
+   - Utilizado para serviços como páginas web.
 
 3. **Certificado de Autenticação**:
    - Protege e autentica o canal TLS das APIs consumidas pelas aplicações participantes do Open Finance.
@@ -84,7 +84,7 @@ Os certificados digitais são divididos em 4 tipos:
 | Autenticação        | Sim                | Sim | Sim                   | Sim                |
 | Assinatura          | Sim                | Não | Sim                   | Não                |
 
-### Autoridades certificadoras:
+### Autoridades certificadoras homologadas pelo Open Finance Brasil:
 - **CertiSign**
 - **Serpro**
 - **Soluti**

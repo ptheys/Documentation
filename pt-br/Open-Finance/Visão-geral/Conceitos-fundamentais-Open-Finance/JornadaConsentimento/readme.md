@@ -2,9 +2,9 @@
 
 ## Introdução
 
-No Open Finance, os dados só podem ser compartilhados entre instituições ou um pagamento efetuado se houver consentimento aprovado do usuário correntista que iniciou a jornada. É necessário realizar a jornada de consentimento para que o usuário possa autorizar a operação.
+No Open Finance, qualquer operação só pode ser realizada - seja ela o compartilhamento de dados ou a efetuação de um pagamento - se houver consentimento aprovado pelo usuário (cliente de uma instituicão financeira) que iniciou a jornada. Portanto, sempre é necessário realizar uma *jornada de consentimento* para que o usuário possa autorizar a operação.
 
-O **consentimento** é o termo usado para demonstrar que o usuário correntista concorda com a operação que o **Iniciador de Pagamento** ou a **Receptora de Dados** está solicitando à **Detentora de Conta** ou à **Transmissora de Dados**.
+O **consentimento** é o termo usado para demonstrar que o usuário cliente da instituição financeira concorda com a operação que o **Iniciador de Pagamento** ou a **Receptora de Dados** está solicitando à **Detentora de Conta** ou à **Transmissora de Dados**.
 
 ---
 
