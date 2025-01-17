@@ -1,9 +1,9 @@
-## [PT-BR]Bem-vindo ao repositório da Opus referente aos nossos produtos!
+## [PT-BR] Repositório de Documentação da Plataforma Opus Open Finance
 
-Aqui você pode encontrar a documentação de múltiplas frentes, fique a vontade para explorar. Qualquer dúvida entre em contato conosco.
+Para acessar a documentação em português clique [aqui](./pt-br/Open%20Finance/readme.md).
 
 ---
 
 ## [ENG] Welcome to Opus Open Finance products repository!
 
-Here you can find documentation on multiple fronts. Feel free to explore. If you have any questions, please contact us.
+[Here](./eng/readme.md) you can find documentation in English.
