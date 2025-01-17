@@ -1,0 +1,25 @@
+# Configurações básicas
+title: Plataforma Opus Open Finance
+description: Documentação e recursos da Plataforma Opus Open Finance.
+theme: jekyll-theme-cayman
+
+# URL do site
+url: https://opusopenfinance.github.io  # Substitua <username> pelo seu nome de usuário no GitHub
+baseurl: # Substitua <repository> pelo nome do repositório (ou deixe vazio se o site for raiz)
+
+# Idioma e fuso horário
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+# Navegação (opcional)
+navbar:
+  - name: Início
+    url: /
+  - name: Documentação PT-BR
+    url: /pt-br/
+  - name: Documentation EN
+    url: /eng/
+
+# Plugins (opcional)
+plugins:
+  - jekyll-sitemap  # Para gerar sitemap automaticamente
