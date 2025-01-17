@@ -46,8 +46,8 @@ Sabemos que a implementação de uma nova plataforma pode trazer desafios único
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato conosco**. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
 
-[O Ecossistema Open Finance Brasil]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md
-[Perfis de Atuação]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md
-[Certificações]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md
-[Jornada de Consentimento]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md
-[Requisitos Não Funcionais]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md
+[O Ecossistema Open Finance Brasil]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/Ecossistema/readme.md
+[Perfis de Atuação]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/PerfisOFB/readme.md
+[Certificações]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/Certificações/readme.md
+[Jornada de Consentimento]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/JornadaConsentimento/readme.md
+[Requisitos Não Funcionais]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/RequisistosNF/readme.md
