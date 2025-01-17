@@ -1,4 +1,4 @@
-# Onboarding ITP
+# Processo de Onboarding de um Iniciador de Transação de Pagamento (ITP)
 
 ## Introdução
 

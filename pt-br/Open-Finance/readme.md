@@ -4,7 +4,7 @@ Bem-vindo à documentação da plataforma Opus Open Finance!
 
 Aqui você encontrará detalhes sobre a solução ideal para sua instituição se homologar no ecossistema de Open Finance. O produto da Opus é responsável por garantir a boa operação da sua instituição com as demandas exigidas pelo regulador, além de garantir a evolução de todas as novas funcionalidades.
 
-A plataforma foi pensada em abstrair toda a complexidade regulatória do Open Finance, a camada que não traz o diferencial para sua empresa. Dessa forma, você pode focar no que mais importa: **seus objetivos estratégicos**.
+A plataforma foi projetada para abstrair toda a complexidade regulatória do Open Finance, a camada que não traz o diferencial para sua empresa. Dessa forma, você pode focar em seus **seus objetivos estratégicos**.
 
 ---
 
@@ -27,14 +27,14 @@ Este documento está organizado para fornecer uma visão geral clara e acessíve
 
 ### Tópicos abordados:
 1. **Sobre a Opus**
-2. [**Conceitos iniciais do Open Finance:**](./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/readme.md)
+2. [**Conceitos fundamentais do Open Finance:**](./Visão-geral/Conceitos-fundamentais-Open-Finance/readme.md)
    - [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
    - [Perfis de atuação][Perfis de Atuação]
    - [Certificações][Certificações]
    - [Jornada de consentimento][Jornada de Consentimento]
    - [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
-3. [**Arquitetura e segurança do produto**](./Visão%20geral/Arquitetura%20e%20segurança/readme.md)
-4. [**Implantação**](./Visão%20geral/Implantação/readme.md)
+3. [**Arquitetura do produto**](./Visão-geral/Arquitetura/readme.md)
+4. [**Implantação**](./Visão-geral/Implantação/readme.md)
 
 ---
 
@@ -45,8 +45,8 @@ Sabemos que a implementação de uma nova plataforma pode trazer desafios único
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato conosco**. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
 
-[O Ecossistema Open Finance Brasil]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md
-[Perfis de Atuação]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md
-[Certificações]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md
-[Jornada de Consentimento]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md
-[Requisitos Não Funcionais]: ./Visão%20geral/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md
+[O Ecossistema Open Finance Brasil]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/O%20ecossistema/readme.md
+[Perfis de Atuação]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Perfis%20de%20atuação%20do%20Open%20Finance/readme.md
+[Certificações]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Certificações%20oficiais%20do%20Open%20Finance/readme.md
+[Jornada de Consentimento]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Jornada%20do%20consentimento/readme.md
+[Requisitos Não Funcionais]: ./Visão-geral/Conceitos%20iniciais%20Open%20Finance/Requisistos%20não%20funcionais/readme.md

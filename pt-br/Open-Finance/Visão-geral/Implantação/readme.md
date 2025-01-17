@@ -1,10 +1,10 @@
-# Implantação
+# O processo de implantação da Plataforma Opus Open Finance
 
 ## Introdução
 
 Para começar a utilizar o **Opus Open Finance**, é necessário passar pelo processo de implantação. A equipe da Opus acompanha todo o processo para garantir que a integração com os sistemas do cliente seja ágil e eficiente.
 
-Durante a implantação, um **Delivery Manager** exclusivo é designado para gerenciar o processo de ponta a ponta, mantendo o contato contínuo com o cliente mesmo após a conclusão da implantação.
+Durante a implantação, um **Delivery Manager** do time da Opus é designado para gerenciar o processo de ponta a ponta, mantendo o contato contínuo com o cliente. Após a implantação, esse **Delivery Manager** ou alguém de sua equipe será o ponto focal para o dia a dia do relacionamento.
 
 ---
 
