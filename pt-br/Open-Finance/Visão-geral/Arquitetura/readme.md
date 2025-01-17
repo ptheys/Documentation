@@ -1,3 +1,7 @@
+---
+title: Arquitetura do Produto
+layout: sidebar
+---
 # Arquitetura do Produto
 
 ## Visão Geral da Arquitetura

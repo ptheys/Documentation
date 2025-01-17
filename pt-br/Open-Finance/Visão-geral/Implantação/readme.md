@@ -1,3 +1,7 @@
+---
+title: Implantação da Plataforma Opus Open Finance
+layout: sidebar
+---
 # O processo de implantação da Plataforma Opus Open Finance
 
 ## Introdução

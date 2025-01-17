@@ -1,3 +1,7 @@
+---
+title: Certificações do Open Finance Brasil
+layout: sidebar
+---
 # Certificações oficiais do Open Finance Brasil
 
 ## Introdução

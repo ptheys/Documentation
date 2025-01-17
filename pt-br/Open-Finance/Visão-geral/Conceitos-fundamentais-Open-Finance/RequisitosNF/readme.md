@@ -1,3 +1,7 @@
+---
+title: Requisitos Não Funcionais
+layout: sidebar
+---
 # Requisitos Não Funcionais (SLAs)
 
 ## Introdução

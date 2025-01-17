@@ -1,3 +1,7 @@
+---
+title: Perfis de Participação no Open Finance Brasil
+layout: sidebar
+---
 # Perfis de Participação
 
 ## Introdução

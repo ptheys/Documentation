@@ -1,3 +1,7 @@
+---
+title: Jornada de Consentimento
+layout: sidebar
+---
 # Jornada de Consentimento
 
 ## Introdução

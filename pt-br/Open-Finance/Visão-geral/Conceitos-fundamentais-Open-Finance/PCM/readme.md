@@ -1,3 +1,7 @@
+---
+title: Plataforma de Coleta de Métricas
+layout: sidebar
+---
 # Plataforma de Coleta de Métricas (PCM)
 
 ## Introdução

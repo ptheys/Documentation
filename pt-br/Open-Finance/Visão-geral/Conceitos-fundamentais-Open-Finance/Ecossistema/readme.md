@@ -1,3 +1,7 @@
+---
+title: O Ecosistema Open Finance Brasil
+layout: sidebar
+---
 # O Ecossistema Open Finance Brasil
 
 ## Introdução
