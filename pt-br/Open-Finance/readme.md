@@ -1,4 +1,3 @@
-<!-- Inserção de comentário para teste -->
 # Documentação Plataforma Opus Open Finance
 
 Bem-vindo à documentação da plataforma Opus Open Finance!
@@ -28,7 +27,8 @@ Este documento está organizado para fornecer uma visão geral clara e acessíve
 
 ### Tópicos abordados:
 1. **Sobre a Opus**
-2. [**Conceitos fundamentais do Open Finance:**](./Visão-geral/Conceitos-fundamentais-Open-Finance/readme.md)
+<!-- 2. [**Conceitos fundamentais do Open Finance:**](./Visão-geral/Conceitos-fundamentais-Open-Finance/readme.md) -->
+2. **Conceitos fundamentais do Open Finance:**
    - [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
    - [Perfis de atuação][Perfis de Atuação]
    - [Certificações][Certificações]
