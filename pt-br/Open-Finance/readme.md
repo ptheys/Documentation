@@ -2,7 +2,7 @@
 title: Introdução
 layout: sidebar
 ---
-# Documentação Plataforma Opus Open Finance
+## Documentação Plataforma Opus Open Finance
 
 Bem-vindo à documentação da plataforma Opus Open Finance!
 
@@ -12,9 +12,9 @@ A plataforma foi projetada para abstrair toda a complexidade regulatória do Ope
 
 ---
 
-## Introdução à Plataforma Opus Open Finance
+### Introdução à Plataforma Opus Open Finance
 
-A Plataforma Opus Open Finance é uma solução de software projetada para atender integralmente às exigências regulatórias estabelecidas pelo Banco Central do Brasil. Este documento oferece uma visão geral de como nossa plataforma pode ajudar sua instituição financeira a se integrar e operar eficientemente dentro do Open Finance. 
+A Plataforma Opus Open Finance é uma solução de software projetada para atender integralmente às exigências regulatórias estabelecidas pelo Banco Central do Brasil. Este documento oferece uma visão geral de como nossa plataforma pode ajudar sua instituição financeira a se integrar e operar eficientemente dentro do Open Finance.
 
 A Plataforma serve como um middleware essencial que permite a sua instituição operar dentro dos quatro perfis do Open Finance:
 
@@ -25,30 +25,31 @@ A Plataforma serve como um middleware essencial que permite a sua instituição 
 
 ---
 
-## Estrutura deste Documento
+### Estrutura deste Documento
 
 Este documento está organizado para fornecer uma visão geral clara e acessível sobre a plataforma. Nos capítulos subsequentes, você encontrará informações detalhadas sobre os detalhes da plataforma, além de direcionamentos sobre a implementação de cada perfil dentro do Open Finance.
 
-### Tópicos abordados:
+#### Tópicos abordados
+
 1. **Sobre a Opus**
 <!-- 2. [**Conceitos fundamentais do Open Finance:**](./Visão-geral/Conceitos-fundamentais-Open-Finance/readme.md) -->
-2. **Conceitos fundamentais do Open Finance:**
-   - [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
-   - [Perfis de atuação][Perfis de Atuação]
-   - [Certificações][Certificações]
-   - [Jornada de consentimento][Jornada de Consentimento]
-   - [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
-3. [**Arquitetura do produto**](./Visão-geral/Arquitetura/readme.md)
-4. [**Implantação**](./Visão-geral/Implantação/readme.md)
+2.**Conceitos fundamentais do Open Finance:**
+
+- [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
+- [Perfis de atuação][Perfis de Atuação]
+- [Certificações][Certificações]
+- [Jornada de consentimento][Jornada de Consentimento]
+- [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
+3.[**Arquitetura do produto**](./Visão-geral/Arquitetura/readme.md)
+4.[**Implantação**](./Visão-geral/Implantação/readme.md)
 
 ---
 
-## Suporte e Assistência
+### Suporte e Assistência
 
-Sabemos que a implementação de uma nova plataforma pode trazer desafios únicos. Por isso, nossa equipe de suporte está pronta para assisti-lo em cada etapa do processo. 
+Sabemos que a implementação de uma nova plataforma pode trazer desafios únicos. Por isso, nossa equipe de suporte está pronta para assisti-lo em cada etapa do processo.
 
-Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato conosco**. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
-
+Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
 [O Ecossistema Open Finance Brasil]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/Ecossistema/readme.md
 [Perfis de Atuação]: ./Visão-geral/Conceitos-fundamentais-Open-Finance/PerfisOFB/readme.md

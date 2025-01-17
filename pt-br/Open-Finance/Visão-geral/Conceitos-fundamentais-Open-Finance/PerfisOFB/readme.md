@@ -2,9 +2,6 @@
 title: Perfis de Participação no Open Finance Brasil
 layout: sidebar
 ---
-# Perfis de Participação
-
-## Introdução
 
 As instituições financeiras podem participar do Open Finance Brasil cumprindo vários papéis específicos, aqui denominados Perfis de Paticipação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instiuições podem, voluntariamente, exercer todos os perfis existentes.
 
@@ -12,11 +9,13 @@ As instituições financeiras podem participar do Open Finance Brasil cumprindo 
 
 Os perfis exercidos pelas instituições financeiras podem ser divididos nos dois ecossistemas existentes: compartilhamento de dados e pagamentos. Em cada um deles existe uma parte ativa (que é quem inicia uma ação) e uma parte passiva, que responde à ação disparada pela parte ativa.
 
-### No ecossistema de Dados:
+## No ecossistema de Dados
+
 - **Transmissora de Dados** - Parte passiva.
 - **Receptora de Dados** - Parte ativa.
 
-### No ecossistema de Pagamentos:
+## No ecossistema de Pagamentos
+
 - **Detentora de Conta** - Parte passiva.
 - **Iniciadora de Transação de Pagamento (ITP)** - Parte ativa.
 
@@ -24,7 +23,8 @@ Os perfis exercidos pelas instituições financeiras podem ser divididos nos doi
 
 ## Nomenclatura TPP
 
-O termo **TPP** é utilizado para representar ambas as partes ativas do ecossistema, ou seja:
+O termo **TPP** (Third-Party Provider) é utilizado para representar ambas as partes ativas do ecossistema, ou seja:
+
 - **Receptor de Dados**
 - **ITP**
 

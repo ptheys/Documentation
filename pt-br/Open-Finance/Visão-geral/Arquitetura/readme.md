@@ -2,8 +2,6 @@
 title: Arquitetura do Produto
 layout: sidebar
 ---
-# Arquitetura do Produto
-
 ## Visão Geral da Arquitetura
 
 A arquitetura da solução é baseada em **microsserviços**, projetada para suportar escalabilidade horizontal automática, e implementada em contêineres (**Docker**) rodando em um ambiente de execução clusterizado Kubernetes. A solução está atualmente em produção em:
@@ -64,4 +62,3 @@ A arquitetura da solução é baseada em **microsserviços**, projetada para sup
 - **Gestão de Logs Distribuídos**:
   - O Elastic é incluído como padrão.
   - Pode ser substituído por outra solução, caso a instituição financeira já possua um padrão estabelecido.
-

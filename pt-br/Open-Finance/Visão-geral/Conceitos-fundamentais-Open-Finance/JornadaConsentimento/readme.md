@@ -2,9 +2,6 @@
 title: Jornada de Consentimento
 layout: sidebar
 ---
-# Jornada de Consentimento
-
-## Introdução
 
 No Open Finance, qualquer operação só pode ser realizada - seja ela o compartilhamento de dados ou a efetuação de um pagamento - se houver consentimento aprovado pelo usuário (cliente de uma instituicão financeira) que iniciou a jornada. Portanto, sempre é necessário realizar uma *jornada de consentimento* para que o usuário possa autorizar a operação.
 
@@ -27,7 +24,7 @@ Fonte: Banco Central
 
 ## Jornada de Consentimento para Pagamentos
 
-![Jornada de dados](./images/jornada_pgtos.png)    
+![Jornada de dados](./images/jornada_pgtos.png)
 Fonte: Banco Central
 
 1. O usuário acessa o ambiente do **Iniciador de Pagamento (ITP)** e solicita a iniciação de um novo pagamento via Open Finance.
