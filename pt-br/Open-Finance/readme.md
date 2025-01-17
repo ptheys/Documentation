@@ -33,15 +33,15 @@ Este documento está organizado para fornecer uma visão geral clara e acessíve
 
 1. **Sobre a Opus**
 <!-- 2. [**Conceitos fundamentais do Open Finance:**](./Visão-geral/Conceitos-fundamentais-Open-Finance/readme.md) -->
-2.**Conceitos fundamentais do Open Finance:**
+2. [**Conceitos fundamentais do Open Finance:**](./Visão-geral/Conceitos-fundamentais-Open-Finance)
 
 - [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
 - [Perfis de atuação][Perfis de Atuação]
 - [Certificações][Certificações]
 - [Jornada de consentimento][Jornada de Consentimento]
-- [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
-3.[**Arquitetura do produto**](./Visão-geral/Arquitetura/readme.md)
-4.[**Implantação**](./Visão-geral/Implantação/readme.md)
+- [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]  
+3. [**Arquitetura do produto**](./Visão-geral/Arquitetura/readme.md)
+4. [**Implantação**](./Visão-geral/Implantação/readme.md)
 
 ---
 

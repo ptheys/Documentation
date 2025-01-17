@@ -1,4 +1,9 @@
-# Perfil Transmissor de Dados
+---
+title: Perfil Transmissor de Dados
+layout: sidebar
+---
+
+## Perfil Transmissor de Dados
 
 ## Introdução
 
@@ -18,8 +23,15 @@ Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as s
 
 ### **Dados cadastrais do correntista**
 - Dados cadastrais
-- Conta corrente
-- Cartão de crédito
+
+### **Conta Corrente**
+- Extrato
+- Saldo
+
+### **Cartão de crédito**
+- Fatura
+- Limites
+- Transações
 
 ### **Operações de crédito**
 - Empréstimos
@@ -27,8 +39,10 @@ Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as s
 - Adiantamento a depositantes (cheque especial)
 - Direitos creditórios descontados (antecipação de recebíveis)
 
+### **Câmbio**
+- Operações de câmbio
+
 ### **Investimentos**
-- Câmbio
 - Renda fixa bancária (CDB, LCI, LCA - protegidos pelo FGC)
 - Renda fixa crédito (CRI, CRA, Debenture)
 - Renda variável
