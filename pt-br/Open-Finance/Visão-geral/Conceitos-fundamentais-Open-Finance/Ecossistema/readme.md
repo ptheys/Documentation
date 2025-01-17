@@ -1,6 +1,8 @@
 ---
 title: O Ecosistema Open Finance Brasil
-layout: sidebar
+nav_order: 2
+parent: Documentação da Plataforma Opus Open Finance
+has_children: false
 ---
 
 O Open Finance Brasil carrega um peso significativo na transformação do sistema de pagamentos do país. Assim como o Pix foi um sucesso, o Open Finance possui diversos benefícios para toda a população brasileira, especialmente a médio e longo prazo. Para o Banco Central, o propósito do Open Finance é incentivar um ambiente de maior competição no sistema financeiro, melhorando os qualidade dos serviços, promovendo inovação e proporcionando maior disputa pelos clientes, tendendo à natural redução das taxas e custos pelo mercado.

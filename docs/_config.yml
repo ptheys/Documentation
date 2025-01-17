@@ -1,0 +1,10 @@
+title: Plataforma Opus Open Finance - Documentação
+description: Documentação que descreve a Plataforma Opus Open Finance, incluindo integração e implantação
+theme: just-the-docs
+remote_theme: null  # Deve estar assim para usar o template local
+
+url: https://opusopenfinance.github.io
+baseurl: "/"
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
