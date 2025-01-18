@@ -5,7 +5,7 @@ nav_order: 1    # Página principal do site.
 has_children: true
 # permalink: /plataforma-opus-open-finance/   # URL personalizada
 ---
-## Documentação Plataforma Opus Open Finance
+## Documentação da Plataforma Opus Open Finance
 
 Bem-vindo à documentação da plataforma Opus Open Finance!
 
