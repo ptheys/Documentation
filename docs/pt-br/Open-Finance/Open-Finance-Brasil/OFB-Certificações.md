@@ -1,7 +1,9 @@
 ---
-title: Certificações do Open Finance Brasil
-layout: sidebar
+title: "Certificações do Open Finance Brasil"
+parent: "Open Finance Brasil"
+nav_order: 4
 ---
+
 Para participar do Open Finance, as instituições financeiras devem realizar os procedimentos para obter dois tipos de certificação:
 
 - **Certificação de segurança OpenID**

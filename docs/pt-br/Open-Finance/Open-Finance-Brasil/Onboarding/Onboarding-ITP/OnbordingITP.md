@@ -1,6 +1,7 @@
 ---
-title: Processo de Onboarding de um Iniciador de Pagamento (ITP)
-layout: sidebar
+title: "Processo de Onboarding de um Iniciador de Pagamento (ITP)"
+parent: "Onboarding"
+nav_order: 3
 ---
 ## Processo de Onboarding de um Iniciador de Transação de Pagamento (ITP)
 

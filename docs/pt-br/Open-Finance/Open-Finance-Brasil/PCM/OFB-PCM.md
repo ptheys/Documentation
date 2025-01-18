@@ -1,6 +1,7 @@
 ---
 title: Plataforma de Coleta de Métricas (PCM)
-layout: sidebar
+parent: "Open Finance Brasil"
+nav_order: 5
 ---
 ## Introdução
 

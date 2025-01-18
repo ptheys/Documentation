@@ -1,5 +1,7 @@
 ---
-title: Plataforma Opus Open Finance
+title: "Plataforma Opus Open Finance"
+parent: "Documentação do Open Finance Brasil"
+nav_order: 2
 ---
 
 ## Introdução

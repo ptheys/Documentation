@@ -1,11 +1,12 @@
 ---
-title: Perfis de Participação no Open Finance Brasil
-layout: sidebar
+title: "Perfis de participação no Open Finance Brasil"
+parent: "Open Finance Brasil"
+nav_order: 2
 ---
 
 As instituições financeiras podem participar do Open Finance Brasil cumprindo vários papéis específicos, aqui denominados Perfis de Paticipação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instiuições podem, voluntariamente, exercer todos os perfis existentes.
 
-![Perfis do Open Finance](./images/Perfis_OF.png)
+![Perfis do Open Finance][Imagem dos perfis de participação]
 
 Os perfis exercidos pelas instituições financeiras podem ser divididos nos dois ecossistemas existentes: compartilhamento de dados e pagamentos. Em cada um deles existe uma parte ativa (que é quem inicia uma ação) e uma parte passiva, que responde à ação disparada pela parte ativa.
 
@@ -44,3 +45,6 @@ Os perfis de atuação podem ser entendidos conforme a tabela abaixo:
 ## A Plataforma Opus Open Finance
 
 A Plataforma Opus Open Finance oferece uma solução completa para atender aos requisitos necessários a todos os perfis de participação do Open Finance Brasil.
+
+
+[Imagem dos perfis de participação]: ./images/Perfis_OF.png

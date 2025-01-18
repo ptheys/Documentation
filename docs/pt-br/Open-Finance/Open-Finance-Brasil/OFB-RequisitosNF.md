@@ -1,6 +1,7 @@
 ---
 title: Requisitos Não Funcionais
-layout: sidebar
+parent: "Open Finance Brasil"
+nav_order: 6
 ---
 
 Para garantir a eficiência do ecossistema de Open Finance, foram definidos requisitos não funcionais que devem ser cumpridos pelas instituições participantes. Estes requisitos visam assegurar qualidade, desempenho e confiabilidade no ecossistema.
