@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Perfis de participação no Open Finance Brasil"
 parent: "Open Finance Brasil"
 nav_order: 2

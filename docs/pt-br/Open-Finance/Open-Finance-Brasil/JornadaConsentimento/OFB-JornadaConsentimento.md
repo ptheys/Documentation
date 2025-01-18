@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Jornada de Consentimento
 parent: "Open Finance Brasil"
 nav_order: 3

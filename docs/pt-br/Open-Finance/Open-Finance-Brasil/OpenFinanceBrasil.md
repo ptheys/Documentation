@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Open Finance Brasil"
 parent: "Documentação da Plataforma Opus Open Finance"
 nav_order: 1

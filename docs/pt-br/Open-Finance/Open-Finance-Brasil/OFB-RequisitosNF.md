@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Requisitos Não Funcionais
 parent: "Open Finance Brasil"
 nav_order: 6

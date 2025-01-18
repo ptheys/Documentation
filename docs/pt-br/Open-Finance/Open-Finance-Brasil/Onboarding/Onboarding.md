@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Onboarding"
 parent: "Open Finance Brasil"
 nav_order: 7

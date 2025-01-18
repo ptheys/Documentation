@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Plataforma de Coleta de Métricas (PCM)
 parent: "Open Finance Brasil"
 nav_order: 5
