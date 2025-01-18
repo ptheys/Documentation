@@ -5,7 +5,7 @@ remote_theme: "just-the-docs/just-the-docs"  # Deve estar assim para usar o temp
 #remote_theme: null  # Deve estar assim para usar o template local
 
 url: https://opusopenfinance.github.io
-baseurl: "/"
+baseurl: "/Documentation"
 
 # Idioma e fuso horário
 lang: pt-BR
