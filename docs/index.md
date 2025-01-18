@@ -32,7 +32,7 @@ A Plataforma serve como um middleware essencial que permite à sua instituição
 
 ### Estrutura deste Documento
 
-Este documento está organizado para fornecer uma visão geral clara e acessível sobre a plataforma. Nos capítulos subsequentes, você encontrará uma visão geral sobre o ecossistema Open Finance Brasil, além de informações sobre os detalhes de nossa plataforma e um direcionamentos sobre a implementação de cada perfil de participação.
+Este documento está organizado para fornecer uma visão geral sobre os conceitos envolvidos no Open Finance e sobre os detalhes técnicos necessários para adoção da plataforma Opus Open Finance. Também são abordados os aspectos de implantação para cada perfil de participante do Open Finance Brasil.
 
 #### Tópicos abordados
 
