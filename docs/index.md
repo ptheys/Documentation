@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Documentação da Plataforma Opus Open Finance"
 nav_order: 1    # Página principal do site. 
 has_children: true
@@ -78,13 +79,13 @@ Sabemos que a implementação de uma nova plataforma pode trazer desafios único
 
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
-[O Ecossistema Open Finance Brasil]: ./pt-br/Open=Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.md
-[Perfis de participação]: ./pt-br/Open=Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.md
-[Certificações]: ./pt-br/Open=Finance/Open-Finance-Brasil/OFB-Certificações.md
-[Jornada de Consentimento]: ./pt-br/Open=Finance/Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.md
-[Requisitos Não Funcionais]: ./pt-br/Open=Finance/Open-Finance-Brasil/OFB-RequisitosNF.md
-[PCM]: ./pt-br/Open-Finance/Open=Finance/Open-Finance-Brasil/PCM/OFB-PCM.md
-[Onboarding]: ./pt-br/Open=Finance/Open-Finance-Brasil/Onboarding/Onboarding.md
-[Onboarding Detentor e Transmissor]: ./pt-br/Open=Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.md
-[Onboarding ITP]: ./pt-br/Open=Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.md
-[Onboarding Receptor]: ./pt-br/Open=Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.md
+[O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.md
+[Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.md
+[Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.md
+[Jornada de Consentimento]: ./pt-br/Open-Finance/Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.md
+[Requisitos Não Funcionais]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-RequisitosNF.md
+[PCM]: ./pt-br/Open-Finance/Open-Finance/Open-Finance-Brasil/PCM/OFB-PCM.md
+[Onboarding]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding.md
+[Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.md
+[Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.md
+[Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.md
