@@ -7,9 +7,5 @@ remote_theme: "just-the-docs/just-the-docs"
 url: https://opusopenfinance.github.io
 baseurl: "/Documentation"
 
-# Idioma e fuso horário
-lang: pt-BR
-timezone: America/Sao_Paulo
-
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
