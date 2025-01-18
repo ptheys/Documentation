@@ -1,7 +1,8 @@
-title: Plataforma Opus Open Finance - Documentação
-description: Documentação que descreve a Plataforma Opus Open Finance, incluindo integração e implantação
-theme: just-the-docs
-remote_theme: null  # Deve estar assim para usar o template local
+title: "Plataforma Opus Open Finance - Documentação"
+description: "Documentação que descreve a Plataforma Opus Open Finance, incluindo integração e implantação"
+theme: "just-the-docs"
+remote_theme: "just-the-docs/just-the-docs"  # Deve estar assim para usar o template local
+#remote_theme: null  # Deve estar assim para usar o template local
 
 url: https://opusopenfinance.github.io
 baseurl: "/"
