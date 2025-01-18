@@ -1,6 +1,8 @@
 ---
-title: APIs de backoffice
-layout: sidebar
+layout: default
+title: "APIs de backoffice"
+parent: "Opus Open Finance"
+nav_order: 6
 ---
 
 Esta seção descreve as APIs de visualização e revogação de consentimento para o

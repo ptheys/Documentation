@@ -1,6 +1,8 @@
 ---
-title: Deploy Opus Open Finance
-layout: sidebar
+layout: default
+title: "Deploy da Plataforma"
+parent: "implantação da Plataforma Opus Open Finance"
+nav_order: 6
 ---
 
 ## Infraestrutura Core do Opus Open Finance

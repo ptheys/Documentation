@@ -1,6 +1,8 @@
 ---
-title: Perfil Transmissor de Dados
-layout: sidebar
+layout: default
+title: "Perfil Transmissor de Dados"
+parent: "Opus Open Finance"
+nav_order: 3
 ---
 
 ## Perfil Transmissor de Dados

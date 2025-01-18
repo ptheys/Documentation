@@ -1,6 +1,8 @@
 ---
-title: Iniciador de Transação de Pagamentos
-layout: sidebar
+layout: default
+title: "Iniciador de Transação de Pagamentos"
+parent: "Opus Open Finance"
+nav_order: 4
 ---
 
 ## ITP

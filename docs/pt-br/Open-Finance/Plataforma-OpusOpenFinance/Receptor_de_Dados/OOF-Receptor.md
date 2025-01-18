@@ -1,6 +1,8 @@
 ---
-title: Receptor de Dados
-layout: sidebar
+layout: default
+title: "Receptor de Dados"
+parent: "Opus Open Finance"
+nav_order: 5
 ---
 
 ## Receptor de Dados

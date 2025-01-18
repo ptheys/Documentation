@@ -1,6 +1,8 @@
 ---
-title: Perfil Detentor de Conta
-layout: sidebar
+layout: default
+title: "Perfil Detentor de Conta"
+parent: "Opus Open Finance"
+nav_order: 2
 ---
 
 ## Introdução

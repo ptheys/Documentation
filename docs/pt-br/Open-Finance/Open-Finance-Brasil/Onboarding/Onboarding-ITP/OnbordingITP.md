@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Processo de Onboarding de um Iniciador de Pagamento (ITP)"
 parent: "Onboarding"
 nav_order: 3
