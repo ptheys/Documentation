@@ -37,29 +37,29 @@ Este documento está organizado para fornecer uma visão geral sobre os conceito
 #### Tópicos abordados
 
 1. Open Finance Brasil
-   1.1 [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
-   1.2 [Perfis de participação][Perfis de participação]
-   1.3 [Jornada de consentimento][Jornada de Consentimento]
-   1.4 [Certificações][Certificações]
-   1.5 [A Plataforma de coleta de métricas][PCM]
-   1.6 [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
-   1.7 [Onboarding][Onboarding]
-      1.5.1 [Onboarding de detentor de conta e transmissor de dados][Onboarding Detentor e Transmissor]
-      1.5.2 [Onboarding Iniciador de Transação de Pagamento (ITP)][Onboarding ITP]
-      1.5.3 [Onboarding receptor de dados][Onboarding Receptor]
+  1.1 [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
+  1.2 [Perfis de participação][Perfis de participação]
+  1.3 [Jornada de consentimento][Jornada de Consentimento]
+  1.4 [Certificações][Certificações]
+  1.5 [A Plataforma de coleta de métricas][PCM]
+  1.6 [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
+  1.7 [Onboarding][Onboarding]
+    1.7.1 [Onboarding de detentor de conta e transmissor de dados][Onboarding Detentor e Transmissor]
+    1.7.2 [Onboarding Iniciador de Transação de Pagamento (ITP)][Onboarding ITP]
+    1.7.3 [Onboarding receptor de dados][Onboarding Receptor]
 2. A Plataforma Opus Open Finance
-   2.1 Arquitetura
-   2.2 Módulo detentor de conta
-   2.3 Módulo transmissor de dados
-   2.4 Módulo iniciador de transação de pagamento
-   2.5 Módulo receptor de dados
-   2.6 APIs de backoffice
-   2.7 Implantação da plataforma
-      2.7.1 Passos para a implantação
-      2.7.2 Integração da plataforma com sistemas da instituição financeira
-      2.7.3 Integração para detentor de conta
-      2.7.4 Integração para o transmissor de dados
-      2.7.5 Iniciador de pagamentos e receptor de dados
+  2.1 Arquitetura
+  2.2 Módulo detentor de conta
+  2.3 Módulo transmissor de dados
+  2.4 Módulo iniciador de transação de pagamento
+  2.5 Módulo receptor de dados
+  2.6 APIs de backoffice
+  2.7 Implantação da plataforma
+    2.7.1 Passos para a implantação
+    2.7.2 Integração da plataforma com sistemas da instituição financeira
+    2.7.3 Integração para detentor de conta
+    2.7.4 Integração para o transmissor de dados
+    2.7.5 Iniciador de pagamentos e receptor de dados
 
 ---
 

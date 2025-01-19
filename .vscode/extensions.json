@@ -1,5 +1,8 @@
 {
     "recommendations": [
         "davidanson.vscode-markdownlint"
+    ],
+    "spellright.language": [
+        "pt-BR", "en"
     ]
 }

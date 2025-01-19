@@ -1,14 +1,16 @@
 ---
 layout: default
-title: "implantação da Plataforma Opus Open Finance"
+title: "Implantação da Plataforma Opus Open Finance"
 parent: "Opus Open Finance"
 nav_order: 7
 ---
 ## Introdução
 
-Para começar a utilizar o **Opus Open Finance**, é necessário passar pelo processo de implantação. A equipe da Opus acompanha todo o processo para garantir que a integração com os sistemas do cliente seja ágil e eficiente.
+O processo de implantação da **Plataforma Opus Open Finance** segue uma sequência de etapas bem definida que incluem desde a correta configuração dos ambientes de execução necessários até a efetiva entrada em produção. A equipe da Opus acompanha todos os passos da implantação, que serão apresentados abaixo, de maneira a garantir o sucesso de cada etapa.
 
-Durante a implantação, um **Delivery Manager** do time da Opus é designado para gerenciar o processo de ponta a ponta, mantendo o contato contínuo com o cliente. Após a implantação, esse **Delivery Manager** ou alguém de sua equipe será o ponto focal para o dia a dia do relacionamento.
+Durante a implantação, um **Delivery Manager** do time da Opus é designado para gerenciar o processo de ponta a ponta, mantendo o contato contínuo com o cliente. Após a implantação, a Opus e o cliente deverão definir quem serão os pontos focais para o dia a dia do relacionamento tanto para acompanhar a operação e o devido cumprimento dos SLAs regulatórios quanto para avaliar e implementar novas exigências regulatórias.
+
+Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de implantação são aquelas relacionadas à integração da **Plataforma Opus Open Finance** aos sistemas de retaguarda e canais de atendimento (aplicativo móvel e Web Internet Banking) da instituição financeira. Tais etapas exigem o desenvolvimento de novos artefatos de software e a adaptação das aplicações de atendimento aos clientes. Na documentação existem seções específicas que detalham as etapas de integração necessárias para cada perfil de participação da instituição financeira no *Open Finance Brasil*.
 
 ---
 
@@ -30,25 +32,25 @@ Durante a implantação, um **Delivery Manager** do time da Opus é designado pa
   - Desenvolvimento
   - Homologação
   - Produção
-- Configuração do **Opus Open Finance** nos ambientes.
-- Configuração do diretório de participantes **sandbox**.
+- Configuração da **Plataforma Opus Open Finance** nos ambientes.
+- Configuração do *sandbox* do diretório de participantes do Open Finance Brasil, que é o ambiente seguro de testes do ecossistema voltado para a realização de testes de integração.
 
 ---
 
 ### 3. **Certificação OpenID**
 
 - Execução de testes para validação do ambiente de homologação.
-- Preparação das evidências para envio à OpenID ([certificações RP e OP](../Conceitos-fundamentais-Open-Finance/Certificações/readme.md)).
+- Preparação das evidências para envio à OpenID ([certificações RP e OP](../../Open-Finance-Brasil/OFB-Certificações.md)).
 - Efetuação do pagamento da taxa de certificação.
-- Publicação da instituição no [site oficial da OpenID](https://openid.net/certification/#FAPI_OPs).
+- Publicação da instituição no `<a href=https://openid.net/certification/#FAPI_OPs target=_blank>site oficial da OpenID</a`>.
 
 ---
 
 ### 4. **Integração das Telas**
 
-- Construção das telas da [jornada de consentimento](../Conceitos-fundamentais-Open-Finance/JornadaConsentimento/readme.md):
+- Construção das telas da [jornada de consentimento](../../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.md):
   - Para web, aplicativo e handoff (caso necessário).
-  - De acordo com o [guia de experiência do usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio).
+  - De acordo com o `<a href=https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio target=_blank>`guia de experiência do usuário</a> do *Open Finance Brasil*.
 - Execução de testes da jornada de consentimento.
 - Integração completa da jornada nos canais da instituição.
 
@@ -56,9 +58,8 @@ Durante a implantação, um **Delivery Manager** do time da Opus é designado pa
 
 ### 5. **Layer de Integração**
 
-- Integração dos sistemas legados da instituição com o produto, de acordo com o [perfil de participação escolhido](../Conceitos-fundamentais-Open-Finance/PerfisOFB/readme.md).
-- Construção do layer de integração adaptado à retaguarda da instituição.
-- **Nota:** Não é necessário adaptar os sistemas legados, apenas mapeá-los. A camada de integração abstrai as formatações necessárias.
+- Integração dos sistemas de retaguarda da instituição ao produto, de acordo com o [perfil de participação da instituição financeira](../../Open-Finance-Brasil/PerfisOFB/OFB-Perfis.md). Tipicamente, [envolve a construção do *layer de integração*](../OOF-Integração.md) adaptado aos sistemas de retaguarda da instituição.
+- **Nota:** Normalmente, não é necessário adaptar os sistemas de retaguarda em si, mas mapear a forma de extração das informações referentes a cada produto financeiro oferecido pela instituição (no caso do perfil transmissor de dados), ou a forma de realizar pagamentos e consultar o resultado dessas operações (no caso do perfil detentor de conta). A camada de integração funciona justamente como um adaptador entre os formatos internos dos sistemas de retaguarda e aqueles exigidos pelo *Open Finance Brasil*.
 
 ---
 
@@ -79,7 +80,7 @@ Durante a implantação, um **Delivery Manager** do time da Opus é designado pa
 
 ### 8. **Certificados Digitais**
 
-- Aquisição dos [certificados digitais](../Conceitos-fundamentais-Open-Finance/Certificações/readme.md).
+- Aquisição dos [certificados digitais](../../Open-Finance-Brasil/OFB-Certificações.md).
 - Cadastro dos certificados no diretório.
 
 ---

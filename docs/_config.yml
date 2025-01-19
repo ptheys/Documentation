@@ -1,5 +1,8 @@
-title: "Plataforma Opus Open Finance - Documentação"
+title: "Opus Open Finance"
 description: "Documentação que descreve a Plataforma Opus Open Finance, incluindo integração e implantação"
+lang: pt-BR
+locale: "pt_BR"
+
 theme: "just-the-docs"
 just_the_docs:
   layout: default
