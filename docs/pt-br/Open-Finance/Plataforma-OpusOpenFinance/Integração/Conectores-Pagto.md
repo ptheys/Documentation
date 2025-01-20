@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Integração de Pagamentos"
+title: "Pagamentos"
 parent: "Integração com a Plataforma"
 nav_order: 2
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Perfil Detentor de Conta"
 parent: "Opus Open Finance"
-nav_order: 2
+nav_order: 3
 ---
 
 ## Introdução

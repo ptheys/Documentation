@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Integração com a Plataforma"
+title: "Integração da Plataforma"
 parent: "Opus Open Finance"
 nav_order: 8
 has_children: true
@@ -33,5 +33,5 @@ No caso de pagamentos, necessário para o [perfil *detentor de contas*][Detentor
 [Camada de Integração]: ./CamadaIntegração.html
 [Conectores de Pagamento]: ./Conectores-Pagto.html
 [Integração app-web]: ./App-e-Web.html
-[Transmissor]: ./OOF-Transmissor.html
-[Detentor]: ./OOF-Detentor.html
+[Transmissor]: ../OOF-Transmissor.html
+[Detentor]: ../OOF-Detentor.html

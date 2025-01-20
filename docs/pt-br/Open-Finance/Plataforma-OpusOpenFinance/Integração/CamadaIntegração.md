@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Integração de Dados"
+title: "Compartilhamento de Dados"
 parent: "Integração com a Plataforma"
 nav_order: 1
 ---
@@ -17,3 +17,5 @@ A figura abaixo apresenta o esquema geral do modelo.
 **Aqui vai entrar a continuação da explicação.**
 
 [Imagem da Camada de Integração]: ./images/CamadaIntegração.png
+
+Aqui vai entrar a [API de dados cadastrais](../../../../apis/Dados-Cadastrais.md) 

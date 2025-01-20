@@ -2,7 +2,7 @@
 layout: default
 title: "Perfil Transmissor de Dados"
 parent: "Opus Open Finance"
-nav_order: 3
+nav_order: 2
 ---
 
 ## Perfil Transmissor de Dados
