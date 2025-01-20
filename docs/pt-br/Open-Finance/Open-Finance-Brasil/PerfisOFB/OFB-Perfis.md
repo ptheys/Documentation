@@ -3,6 +3,7 @@ layout: default
 title: "Perfis de participação"
 parent: "Open Finance Brasil"
 nav_order: 2
+has_children: true
 ---
 
 As instituições financeiras podem participar do Open Finance Brasil cumprindo vários papéis específicos, aqui denominados Perfis de Paticipação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instituições podem, voluntariamente, exercer todos os perfis existentes.

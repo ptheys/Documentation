@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Perfil Transmissor de Dados"
-parent: "Opus Open Finance"
+title: "Transmissor de Dados"
+parent: "Perfis de participação"
 nav_order: 2
 ---
 
@@ -78,3 +78,10 @@ O processo de autorização para compartilhamento de dados segue uma **jornada c
 - Sistemática de notificações: existe um desejo de aumentar a eficiência do compartilhamento de dados. Atualmente, para saber se um cliente realizou novas transações em um determinado período de tempo é necessário explicitamente realizar uma chamada à instituição financeira transmissora de dados periodicamente. A sistemática de notificações deverá permitir ao receptor de dados indicar ao transmissor quais os clientes - dos quais ele já possui consentimento de compartilhamento de dados válido - ele gostaria de monitorar. Dessa forma, periodicamente - provavelmente uma vez por dia - o transmissor poderá enviar diretamente ao receptor as eventuais transações ou alterações de dados cadastrais realizadas pelo cliente. Esse mecanismo certamente economizará um grande número de chamadas desnecessárias, reduzindo o custo para todos os participantes do ecossistema.
 
 O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/DraftOF/calendars) também oferece um calendário com as próximas entregas.
+
+## Utilização do produto
+
+Para utilizar a solução de Transmissor da Dados, é necessário concluir as seguintes etapas:
+1. Completar todo o processo de [implantação](../../Plataforma-OpusOpenFinance/Implantação/OOF-Implantação.md).
+2. Construir a experiência do usuário para aplicativo e internet banking (se houver). [O guia de experiência do usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio) dá mais detalhes sobre o fluxo.
+3. Contruir a camada de integração com os sistemas de retaguarda - de acordo com os produtos oferecidos pela instituição para seus clientes. (listados acima)

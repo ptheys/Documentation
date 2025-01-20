@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Perfil Detentor de Conta"
-parent: "Opus Open Finance"
+title: "Detentor de Conta"
+parent: "Perfis de participação"
 nav_order: 3
 ---
 
@@ -58,10 +58,17 @@ O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/
 ## APIs Regulatórias
 
 ### APIs Vigentes:
-| **Descrição**                         | **Link para o Portal do Desenvolvedor**                                                                                           |
-|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+|**Descrição**                     | **Link para o Portal do Desenvolvedor**                           | 
+|----------------------------------|-------------------------------------------------------------------|
 | **Iniciação de Pagamento**            | [Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17375943/SV+API+-+Pagamentos)                       |
 | **Iniciação de Pagamentos Automáticos** | [Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/198410569/SV+API+-+Pagamentos+Autom+ticos)         |
 | **Jornada sem Redirecionamento**      | [Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/141557761/SV+API+-+Pagamentos+sem+Redirecionamento)|
 
 Para explorar cada API regulatória, [clique aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17367659/Especifica+es+de+APIs).
+
+## Utilização do produto
+
+Para utilizar a solução de Detentor de Conta, é necessário concluir as seguintes etapas:
+1. Completar todo o processo de [implantação](../../Plataforma-OpusOpenFinance/Implantação/OOF-Implantação.md).
+2. Construir a experiência do usuário para aplicativo e internet banking (se houver). [O guia de experiência do usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio) dá mais detalhes sobre o fluxo.
+3. Contruir a camada de integração com os sistemas de retaguarda de pagamentos.

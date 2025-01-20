@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Iniciador de Transação de Pagamentos"
-parent: "Opus Open Finance"
-nav_order: 4
+title: "ITP"
+parent: "Perfis de participação"
+nav_order: 5
+has_children: true
 ---
 
 ## Iniciador de Transação de Pagamentos
@@ -62,8 +63,7 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 
 3. Criar a experiência de usuário para que a jornada de consentimento seja possível para os clientes. O Guia de experiência do usuário traz mais detalhes sobre essa jornada.
 
-> Para a experiência ficar completa, é necessário realizar chamadas conforme as APIs regulatórias do Open Finance, as quais estão descritas no nosso produto. O arquivo pode ser [encontrado aqui (pagamentos)](./oas-opustpp-pagamentos.yaml) e [aqui (pagamentos automáticos)](./oas-opustpp-pagamentos-automaticos.yaml).
-
+> Para a experiência ficar completa, é necessário realizar chamadas conforme as APIs regulatórias do Open Finance, as quais estão descritas no nosso produto. O arquivo pode ser [encontrado aqui (pagamentos)](./oas-opustpp-pagamentos.yaml) e [aqui (pagamentos automáticos)](./oas-opustpp-pagamentos-automaticos.yaml).  
 > Para avaliar o guia de experiência do usuário, [clique aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio)
 
 4. Completar todo o processo de [onboarding de ITP](../../Visão-geral/OnboardingITP/readme.md)
