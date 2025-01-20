@@ -3,10 +3,13 @@ window.onload = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const apiName = urlParams.get("api");
 
+  // Define o nome do repositório, que é a base da URL gerada pelo Github Pages.
+  const baseurl = "/Documentation";     // Ajuste para o nome de seu repositório se necessário.
+
   // Lista de APIs disponíveis
   const apis = {
-    "Dados-cadastrais": "/docs/apis/customers-v-2-1-0.yaml",
-    "Cartão-de-Crédito": "/docs/apis/credit-cards-v-2-3-1.yaml"
+    "Dados-cadastrais": `${baseurl}//docs/apis/customers-v-2-1-0.yaml`,
+    "Cartão-de-Crédito": `${baseurl}//docs/apis/credit-cards-v-2-3-1.yaml`
     // Adicione outras APIs aqui
   };
 
