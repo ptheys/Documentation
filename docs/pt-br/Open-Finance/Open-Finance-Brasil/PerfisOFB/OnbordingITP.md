@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "Iniciador de Pagamento (ITP)"
-parent: "Onboarding"
-nav_order: 3
+title: "Onboarding ITP"
+parent: "ITP"
+nav_order: 1
 ---
+
 ## Processo de Onboarding de um Iniciador de Transação de Pagamento (ITP)
 
 ### Introdução
@@ -74,9 +75,9 @@ Consiste no envio de documentos necessários para cadastrar a instituição no a
 
 | **Modalidade da Instituição**        | **Formulário 1** | **Formulário 2** | **Formulário 3** |
 |--------------------------------------|------------------|------------------|------------------|
-| **Iniciador sem acesso ao DICT**     | #1               | #2               | #3               |
-| **Iniciador com acesso indireto ao DICT** | #1               | #2               | #3               |
-| **Iniciador com acesso direto ao DICT**  | #1               | #2               | #3               |
+| **Iniciador sem acesso ao DICT**     | [#1](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Formulario_adesao-Iniciadores.docx)               | [#2](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Formulario_produtos_e_servicos-Iniciador.docx)              | [#3](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Adesao_Questionarios/Questionario_autoavaliacao_seguranca-Iniciador-Sem_acesso_DICT.docx)               |
+| **Iniciador com acesso indireto ao DICT** | [#1](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Formulario_adesao-Iniciadores.docx)               | [#2](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Formulario_produtos_e_servicos-Iniciador.docx)               | [#3](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Adesao_Questionarios/Questionario_autoavaliacao_seguranca-Iniciador-Com_Acesso_indireto_DICT.docx)               |
+| **Iniciador com acesso direto ao DICT**  | [#1](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Formulario_adesao-Iniciadores.docx)               | [#2](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Formulario_produtos_e_servicos-Iniciador.docx)               | [#3](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Adesao_Questionarios/Questionario_autoavaliacao_seguranca-Iniciador-Com_Acesso_direto_DICT.docx)               |
 
 - **Envio:** Os formulários devem ser enviados para **<pix-operacional@bcb.gov.br>**.
 - **Assinatura:** É necessário que os documentos sejam assinados por um estatutário da instituição.
