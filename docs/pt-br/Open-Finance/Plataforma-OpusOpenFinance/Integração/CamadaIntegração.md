@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Compartilhamento de Dados"
-parent: "Integração com a Plataforma"
+parent: "Integração da Plataforma"
 nav_order: 1
 ---
 
