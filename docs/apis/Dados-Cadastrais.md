@@ -9,4 +9,4 @@ nav_order: 1
 
 A documentação da API de Dados Cadastrais pode ser encontrada [aqui][API-Dados-cadastrais]
 
-[API-Dados-cadastrais]: /swagger-ui/index.html?api=Dados-cadastrais
+[API-Dados-cadastrais]: ../swagger-ui/index.html?api=Dados-cadastrais

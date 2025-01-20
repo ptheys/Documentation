@@ -12,10 +12,11 @@ As requisições de dados dependem dos consentimentos de compartilhamento fornec
 Para realizar essa integração e manter uma clara divisão de responsabilidades a plataforma define um conjunto de APIs REST que são ativadas por ela para atender cada tipo de requisição. As APIs são divididas pelos diferentes produtos financeiros cobertos pelo escopo do *Open Finance Brasil*.
 
 A figura abaixo apresenta o esquema geral do modelo.
-[Imagem da Camada de Integração][Imagem da Camada de Integração]
+![Imagem da Camada de Integração][Imagem da Camada de Integração]
 
 **Aqui vai entrar a continuação da explicação.**
 
 [Imagem da Camada de Integração]: ./images/CamadaIntegração.png
 
 Aqui vai entrar a [API de dados cadastrais](../../../../apis/Dados-Cadastrais.html)
+E a [API de cartão de crédito](../../../../apis/Cartão-de-Credito.html)
