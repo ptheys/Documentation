@@ -63,7 +63,7 @@ Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as s
 
 ## Jornada de Consentimento
 
-O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html)
+O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.md)
 
 ---
 

@@ -28,9 +28,9 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ## Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html).
+O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.md).
 
-> Além disso, o [diagrama de sequência](./consent-sequence.png) ilustra o fludo de consentimento de acordo com cada [API oferecida pelo produto](./oas-opustpp-pagamentos.yaml);
+> Além disso, o [diagrama de sequência](../../Plataforma-OpusOpenFinance/ITP/images/consent-sequence.png) ilustra o fludo de consentimento de acordo com cada [API oferecida pelo produto](../../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos.yaml);
 
 ---
 
@@ -55,7 +55,7 @@ O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/
 ## Utilização
 
 Para iniciar a utilização do software, existem alguns pré-requisitos:
-1. Completar o processo de [setup (implantação)](../../Visão-geral/Implantação/readme.md)
+1. Completar o processo de [setup (implantação)](../../Plataforma-OpusOpenFinance/Implantação/OOF-Implantação.md)
 
 > Para ITP, não há necessidade de construir a camada de integração.
 
@@ -63,7 +63,7 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 
 3. Criar a experiência de usuário para que a jornada de consentimento seja possível para os clientes. O Guia de experiência do usuário traz mais detalhes sobre essa jornada.
 
-> Para a experiência ficar completa, é necessário realizar chamadas conforme as APIs regulatórias do Open Finance, as quais estão descritas no nosso produto. O arquivo pode ser [encontrado aqui (pagamentos)](./oas-opustpp-pagamentos.yaml) e [aqui (pagamentos automáticos)](./oas-opustpp-pagamentos-automaticos.yaml).  
+> Para a experiência ficar completa, é necessário realizar chamadas conforme as APIs regulatórias do Open Finance, as quais estão descritas no nosso produto. O arquivo pode ser [encontrado aqui (pagamentos)](../../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos.yaml) e [aqui (pagamentos automáticos)](../../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos-automaticos.yaml).  
 > Para avaliar o guia de experiência do usuário, [clique aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio)
 
-4. Completar todo o processo de [onboarding de ITP](../../Visão-geral/OnboardingITP/readme.md)
+4. Completar todo o processo de [onboarding de ITP](../PerfisOFB/OnbordingITP.md)

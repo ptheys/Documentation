@@ -33,7 +33,7 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ## Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html).
+O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.md).
 
 ---
 
@@ -59,12 +59,10 @@ O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/
 
 ### APIs Vigentes:
 |**Descrição**                     | **Link para o Portal do Desenvolvedor**                           | 
-|----------------------------------|-------------------------------------------------------------------|
-| **Iniciação de Pagamento**            | [Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17375943/SV+API+-+Pagamentos)                       |
-| **Iniciação de Pagamentos Automáticos** | [Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/198410569/SV+API+-+Pagamentos+Autom+ticos)         |
-| **Jornada sem Redirecionamento**      | [Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/141557761/SV+API+-+Pagamentos+sem+Redirecionamento)|
-
-Para explorar cada API regulatória, [clique aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17367659/Especifica+es+de+APIs).
+|----------------------------------|:-------------------------------------------------------------------:|
+|**Iniciação de Pagamento**        |[Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17375943/SV+API+-+Pagamentos) |
+|**Iniciação de Pagamentos Automáticos**        |[Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/198410569/SV+API+-+Pagamentos+Autom+ticos) |
+|**Iniciação de Pagamento**        |[Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/141557761/SV+API+-+Pagamentos+sem+Redirecionamento) |
 
 ## Utilização do produto
 
