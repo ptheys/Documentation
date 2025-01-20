@@ -13,15 +13,13 @@ window.onload = () => {
   // Determinar qual API carregar
   const apiUrl = apis[apiName] || apis["Dados-cadastrais"]; // Carrega "Dados Cadastrais" por padrão
 
-  // Log para depuração
-  console.log("Carregando API:", apiName, "URL:", apiUrl);
-
   // Inicializar o Swagger UI
   const ui = SwaggerUIBundle({
     url: apiUrl,
     dom_id: "#swagger-ui",
     presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
     layout: "BaseLayout",
+    supportedSubmitMethods: [] // Remove o botão "Try it out"
   });
   window.ui = ui;
 };
