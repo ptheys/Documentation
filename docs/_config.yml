@@ -23,8 +23,7 @@ aux_links:
 
 defaults:
   - scope:
-      path: "" # Aplica em todo site
-      type: "posts"
+      path: "../assets.js" # Aplica em todo site
     values:
       js:
-        - /assets/js/open-links.js
+        - ../assets/js/open-links.js
