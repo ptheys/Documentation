@@ -5,8 +5,8 @@ window.onload = () => {
 
   // Lista de APIs disponíveis
   const apis = {
-    "Dados-cadastrais": "../apis/customers-v-2-1-0.yaml",
-    "Cartão-de-Crédito": "../apis/credit-cards-v-2-3-1.yaml"
+    "Dados-cadastrais": "../apis/customers-v-2-1-0.yml",
+    "Cartão-de-Crédito": "../apis/credit-cards-v-2-3-1.yml"
     // Adicione outras APIs aqui
   };
 
