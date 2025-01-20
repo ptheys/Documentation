@@ -1,19 +1,22 @@
 Documentação Plataforma Opus Open Finance - Todo list
 =========================================   =========
 
-1) Ajuste de formatação
 2) Suporte a APIs
-3) Forma automática de "próxima página"?
+3) Links quebrados e Forma automática de "próxima página"?
 4) Páginas a revisar completamente
     - OOF-APIBack.md
     - APIS_recepção.md
-    - OOF-Receptor.md
-    - OOF-Dententor.md
-    - OOF-Transmissor.md
+    - Mover OOF-Receptor.md
+    - Mover OOF-Detentor.md
+    - Mover OOF-Transmissor.md e incluir "Utilização do produto"
+    - Receptor, transmissor, detentor e ITP serão subtópicos de OFB Perfis.
+    - Escrever página de dados abertos como subtópico também.
+    - Onboarding será subtópico de Perfis->ITP
 5) Páginas a escrever
     - PlataformaOOF.md
     - Passos para a implantação
     - Integração para detentor de conta
     - Integração para o transmissor de dados
     - Iniciador de pagamentos e receptor de dados
-6) Multi-idioma
+6) Revisar formatação de tabelas
+7) Multi-idioma

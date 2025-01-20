@@ -43,8 +43,8 @@ As APIs de obtenção de dados estão detalhadas no [OAS](oas-dados.yml) disponi
 - É de responsabilidade da instituição receptora de dados (TPP) enviar no pedido de criação do consentimento todas as permissões referentes aos agrupamentos de dados que deseja solicitar.
   - As permissões e agrupamentos estão disponíveis [nesta tabela](./permissions.md).
 - A instituição transmissora faz a validação do preenchimento correto desses agrupamentos no momento da geração do consentimento.
-- Caso a instituição receptora envie permissões divergentes ao agrupamento especificado na tabela, a transmissora rejeita o pedido da receptora (ex.: código HTTP 400 Bad Request).
-- A transmissora remove as permissões de produtos não suportados da lista de permissões requisitadas.  Esse subconjunto é retornado com código HTTP 201 (Created). Caso não restem permissões funcionais, a instituição transmissora retorna o código HTTP Code 422 (Unprocessable Entity).
+- Caso a instituição receptora envie permissões divergentes do agrupamento especificado na tabela, a transmissora rejeita o pedido da receptora (ex.: código HTTP 400 Bad Request).
+- A transmissora remove as permissões de produtos não suportados da lista de permissões requisitadas.  O subconjunto de produtos suportados é retornado com código HTTP 201 (Created). Caso o subconjunto de produtos suportados resultante seja vazio, a instituição transmissora retorna o código HTTP Code 422 (Unprocessable Entity).
 
 ## APIs
 
