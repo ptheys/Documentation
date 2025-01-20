@@ -13,7 +13,7 @@ Aqui você encontrará detalhes sobre a solução ideal para sua instituição s
 
 A plataforma foi projetada para abstrair toda a complexidade regulatória do Open Finance Brasil, a camada que não traz o diferencial para sua empresa. Dessa forma, você pode focar em seus **seus objetivos estratégicos**.
 
-Ao mesmo tempo em que oferece uma cobertura completa das exigências regulatórias para todos os perfis de participação no Open Finance Brasil, a Plataforma Opus Open Finance dispõe também de módulos opcionais que permitem ir além do regulatório, estabelecendo uma base para implementar estratégias que maximizem o retorno sobre o investimento das institiuições financeiras e possibilitem extrair o melhor valor possível de sua participação no ecossistema.
+Ao mesmo tempo em que oferece uma cobertura completa das exigências regulatórias para todos os perfis de participação no Open Finance Brasil, a Plataforma Opus Open Finance dispõe também de módulos opcionais que permitem ir além do regulatório, estabelecendo uma base para implementar estratégias que maximizem o retorno sobre o investimento das instituições financeiras e possibilitem extrair o melhor valor possível de sua participação no ecossistema.
 
 ---
 
@@ -79,13 +79,13 @@ Sabemos que a implementação de uma nova plataforma pode trazer desafios único
 
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
-[O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.md
-[Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.md
-[Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.md
-[Jornada de Consentimento]: ./pt-br/Open-Finance/Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.md
-[Requisitos Não Funcionais]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-RequisitosNF.md
-[PCM]: ./pt-br/Open-Finance/Open-Finance/Open-Finance-Brasil/PCM/OFB-PCM.md
-[Onboarding]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding.md
-[Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.md
-[Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.md
-[Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.md
+[O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.html
+[Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html
+[Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.html
+[Jornada de Consentimento]: ./pt-br/Open-Finance/Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html
+[Requisitos Não Funcionais]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-RequisitosNF.html
+[PCM]: ./pt-br/Open-Finance/Open-Finance/Open-Finance-Brasil/PCM/OFB-PCM.html
+[Onboarding]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding.html
+[Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.html
+[Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.html
+[Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.html

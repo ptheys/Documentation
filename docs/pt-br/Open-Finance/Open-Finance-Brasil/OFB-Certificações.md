@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Certificações do Open Finance Brasil"
+title: "Certificações e Certificados"
 parent: "Open Finance Brasil"
 nav_order: 4
 ---

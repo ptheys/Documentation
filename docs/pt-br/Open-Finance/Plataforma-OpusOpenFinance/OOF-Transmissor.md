@@ -24,27 +24,33 @@ As **Transmissoras de Dados** são instituições onde os clientes mantêm conta
 Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as seguintes informações:
 
 ### **Dados cadastrais do correntista**
+
 - Dados cadastrais
 
 ### **Conta Corrente**
+
 - Extrato
 - Saldo
 
 ### **Cartão de crédito**
+
 - Fatura
 - Limites
 - Transações
 
 ### **Operações de crédito**
+
 - Empréstimos
 - Financiamentos
 - Adiantamento a depositantes (cheque especial)
 - Direitos creditórios descontados (antecipação de recebíveis)
 
 ### **Câmbio**
+
 - Operações de câmbio
 
 ### **Investimentos**
+
 - Renda fixa bancária (CDB, LCI, LCA - protegidos pelo FGC)
 - Renda fixa crédito (CRI, CRA, Debenture)
 - Renda variável
@@ -57,16 +63,18 @@ Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as s
 
 ## Jornada de Consentimento
 
-O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](../../Visão-geral/Conceitos-fundamentais-Open-Finance/JornadaConsentimento/readme.md).
+O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html)
 
 ---
 
-## Roadmap Regulatório
+## Roadmap regulatório
 
-### Funcionalidades já disponíveis:
+### Funcionalidades já disponíveis
+
 - Consulta de todos os dados listados acima.
 
-### Funcionalidades previstas:
-- Sistemática de notificações (praticamente um webhook para o compartilhamento de dados)
+### Funcionalidades previstas
+
+- Sistemática de notificações: existe um desejo de aumentar a eficiência do compartilhamento de dados. Atualmente, para saber se um cliente realizou novas transações em um determinado período de tempo é necessário explicitamente realizar uma chamada à instituição financeira transmissora de dados periodicamente. A sistemática de notificações deverá permitir ao receptor de dados indicar ao transmissor quais os clientes - dos quais ele já possui consentimento de compartilhamento de dados válido - ele gostaria de monitorar. Dessa forma, periodicamente - provavelmente uma vez por dia - o transmissor poderá enviar diretamente ao receptor as eventuais transações ou alterações de dados cadastrais realizadas pelo cliente. Esse mecanismo certamente economizará um grande número de chamadas desnecessárias, reduzindo o custo para todos os participantes do ecossistema.
 
 O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/DraftOF/calendars) também oferece um calendário com as próximas entregas.

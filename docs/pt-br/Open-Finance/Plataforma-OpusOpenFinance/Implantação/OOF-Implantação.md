@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Implantação da Plataforma Opus Open Finance"
+title: "Implantação da Plataforma"
 parent: "Opus Open Finance"
 nav_order: 7
 ---
@@ -40,17 +40,17 @@ Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de
 ### 3. **Certificação OpenID**
 
 - Execução de testes para validação do ambiente de homologação.
-- Preparação das evidências para envio à OpenID ([certificações RP e OP](../../Open-Finance-Brasil/OFB-Certificações.md)).
+- Preparação das evidências para envio à OpenID ([certificações RP e OP](../../Open-Finance-Brasil/OFB-Certificações.html)).
 - Efetuação do pagamento da taxa de certificação.
-- Publicação da instituição no `<a href=https://openid.net/certification/#FAPI_OPs target=_blank>site oficial da OpenID</a`>.
+- Publicação da instituição no <a href=https://openid.net/certification/#FAPI_OPs target=_blank>site oficial da OpenID</a>.
 
 ---
 
 ### 4. **Integração das Telas**
 
-- Construção das telas da [jornada de consentimento](../../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.md):
+- Construção das telas da [jornada de consentimento](../../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html):
   - Para web, aplicativo e handoff (caso necessário).
-  - De acordo com o `<a href=https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio target=_blank>`guia de experiência do usuário</a> do *Open Finance Brasil*.
+  - De acordo com o <a href=https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio target=_blank>guia de experiência do usuário</a> do *Open Finance Brasil*.
 - Execução de testes da jornada de consentimento.
 - Integração completa da jornada nos canais da instituição.
 
@@ -58,7 +58,7 @@ Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de
 
 ### 5. **Layer de Integração**
 
-- Integração dos sistemas de retaguarda da instituição ao produto, de acordo com o [perfil de participação da instituição financeira](../../Open-Finance-Brasil/PerfisOFB/OFB-Perfis.md). Tipicamente, [envolve a construção do *layer de integração*](../OOF-Integração.md) adaptado aos sistemas de retaguarda da instituição.
+- Integração dos sistemas de retaguarda da instituição ao produto, de acordo com o [perfil de participação da instituição financeira](../../Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html). Tipicamente, [envolve a construção do *layer de integração*](../OOF-Integração.html) adaptado aos sistemas de retaguarda da instituição.
 - **Nota:** Normalmente, não é necessário adaptar os sistemas de retaguarda em si, mas mapear a forma de extração das informações referentes a cada produto financeiro oferecido pela instituição (no caso do perfil transmissor de dados), ou a forma de realizar pagamentos e consultar o resultado dessas operações (no caso do perfil detentor de conta). A camada de integração funciona justamente como um adaptador entre os formatos internos dos sistemas de retaguarda e aqueles exigidos pelo *Open Finance Brasil*.
 
 ---
@@ -80,7 +80,7 @@ Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de
 
 ### 8. **Certificados Digitais**
 
-- Aquisição dos [certificados digitais](../../Open-Finance-Brasil/OFB-Certificações.md).
+- Aquisição dos [certificados digitais](../../Open-Finance-Brasil/OFB-Certificações.html).
 - Cadastro dos certificados no diretório.
 
 ---

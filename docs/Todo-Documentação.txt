@@ -4,11 +4,16 @@ Documentação Plataforma Opus Open Finance - Todo list
 1) Ajuste de formatação
 2) Suporte a APIs
 3) Forma automática de "próxima página"?
-3) Páginas a escrever
+4) Páginas a revisar completamente
+    - OOF-APIBack.md
+    - APIS_recepção.md
+    - OOF-Receptor.md
+    - OOF-Dententor.md
+    - OOF-Transmissor.md
+5) Páginas a escrever
     - PlataformaOOF.md
     - Passos para a implantação
     - Integração para detentor de conta
     - Integração para o transmissor de dados
     - Iniciador de pagamentos e receptor de dados
-3) Multi idioma
-
+6) Multi-idioma

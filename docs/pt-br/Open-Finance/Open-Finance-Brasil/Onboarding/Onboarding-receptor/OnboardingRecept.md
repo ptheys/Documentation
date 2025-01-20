@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "OnCertificaçõesboarding de receptor de dados"
+title: "Receptor de dados"
 parent: "Onboarding"
 nav_order: 2
 ---

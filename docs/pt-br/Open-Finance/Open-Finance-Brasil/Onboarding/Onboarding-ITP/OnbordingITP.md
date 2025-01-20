@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Processo de Onboarding de um Iniciador de Pagamento (ITP)"
+title: "Iniciador de Pagamento (ITP)"
 parent: "Onboarding"
 nav_order: 3
 ---
@@ -8,7 +8,7 @@ nav_order: 3
 
 ### Introdução
 
-Para se tornar uma instituição apta a realizar **Iniciações de Transação de Pagamento (ITP)**, é necessário cumprir uma série de pré-requisitos e requisitos organizados em 3 macroetapas:
+Para se tornar uma instituição apta a realizar **Iniciações de Transação de Pagamento (ITP)**, é necessário cumprir uma série de pré-requisitos e requisitos organizados em 3 macro-etapas:
 
 1. **Autorização e regulação com o Banco Central**
 2. **Etapa pré-homologatória do Open Finance**
@@ -56,7 +56,7 @@ Assim que a instituição já está autorizada para funcionar como ITP, é neces
 
 2. **Publicação no Portal do Cidadão**:
    O Portal do Cidadão apresenta todas as instituições habilitadas na modalidade de participação do Open Finance. Para que seja possível iniciar o processo de homologação, é necessário estar listado dentro desse portal na modalidade instituição prestadora de serviço de iniciação de pagamento.
-   Para a instituição ser publicada é necessário que toda a configuração no diretório de participantes (hml e prod) seja feito. Assim, automaticamente, a instituição será listada nessa categoria.
+   Para a instituição ser publicada é necessário que toda a configuração no diretório de participantes (nos ambientes de homologação e de produção) seja feito. Assim, automaticamente, a instituição será listada nessa categoria.
 
    > Dentro da implantação do produto, a Opus conduz todo o processo de configuração do diretório, para você não se preocupar.
 
@@ -127,4 +127,4 @@ O acesso ao DICT não é obrigatório, mas limita os tipos de iniciação de pag
 | **QRES**       | QR Code estático.                                                            | Sim                            |
 | **INIC**       | Beneficiário previamente conhecido pelo Iniciador.                           | Não                            |
 
-Se sua instituição deseja ter acesso ao DICT, a Opus pode indicar fornecedores que oferecem o serviço **DICT-as-a-Service (DICTaaS)**.
+Se sua instituição deseja ter acesso ao DICT, a Opus pode indicar fornecedores que oferecem o serviço **DICT-as-a-Service**.

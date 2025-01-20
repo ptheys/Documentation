@@ -1,8 +1,6 @@
 # Recepção de Dados Cadastrais e Transacionais
 
-A API de Recepção de Dados Cadastrais e Transacionais trata
-da criação, consulta e revogação de consentimentos
-e também da obtenção de dados consentidos pelos usuários.
+A API de Recepção de Dados Cadastrais e Transacionais trata da criação, consulta e revogação de consentimentos de compartilhamento de dados e também da obtenção dos dados consentidos pelos usuários.
 
 ## OpenAPI Specification
 
@@ -10,8 +8,7 @@ Uma descrição da API pode ser encontrada no [OAS](oas-dados.yml) disponibiliza
 
 ## Utilização do consentimento
 
-> **ATENÇÃO:** Os endpoints listados a seguir só podem ser utilizados
-após o fluxo de autorização do consentimento pelo usuário, descrito [aqui](../readme.md).
+> **ATENÇÃO:** Os endpoints listados a seguir só podem ser utilizados após o fluxo de autorização do consentimento pelo usuário, descrito [aqui](../readme.md).
 
 ### Consulta de status do consentimento - GET /opus-open-finance/consents/v1/consents/{consentId}
 
@@ -19,16 +16,13 @@ Permite a consulta do status e as informações de um consentimento.
 
 ### Revogação de consentimento - DELETE /opus-open-finance/consents/v1/consents/{consentId}
 
-A revogação do consentimento para pagamento pode ser realizada pelo Usuário,
-pela Iniciadora, ou pela Transmissora de Dados.
+A revogação do consentimento para pagamento pode ser realizada pelo usuário, pela Iniciadora, ou pela Transmissora de Dados.
 
 ### Obtenção de dados
 
-As APIs de obtenção de dados estão detalhadas no [OAS](oas-dados.yml)
-disponibilizado, e incluem:
+As APIs de obtenção de dados estão detalhadas no [OAS](oas-dados.yml) disponibilizado, e incluem:
 
-- **Resources**: listagem de recursos vinculados a um consentimento
-e informações de status.
+- **Resources**: listagem de recursos vinculados a um consentimento e informações de status.
 - **Customers**: dados cadastrais de pessoa física e jurídica.
 - **Accounts**: dados de contas, saldos, transações e limites.
 - **Credit Card Accounts**: dados de contas pós-pagas, faturas, transações e limites.
@@ -44,24 +38,13 @@ e informações de status.
 
 ## Orientações importantes
 
-- Todas as datas seguem o padrão da [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339)
-e formato "zulu".
+- Todas as datas seguem o padrão da [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339) e formato "zulu".
 - Não há separação funcional entre pessoa natural e pessoa jurídica.
-- É de responsabilidade da instituição receptora de dados (TPP)
-enviar no pedido de criação do consentimento
-todas as permissões referentes aos agrupamentos de dados
-que deseja solicitar.
-    - As permissões e agrupamentos estão disponíveis [nesta tabela](./permissions.md).
-- A instituição transmissora faz a validação do preenchimento correto desses agrupamentos
-no momento da geração do consentimento.
-- Caso a instituição receptora envie permissões divergentes ao agrupamento especificado
-na tabela, a transmissora rejeita o pedido da receptora
-(ex.: código HTTP 400 Bad Request).
-- A transmissora remove as permissões de produtos não suportados
-da lista de permissões requisitadas.
-Esse subconjunto é retornado com código HTTP 201 Created.
-Caso não restem permissões funcionais,
-a instituição transmissora retorna o código HTTP Code 422 Unprocessable Entity.
+- É de responsabilidade da instituição receptora de dados (TPP) enviar no pedido de criação do consentimento todas as permissões referentes aos agrupamentos de dados que deseja solicitar.
+  - As permissões e agrupamentos estão disponíveis [nesta tabela](./permissions.md).
+- A instituição transmissora faz a validação do preenchimento correto desses agrupamentos no momento da geração do consentimento.
+- Caso a instituição receptora envie permissões divergentes ao agrupamento especificado na tabela, a transmissora rejeita o pedido da receptora (ex.: código HTTP 400 Bad Request).
+- A transmissora remove as permissões de produtos não suportados da lista de permissões requisitadas.  Esse subconjunto é retornado com código HTTP 201 (Created). Caso não restem permissões funcionais, a instituição transmissora retorna o código HTTP Code 422 (Unprocessable Entity).
 
 ## APIs
 

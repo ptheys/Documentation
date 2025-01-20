@@ -5,9 +5,9 @@ parent: "Opus Open Finance"
 nav_order: 4
 ---
 
-## ITP
+## Iniciador de Transação de Pagamentos
 
-O ITP é o perfil do Open Finance autorizado para realizar iniciações de pagamento no ecossistema. O ITP iniciará jornadas de consentimento em insituições participantes do Open Finance que são Detentores de Conta. Esse perfil possibilita uma série de novos casos de uso, pois o ITP não precisa ser custodiante do dinheiro em nenhum momento durante a transação e, também, não precisa ser o dono da conta corrente que fará a liquidação do pagamento.
+O Iniciador de Transação de Pagamento (ITP) é o perfil do Open Finance autorizado para realizar iniciações de pagamento no ecossistema. O ITP iniciará jornadas de consentimento (para realização de pagamentos) em instituições participantes do Open Finance que são detentores de Conta. Esse perfil possibilita uma série de novos casos de uso, pois o ITP não precisa ser custodiante do dinheiro em nenhum momento durante a transação e, também, não precisa ser o dono da conta corrente que fará a liquidação do pagamento.
 
 ---
 
@@ -27,7 +27,7 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ## Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../../Visão-geral/Conceitos-fundamentais-Open-Finance/JornadaConsentimento/readme.md).
+O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html).
 
 > Além disso, o [diagrama de sequência](./consent-sequence.png) ilustra o fludo de consentimento de acordo com cada [API oferecida pelo produto](./oas-opustpp-pagamentos.yaml);
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "O Ecossistema do Open Finance Brasil"
+title: "O Ecossistema"
 parent: "Open Finance Brasil"
 nav_order: 1
 ---

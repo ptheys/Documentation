@@ -15,9 +15,7 @@ _site/
 vendor/
 
 # Ignora os arquivos fonte do thema "Just the docs"
-index.md
 LICENSE
-README.md
 just-the-docs-template-main
 just-the-docs-template-main.zip
 

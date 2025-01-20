@@ -4,5 +4,8 @@
     ],
     "spellright.language": [
         "pt-BR", "en"
-    ]
+    ],
+    "markdownlint.config": {
+         "MD034": false
+    }
 }

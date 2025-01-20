@@ -33,7 +33,7 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ## Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../../Visão-geral/Conceitos-fundamentais-Open-Finance/JornadaConsentimento/readme.md).
+O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html).
 
 ---
 

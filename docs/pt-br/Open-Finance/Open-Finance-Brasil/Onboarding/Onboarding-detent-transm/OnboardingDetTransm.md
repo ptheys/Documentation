@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Onboarding de detentor de conta e transmissor de dados"
+title: Detentor de conta e transmissor de dados"
 parent: "Onboarding"
 nav_order: 1
 ---
