@@ -8,13 +8,16 @@ window.onload = () => {
 
   // Lista de APIs disponíveis
   const apis = {
-    "Dados-cadastrais": `${baseurl}//docs/apis/customers-v-2-1-0.yaml`,
-    "Cartão-de-Crédito": `${baseurl}//docs/apis/credit-cards-v-2-3-1.yaml`
+    "Dados-cadastrais": `${baseurl}/docs/apis/customers-v-2-1-0.yaml`,
+    "Cartão-de-Crédito": `${baseurl}/docs/apis/credit-cards-v-2-3-1.yaml`
     // Adicione outras APIs aqui
   };
 
   // Determinar qual API carregar
   const apiUrl = apis[apiName] || apis["Dados-cadastrais"]; // Carrega "Dados Cadastrais" por padrão
+
+  // Log para depuração
+  console.log("Carregando API:", apiName, "URL:", apiUrl);
 
   // Inicializar o Swagger UI
   const ui = SwaggerUIBundle({
