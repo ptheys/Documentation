@@ -42,7 +42,7 @@ Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de
 - Execução de testes para validação do ambiente de homologação.
 - Preparação das evidências para envio à OpenID ([certificações RP e OP](../../Open-Finance-Brasil/OFB-Certificações.html)).
 - Efetuação do pagamento da taxa de certificação.
-- Publicação da instituição no [site oficial da OpenID][Site-OpenID]>.
+- Publicação da instituição no [site oficial da OpenID][Site-OpenID].
 
 ---
 
