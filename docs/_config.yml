@@ -20,3 +20,11 @@ baseurl: "/Documentation"
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+defaults:
+  - scope:
+      path: "" # Aplica em todo site
+      type: "posts"
+    values:
+      js:
+        - /assets/js/open-links.js
