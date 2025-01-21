@@ -18,8 +18,17 @@ Documentação Plataforma Opus Open Finance - Todo list
 8) Abrir links externos em nova aba.
 9) A API opus-commons deve ser listada na seção sobre a construção de conectores.
 
-Simples:
-- Trocar em swagger-initializer.js "Crédito" por "Empréstimo"
-- Inserir em swagger-initializer.js "Financiamento" (financings-2-3-0.yml)
-- Inserir em swagger-initializer.js "Adiantamento" (overdraft-2-3-0.yml)
-- Inserir em swagger-initializer.js "Direitos-Creditórios" (invoice-financings-2-3-0.yml)
+10) APIs_recepção (2x)
+
+  const apis = {
+    "Dados-cadastrais": "../apis/customers-2-1-0.yml",
+    "Cartão-de-crédito": "../apis/credit-cards-2-3-1.yml",
+    "Contas": "../apis/accounts-2-4-0.yml",
+    "Empréstimo": "../apis/loans-2-3-0.yml",
+    "Câmbio": "../apis/exchange-1-0-0.yml",
+    "Financiamento": "../apis/financings-2-3-0.yml",
+    "Adiantamento": "../apis/overdraft-2-3-0.yml",
+    "Direitos-Creditórios": "../apis/invoice-financings-2-3-0.yml",
+    "Opus-Commons": "../apis/opus-commons-1-0-0.yml",
+    // Adicione outras APIs aqui
+  };
