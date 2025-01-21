@@ -99,7 +99,7 @@ Informações detalhadas sobre os dados necessários para este produto podem ser
 [Tempos de Resposta]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17891396/Desempenho
 [Guia APIs]: https://openfinancebrasil.atlassian.net/wiki/pages/viewpageattachments.action?pageId=17378841&preview=%2F17378841%2F17378864%2F%5B23-06%5DGuia_GT_Implementa%C3%A7%C3%A3oAPIs.pdf
 [Dados-Cadastrais]: ../../../../apis/Dados-Cadastrais.html
-[Cartão-crédito]: ../../../../apis/Cartão-de-Crédito.html
+[Cartão-crédito]: ../../../../apis/Cartão-de-Credito.html
 [Contas]: ../../../../apis/Contas.html
 [Crédito]: ../../../../apis/Crédito.html
 [Câmbio]: ../../../../apis/Câmbio.html

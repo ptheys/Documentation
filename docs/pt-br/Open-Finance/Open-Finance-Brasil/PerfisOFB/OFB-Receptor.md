@@ -57,7 +57,7 @@ Quando ocorre um compartilhamento, o ecossistema é preparado para fornecer as s
 
 O processo de autorização para compartilhamento de dados segue uma **jornada completa de consentimento**. Para mais informações, clique [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.html)
 
-> Além disso, o [diagrama de sequência][DiagramaSequência] ilustra o fluxo de consentimento de acordo com cada [API oferecida pelo módulo de recepção][Recepção].
+> Além disso, o [diagrama de sequência][DiagramaSequência] ilustra o fluxo de consentimento de acordo com cada [API oferecida pelo módulo de recepção][API-Recepção].
 
 ---
 
@@ -78,10 +78,12 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 3. Criar a experiência de usuário para que a jornada de consentimento seja possível para os clientes. O Guia de experiência do usuário traz mais detalhes sobre essa jornada.  
 
 > - Para Recepção, não há necessidade de construir a camada de integração.  
-> - A API do módulo de recepção de dados pode ser [encontrado aqui][Recepção]
+> - A API do módulo de recepção de dados pode ser [encontrado aqui][API-Recepção]
 > - Para avaliar o guia de experiência do usuário, [clique aqui][GuiaUX].
 
 
-[Recepção]: ../../Plataforma-OpusOpenFinance/Receptor_de_Dados/oas-opustpp-dados.yaml
+[Recepção]: ../../Plataforma-OpusOpenFinance/Receptor_de_Dados/oas-opustpp-dados.yml
 [DiagramaSequência]: ../../Plataforma-OpusOpenFinance/Receptor_de_Dados/images/consent-sequence.png
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+ri
+
+[API-Recepção]: ../swagger-ui/index.html?api=OAS-Receptor
