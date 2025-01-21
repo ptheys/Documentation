@@ -6,6 +6,7 @@
         "pt-BR", "en"
     ],
     "markdownlint.config": {
+         "MD025": false,
          "MD034": false
     }
 }

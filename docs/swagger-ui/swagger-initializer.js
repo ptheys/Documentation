@@ -3,21 +3,19 @@ window.onload = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const apiName = urlParams.get("api");
 
-  // Define o nome do repositório, que é a base da URL gerada pelo Github Pages.
-  const baseurl = "/Documentation";     // Ajuste para o nome de seu repositório se necessário.
-
   // Lista de APIs disponíveis
   const apis = {
-    "Dados-cadastrais": `${baseurl}/docs/apis/customers-v-2-1-0.yaml`,
-    "Cartão-de-Crédito": `${baseurl}/docs/apis/credit-cards-v-2-3-1.yaml`
+    "Dados-cadastrais": "../apis/customers-2-1-0.yml",
+    "Cartão-de-Crédito": "../apis/credit-cards-2-3-1.yml",
+    "Contas": "../apis/accounts-2-4-0.yml",
+    "Crédito": "../apis/loans-2-3-0.yml",
+    "Câmbio": "../apis/exchange-1-0-0.yml",
+    "Opus-Commons": "../apis/opus-commons-1-0-0.yml",
     // Adicione outras APIs aqui
   };
 
   // Determinar qual API carregar
   const apiUrl = apis[apiName] || apis["Dados-cadastrais"]; // Carrega "Dados Cadastrais" por padrão
-
-  // Log para depuração
-  console.log("Carregando API:", apiName, "URL:", apiUrl);
 
   // Inicializar o Swagger UI
   const ui = SwaggerUIBundle({
@@ -25,6 +23,7 @@ window.onload = () => {
     dom_id: "#swagger-ui",
     presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
     layout: "BaseLayout",
+    supportedSubmitMethods: [] // Remove o botão "Try it out"
   });
   window.ui = ui;
 };

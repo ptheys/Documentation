@@ -15,23 +15,20 @@ info:
       |-------------------|-------------------------|-----------------------|
       | Tipo de Transação | Data da Obrigatoriedade | Data da Imutabilidade |
       |-------------------|-------------------------|-----------------------|
-      | PAGAMENTO         | DO                      | Fatura fechada        |
+      | PAGAMENTO         | D0                      | Fatura fechada        |
       |-------------------|-------------------------|-----------------------|
-      | TARIFA            | DO                      | Fatura fechada        |
+      | TARIFA            | D0                      | Fatura fechada        |
       |-------------------|-------------------------|-----------------------|
-      | OPERACOES_CRED    | DO                      | Fatura fechada        |
+      | OPERACOES_CRED    | D0                      | Fatura fechada        |
       |-------------------|-------------------------|-----------------------|
-      | ESTORNO           | DO                      | Fatura fechada        |
+      | ESTORNO           | D0                      | Fatura fechada        |
       |-------------------|-------------------------|-----------------------|
-      | CASHBACK          | DO                      | Fatura fechada        |
+      | CASHBACK          | D0                      | Fatura fechada        |
       |-------------------|-------------------------|-----------------------|
-      | OUTROS            | DO                      | Fatura fechada        |
+      | OUTROS            | D0                      | Fatura fechada        |
       |-------------------|-------------------------|-----------------------|
       ```
   version: 0.1.0-alpha
-  license:
-    name: Apache 2.0
-    url: 'https://www.apache.org/licenses/LICENSE-2.0'
 tags:
   - name: Credit Card
     description: Operações para listagem das informações de Cartão de Crédito

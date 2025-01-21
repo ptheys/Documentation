@@ -4,48 +4,48 @@ Este documento descreve as informações que o conector precisa acessar para pos
 
 O nome dos dados e valores enumerados (enums) apresentados a seguir são apenas exemplos. Sendo assim, **para os conectores desenvolvidos pela OPUS, solicitamos que nos envie um documento especificando quais dados e enums do legado correspondem aos listados abaixo**.
 
-> 🛈 **Nota: Referência para o desenvolvimento dos conectores**: Esquemas e exemplos de entradas e saídas dos conectores compartilhamento de dados de **operações de crédito** estão presentes no diretório `integração-plugin/schemas/v3/financial-data/` da Documentação Plataforma OPUS Open Finance. Por outro lado, o formato final de fato compartilhado pelo OPUS Open Finance será conforme especificado na [documentação Oficial do Open Finance Brasil](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/320176130/DC+APIs+-+Opera+es+de+Cr+dito). A tabela abaixo possui a referência específica para cada submodalidade na documentação interna e na documentação oficial
+> 🛈 **Nota: Referência para o desenvolvimento dos conectores**: Esquemas e exemplos de entradas e saídas dos conectores compartilhamento de dados de **operações de crédito** estão presentes no diretório `integração-plugin/schemas/v3/financial-data/` da Documentação Plataforma OPUS Open Finance. Por outro lado, o formato final de fato compartilhado pelo OPUS Open Finance será conforme especificado na [documentação Oficial do Open Finance Brasil](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/320176130/DC+APIs+-+Opera+es+de+Cr+dito). A tabela abaixo possui a referência específica para cada sub-modalidade na documentação interna e na documentação oficial
 >
-> | Submodalidade | Diretório na documentação do Opus OFB               | Documentação oficial |
-> | ------------- | --------------------------------------------------- | ----------------------------------------------------- |
-> |  empréstimos  | `integração-plugin/schemas/v3/financial-data/loans` | [API de empréstimos](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/387515225/Informa+es+T+cnicas+-+DC+Empr+stimos+-+v2.2.0) |
+> | sub-modalidade | Diretório na documentação do Opus OFB               | Documentação oficial |
+> | -------------  | --------------------------------------------------- | ----------------------------------------------------- |
+> |  empréstimos   | `integração-plugin/schemas/v3/financial-data/loans` | [API de empréstimos](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/387515225/Informa+es+T+cnicas+-+DC+Empr+stimos+-+v2.2.0) |
 > |  financiamento | `integração-plugin/schemas/v3/financial-data/financings` | [API de financiamento](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/474415286/Informa+es+T+cnicas+-+DC+Financiamento+-+v2.2.0) |
 > |  Adiantamento a Depositantes  | `integração-plugin/schemas/v3/financial-data/unarranged-accounts-overdraft` | [API de Adiantamento a Depositantes](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/474546348/Informa+es+T+cnicas+-+DC+Adiantamento+a+Depositantes+-+v2.2.0) |
 > |  Direitos Creditórios Descontados  | `integração-plugin/schemas/v3/financial-data/invoice-financings` | [API de Direitos Creditórios Descontados](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/474579114/Informa+es+T+cnicas+-+DC+Direitos+Credit+rios+Descontados+-+v2.2.0) |
 
-As operações de crédito possuem 4 diferentes submodalidades. Cada submodalidade possui uma lista de produtos e subprodutos relacionados que vão ser requisitados em alguns campos. Aqui vamos listar esses valores de produtos e subprodutos para serem utilizados nesses campos.
+As operações de crédito possuem 4 diferentes sub-modalidades. Cada sub-modalidade possui uma lista de produtos e subprodutos relacionados que vão ser requisitados em alguns campos. Aqui vamos listar esses valores de produtos e subprodutos para serem utilizados nesses campos.
 
-## Tabela de submodalidades, produtos e subprodutos
+## Tabela de sub-modalidades, produtos e subprodutos
 
-| Submodalidade                    | productType                                                                | productSubType                                                                                                                                                                                                                                                                                             |
+| Sub-modalidade                   | productType                                                                | productSubType                                                                                                                                                                                                                                                                                             |
 | -------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Empréstimos                      | EMPRESTIMOS                                                                | HOME_EQUITY </br>CHEQUE_ESPECIAL </br>CONTA_GARANTIDA </br>CAPITAL_GIRO_TETO_ROTATIVO </br>CREDITO_PESSOAL_SEM_CONSIGNACAO </br>CREDITO_PESSOAL_COM_CONSIGNACAO </br>MICROCREDITO_PRODUTIVO_ORIENTADO </br>CAPITAL_GIRO_PRAZO_VENCIMENTO_ATE_365_DIAS </br>CAPITAL_GIRO_PRAZO_VENCIMENTO_SUPERIOR_365_DIAS |
 | Financiamento                    | FINANCIAMENTOS </br>FINANCIAMENTOS_RURAIS </br>FINANCIAMENTOS_IMOBILIARIOS | AQUISICAO_BENS_VEICULOS_AUTOMOTORES </br>AQUISICAO_BENS_OUTROS_BENS </br>MICROCREDITO </br>CUSTEIO </br>INVESTIMENTO </br>INDUSTRIALIZACAO </br>COMERCIALIZACAO </br>FINANCIAMENTO_HABITACIONAL_SFH </br>FINANCIAMENTO_HABITACIONAL_EXCETO_SFH                                                             |
 | Adiantamento a Depositantes      | ADIANTAMENTO_A_DEPOSITANTES                                                | ADIANTAMENTO_A_DEPOSITANTES                                                                                                                                                                                                                                                                                |
 | Direitos Creditórios Descontados | DIREITOS_CREDITORIOS_DESCONTADOS                                           | DESCONTO_DUPLICATAS </br>DESCONTO_CHEQUES </br>ANTECIPACAO_FATURA_CARTAO_CREDITO </br>OUTROS_DIREITOS_CREDITORIOS_DESCONTADOS </br>OUTROS_TITULOS_DESCONTADOS                                                                                                                                              |
 
-A maioria dos campos que iremos citar precisam dos mesmos dados para essas diferentes submodalidades. Nos casos específicos onde é os dados são diferentes, vamos listar as diferentes possibilidades.
+A maioria dos campos que iremos citar precisam dos mesmos dados para essas diferentes sub-modalidades. Nos casos específicos onde é os dados são diferentes, vamos listar as diferentes possibilidades.
 
-## Listagem de informações sobre contratos da submodalidade
+## Listagem de informações sobre contratos da sub-modalidade
 
-Lista de contratos da submodalidade mantidos pelo cliente na instituição. Os dados de cada contrato que precisam ser fornecidos são
+Lista de contratos da sub-modalidade mantidos pelo cliente na instituição. Os dados de cada contrato que precisam ser fornecidos são
 
 - **`contractId`**: Identifica de forma única o contrato da operação de crédito do cliente, mantendo as regras de imutabilidade dentro da instituição transmissora
 - **`brandName`**: Nome da Marca reportada pelo participante no Open Finance
 - **`companyCnpj`**: Número completo do CNPJ da instituição responsável pelo Cadastro - o CNPJ corresponde ao número de inscrição no Cadastro de Pessoa Jurídica
-- **`productType`**: Tipo da modalidade de crédito contratada. Campo que depende da submodalidade, ver [tabela](#tabela-de-submodalidades-produtos-e-subprodutos)
-- **`productSubType`**: Sub tipo da modalidades de crédito Empréstimos contratadas. Campo que depende da submodalidade, ver [tabela](#tabela-de-submodalidades-produtos-e-subprodutos)
+- **`productType`**: Tipo da modalidade de crédito contratada. Campo que depende da sub-modalidade, ver [tabela][tabela-sub-modalidades]
+- **`productSubType`**: Sub tipo da modalidades de crédito Empréstimos contratadas. Campo que depende da sub-modalidade, ver [tabela][tabela-sub-modalidades]
 - **`ipocCode`**: Número padronizado do contrato - IPOC (Identificação Padronizada da Operação de Crédito)
 
-## Dados de um contrato da submodalidade
+## Dados de um contrato da sub-modalidade
 
-Obtém os dados do contrato da submodalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na seção anterior. Os dados que precisam ser enviados são os seguintes:
+Obtém os dados do contrato da sub-modalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na seção anterior. Os dados que precisam ser enviados são os seguintes:
 
 - **`contractNumber`**: Número do contrato dado pela instituição contratante
 - **`ipocCode`**: Número padronizado do contrato - IPOC (Identificação Padronizada da Operação de Crédito)
 - **`productName`**: Denominação/Identificação do nome da Modalidade da Operação de Crédito divulgado ao cliente
-- **`productType`**: Tipo da modalidade de crédito contratada. Campo que depende da submodalidade, ver [tabela](#tabela-de-submodalidades-produtos-e-subprodutos)
-- **`productSubType`**: Sub tipo da modalidades de crédito Empréstimos contratadas. Campo que depende da submodalidade, ver [tabela](#tabela-de-submodalidades-produtos-e-subprodutos). Para o subproduto CREDITO_PESSOAL_COM_CONSIGNACAO é preciso informar o CNPJ do consignante
+- **`productType`**: Tipo da modalidade de crédito contratada. Campo que depende da sub-modalidade, ver [tabela][tabela-sub-modalidades]
+- **`productSubType`**: Sub tipo da modalidades de crédito Empréstimos contratadas. Campo que depende da sub-modalidade, ver [tabela][tabela-sub-modalidades]. Para o subproduto CREDITO_PESSOAL_COM_CONSIGNACAO é preciso informar o CNPJ do consignante
 - **`contractDate`**: Data de contratação da operação de crédito
 - **`disbursementDates`**: Lista que traz as Datas de Desembolso do valor contratado
 - **`settlementDate`**: Data de liquidação da operação
@@ -107,11 +107,11 @@ Obtém os dados do contrato da submodalidade identificado por **`contractId`** m
         - OUTROS (nesse caso informar que outro encago)
     - **`chargeRate`**: Representa o valor do encargo em percentual pactuado no contrato
 
-## Listagem de garantias vinculadas ao contrato da submodalidade
+## Listagem de garantias vinculadas ao contrato da sub-modalidade
 
 Para cada uma das garantias que serão listadas, os seguintes dados são requisitados
 
-Obtém a lista de garantias vinculadas ao contrato da submodalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Para produtos sem garantias, basta enviar um objeto vazio. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na primeira seção. Os dados que precisam ser enviados são os seguintes:
+Obtém a lista de garantias vinculadas ao contrato da sub-modalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Para produtos sem garantias, basta enviar um objeto vazio. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na primeira seção. Os dados que precisam ser enviados são os seguintes:
 
 - **`currency`**: Moeda referente ao valor da garantia, segundo modelo ISO-4217
 - **`warrantyType`**: Denominação/Identificação do tipo da garantia que avaliza a Modalidade da Operação de Crédito contratada. Exemplos:
@@ -184,18 +184,18 @@ Obtém a lista de garantias vinculadas ao contrato da submodalidade identificado
     - VEICULOS_AUTOMOTORES
 - **`warrantyAmount`**: Valor original da garantia. Os casos de garantia fidejussória para os quais não é possível determinar um valor monetário para a garantia devem ser preenchidos com 0.00
 
-## Dados do cronograma de parcelas do contrato da submodalidade
+## Dados do cronograma de parcelas do contrato da sub-modalidade
 
-Obtém os dados do cronograma de parcelas do contrato da submodalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na primeira seção. Os dados que precisam ser enviados são os seguintes:
+Obtém os dados do cronograma de parcelas do contrato da sub-modalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na primeira seção. Os dados que precisam ser enviados são os seguintes:
 
 - **`totalNumberOfInstalments`**: Prazo Total referente à Modalidade de Crédito informada e seu tipo (dia, semana, mês, ano ou sem prazo)
 - **`contractRemaining`**: Prazo Remanescente referente à Modalidade de Crédito informada e seu tipo (dia, semana, mês, ano ou sem prazo)
 - **`paidInstalments/dueInstalments/pastDueInstalments`**: Campos distintos especificando a quantidade de prestações pagas, a vencer e vencidas (No caso de modalidades que não possuam parcelas, o número de prestações é igual a zero)
 - **`balloonPayments`**: Lista que traz as datas de vencimento e valor das parcelas não regulares do contrato da modalidade de crédito consultada
 
-## Dados de pagamento do contrato da submodalidade
+## Dados de pagamento do contrato da sub-modalidade
 
-Obtém os dados de pagamentos do contrato da submodalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na primeira seção. Os dados que precisam ser enviados são os seguintes:
+Obtém os dados de pagamentos do contrato da sub-modalidade identificado por **`contractId`** mantido pelo cliente na instituição transmissora. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na primeira seção. Os dados que precisam ser enviados são os seguintes:
 
 - **`paidInstalments`**: Quantidade total de parcelas pagas do contrato referente à Modalidade de Crédito informada
 - **`contractOutstandingBalance`**: Valor necessário para o cliente liquidar a dívida
@@ -216,3 +216,6 @@ Obtém os dados de pagamentos do contrato da submodalidade identificado por **`c
             - IOF_POR_ATRASO
             - SEM_ENCARGO
             - OUTROS (nesse caso informar qual outro tipo de encargo)
+
+
+[tabela-sub-modalidades]: #tabela-de-sub-modalidades-produtos-e-subprodutos

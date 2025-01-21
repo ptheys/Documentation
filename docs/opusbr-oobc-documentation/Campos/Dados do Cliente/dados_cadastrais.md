@@ -6,7 +6,7 @@ O nome dos dados e valores enumerados (enums) apresentados a seguir são apenas 
 
 > 🛈 **Nota: Referência para o desenvolvimento dos conectores**: Esquemas e exemplos de entradas e saídas dos conectores compartilhamento de dados de **dados cadastrais** estão presentes no diretório `integração-plugin/schemas/v3/financial-data/customers` da Documentação Plataforma OPUS Open Finance. Por outro lado, o formato final de fato compartilhado pelo OPUS Open Finance será conforme especificado na [documentação Oficial do Open Finance Brasil](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/512458931/Informa+es+T+cnicas+-+DC+Dados+Cadastrais+-+v2.1.0).
 
-## Idenitficação da pessoa natural
+## Identificação da pessoa natural
 
 Obtém os registros de identificação da pessoa natural mantidos na instituição transmissora. Os dados que precisam ser enviados são os seguintes:
 

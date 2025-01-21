@@ -7,9 +7,6 @@ info:
     Possui segregação entre pessoa natural e pessoa jurídica.
     Requer consentimento do cliente para todos os `endpoints`.
   version: 0.1.0-alpha
-  license:
-    name: Apache 2.0
-    url: 'https://www.apache.org/licenses/LICENSE-2.0'
 tags:
   - name: Customers
     description: Operações para listagem das informações Cadastrais do Cliente
