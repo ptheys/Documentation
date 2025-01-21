@@ -11,6 +11,10 @@ window.onload = () => {
     "Crédito": "../apis/loans-2-3-0.yml",
     "Câmbio": "../apis/exchange-1-0-0.yml",
     "Opus-Commons": "../apis/opus-commons-1-0-0.yml",
+    "OAS-Receptor": "../Plataforma-OpusOpenFinance/Receptor_de_Dados/oas-opustpp-dados.yml",
+    "OAS-ITP-pagamentos": "../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos.yml",
+    "OAS-ITP-pagamentos-automaticos": "../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos-automaticos.yml",
+    "OAS-back-dados": "../Plataforma-OpusOpenFinance/APIs-de-backoffice/oas-oof-dados.yml",
     // Adicione outras APIs aqui
   };
 

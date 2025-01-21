@@ -51,7 +51,7 @@ Em geral, a autorização do ITP é focada para instituições que procuram uma 
 
 Assim que a instituição já está autorizada para funcionar como ITP, é necessário estar de acordo com os pré-requisitos que antecedem a etapa homologatória do ITP no Open Finance. Os pré-requisitos são divididos em 4:
 
-1. [**Certificação OpenID RP**](../OFB-Certificações.md):
+1. [**Certificação OpenID RP**](../OFB-Certificações.html):
    - Deve estar publicada no [site oficial da OpenID](https://openid.net/certification/#FAPI_RPs).
    - A Opus pode ajudar a concluir o processo em poucas semanas.
 
@@ -62,7 +62,7 @@ Assim que a instituição já está autorizada para funcionar como ITP, é neces
    > Dentro da implantação do produto, a Opus conduz todo o processo de configuração do diretório, para você não se preocupar.
 
 3. **Certificação e publicação de APIs Payment** (se a instituição também for Detentora de Conta):
-    Para o caso de a instituição ser participantes do Open Finance como Detentora de Conta também, é necessário estar de acordo com toda a regulação desse perfil antes mesmo de poder começar a homologação como ITP. O perfil de Detentora de Conta exige a publicação da [certificação OpenID OP](../OFB-Certificações.md) e que suas APIs estejam devidamente publicadas.
+    Para o caso de a instituição ser participantes do Open Finance como Detentora de Conta também, é necessário estar de acordo com toda a regulação desse perfil antes mesmo de poder começar a homologação como ITP. O perfil de Detentora de Conta exige a publicação da [certificação OpenID OP](../OFB-Certificações.html) e que suas APIs estejam devidamente publicadas.
 
 4. **Publicação no PDF de participantes do Pix**:
     Pode-se dizer que esse pré-requisito é o caminho crítico, pois é o mais longo e está vinculado ao arranjo Pix. [O PDF do Pix](https://www.bcb.gov.br/estabilidadefinanceira/participantespix) (acesso a direita) é uma lista com todas as instituições participantes do Pix e, para ser homologado como ITP, é necessário que a sua instituição esteja presente nela listado na coluna Iniciação de Transação de Pagamento.

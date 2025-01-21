@@ -6,12 +6,12 @@ nav_order: 6
 ---
 
 Esta seção descreve as APIs de visualização e revogação de consentimento para o
-Portal Backoffice do Opus Open Banking.
+Portal Backoffice do Opus Open Finance.
 
 ## Open API Specification
 
 As definições da API Rest em formato Open API Specification 3.0 podem ser encontradas
-[aqui](./oas-oob-consents.yaml).
+[aqui][API-backoffice].
 
 ## Listagem de consentimento
 
@@ -217,3 +217,5 @@ Os escopos necessários para acesso estão listados na seção de [segurança](.
 ## Observações
 
 - `*1`: Podem ser utilizados apenas para consultas de consentimentos de pagamento.
+
+[API-backoffice]: ../swagger-ui/index.html?api=OAS-back-dados

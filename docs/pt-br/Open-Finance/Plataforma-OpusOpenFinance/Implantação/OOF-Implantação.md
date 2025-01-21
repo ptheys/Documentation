@@ -58,7 +58,7 @@ Um ponto importante a ressaltar é que as etapas mais trabalhosas do processo de
 
 ### 5. **Layer de Integração**
 
-- Integração dos sistemas de retaguarda da instituição ao produto, de acordo com o [perfil de participação da instituição financeira](../../Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html). Tipicamente, [envolve a construção do *layer de integração*](../OOF-Integração.html) adaptado aos sistemas de retaguarda da instituição.
+- Integração dos sistemas de retaguarda da instituição ao produto, de acordo com o [perfil de participação da instituição financeira](../../Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html). Tipicamente, [envolve a construção do *layer de integração*](../Integração/OOF-Integração.html) adaptado aos sistemas de retaguarda da instituição.
 - **Nota:** Normalmente, não é necessário adaptar os sistemas de retaguarda em si, mas mapear a forma de extração das informações referentes a cada produto financeiro oferecido pela instituição (no caso do perfil transmissor de dados), ou a forma de realizar pagamentos e consultar o resultado dessas operações (no caso do perfil detentor de conta). A camada de integração funciona justamente como um adaptador entre os formatos internos dos sistemas de retaguarda e aqueles exigidos pelo *Open Finance Brasil*.
 
 ---
