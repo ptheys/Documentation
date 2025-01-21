@@ -39,5 +39,5 @@ No caso de pagamentos, necessário para o [perfil *detentor de contas*][Detentor
 [Camada de Integração]: ./CamadaIntegração.html
 [Conectores de Pagamento]: ./Conectores-Pagto.html
 [Integração app-web]: ./Jornada-de-Ux/App-e-Web.html
-[Transmissor]: ../../Open-Finance-Brasil/PerfisOFB/OOF-Transmissor.html
-[Detentor]: ../../Open-Finance-Brasil/PerfisOFB/OOF-Detentor.html
+[Transmissor]: ../../Open-Finance-Brasil/PerfisOFB/OFB-Transmissor.html
+[Detentor]: ../../Open-Finance-Brasil/PerfisOFB/OFB-Detentor.html
