@@ -6,7 +6,7 @@ nav_order: 2
 has_children: true
 ---
 
-## Introdução
+# Plataforma Opus Open Finance
 
 Nessa seção você encontra os detalhes da solução Opus Open Finance para cada um dos perfis de atuação do Open Finance, além de componentes gerais que estão inclusos dentro do produto.
 

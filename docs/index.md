@@ -7,13 +7,13 @@ has_children: true
 ---
 ## Documentação da Plataforma Opus Open Finance
 
-Bem-vindo à documentação da plataforma Opus Open Finance!
+Bem-vindo à documentação da **Plataforma Opus Open Finance**!
 
-Aqui você encontrará detalhes sobre a solução ideal para sua instituição se homologar no ecossistema do Open Finance Brasil. O produto da Opus é responsável por garantir a boa operação da sua instituição com as demandas exigidas pelo regulador, além de garantir a evolução de todas as novas funcionalidades.
+Aqui você encontrará detalhes sobre a solução ideal para sua instituição se homologar no ecossistema do *Open Finance Brasil*. O produto da **Opus Software** é responsável por garantir a boa operação da sua instituição com as demandas exigidas pelo regulador, além de garantir a atualização de novas versões e evolução de funcionalidades definidos pelas normas regulatórias.
 
-A plataforma foi projetada para abstrair toda a complexidade regulatória do Open Finance Brasil, a camada que não traz o diferencial para sua empresa. Dessa forma, você pode focar em seus **seus objetivos estratégicos**.
+A plataforma foi projetada para abstrair toda a complexidade regulatória do *Open Finance Brasil*, a camada que não traz o diferencial para sua empresa. Dessa forma, você pode focar em seus **seus objetivos estratégicos**.
 
-Ao mesmo tempo em que oferece uma cobertura completa das exigências regulatórias para todos os perfis de participação no Open Finance Brasil, a Plataforma Opus Open Finance dispõe também de módulos opcionais que permitem ir além do regulatório, estabelecendo uma base para implementar estratégias que maximizem o retorno sobre o investimento das instituições financeiras e possibilitem extrair o melhor valor possível de sua participação no ecossistema.
+Ao mesmo tempo em que oferece cobertura completa das exigências regulatórias para todos os perfis de participação no Open Finance Brasil, a Plataforma Opus Open Finance dispõe também de módulos opcionais que permitem ir além do regulatório, estabelecendo uma base para implementar estratégias que maximizem o retorno sobre o investimento das instituições financeiras e possibilitem extrair o melhor valor possível de sua participação no ecossistema.
 
 ---
 
@@ -32,34 +32,7 @@ A Plataforma serve como um middleware essencial que permite à sua instituição
 
 ### Estrutura deste Documento
 
-Este documento está organizado para fornecer uma visão geral sobre os conceitos envolvidos no Open Finance e sobre os detalhes técnicos necessários para adoção da plataforma Opus Open Finance. Também são abordados os aspectos de implantação para cada perfil de participante do Open Finance Brasil.
-
-#### Tópicos abordados
-
-1. Open Finance Brasil
-  1.1 [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]
-  1.2 [Perfis de participação][Perfis de participação]
-  1.3 [Jornada de consentimento][Jornada de Consentimento]
-  1.4 [Certificações][Certificações]
-  1.5 [A Plataforma de coleta de métricas][PCM]
-  1.6 [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
-  1.7 [Onboarding][Onboarding]
-    1.7.1 [Onboarding de detentor de conta e transmissor de dados][Onboarding Detentor e Transmissor]
-    1.7.2 [Onboarding Iniciador de Transação de Pagamento (ITP)][Onboarding ITP]
-    1.7.3 [Onboarding receptor de dados][Onboarding Receptor]
-2. A Plataforma Opus Open Finance
-  2.1 Arquitetura
-  2.2 Módulo detentor de conta
-  2.3 Módulo transmissor de dados
-  2.4 Módulo iniciador de transação de pagamento
-  2.5 Módulo receptor de dados
-  2.6 APIs de backoffice
-  2.7 Implantação da plataforma
-    2.7.1 Passos para a implantação
-    2.7.2 Integração da plataforma com sistemas da instituição financeira
-    2.7.3 Integração para detentor de conta
-    2.7.4 Integração para o transmissor de dados
-    2.7.5 Iniciador de pagamentos e receptor de dados
+Este documento está organizado para fornecer uma visão geral sobre os conceitos envolvidos no Open Finance e sobre os detalhes técnicos necessários para adoção da plataforma Opus Open Finance. Também são abordados os aspectos de implantação para cada perfil de participante do Open Finance Brasil. Para um detalhamento técnico, a documentação também contempla diagramas de sequência e a descrição de APIs no padrão *Open API Specification*.
 
 ---
 
@@ -79,6 +52,7 @@ Sabemos que a implementação de uma nova plataforma pode trazer desafios único
 
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
+{{..comment}}
 [O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.html
 [Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html
 [Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.html
@@ -89,3 +63,4 @@ Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em e
 [Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.html
 [Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.html
 [Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.html
+{{./comment}}

@@ -1,22 +1,19 @@
 Documentação Plataforma Opus Open Finance - Todo list
 =========================================   =========
 
+1) Páginas de crédito
+1,5) Escrever página OpenFinanceBrasil.md
+2) Parei a revisão em  Perfis de "Participação->Detentor de Conta".
 3) Links quebrados e Forma automática de "próxima página"?
 4) Páginas a revisar completamente
     - OOF-APIBack.md
-    - APIS_recepção.md
-    - Mover OOF-Receptor.md
-    - Mover OOF-Detentor.md
-    - Mover OOF-Transmissor.md e incluir "Utilização do produto"
     - Receptor, transmissor, detentor e ITP serão subtópicos de OFB Perfis.
-    - Escrever página de dados abertos como subtópico também.
     - Onboarding será subtópico de Perfis->ITP
 5) Páginas a escrever
-    - PlataformaOOF.md
-    - Passos para a implantação
     - Integração para detentor de conta
-    - Integração para o transmissor de dados
     - Iniciador de pagamentos e receptor de dados
+    - Integração para mobile app e Web
 6) Revisar formatação de tabelas
 7) Multi-idioma
 8) Abrir links externos em nova aba.
+9) A API opus-commons deve ser listada na seção sobre a construção de conectores.

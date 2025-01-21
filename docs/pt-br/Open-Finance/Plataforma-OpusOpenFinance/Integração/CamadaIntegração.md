@@ -70,7 +70,8 @@ No caso de operações de crédito o cliente efetua o compartilhamento por agrup
 
 Informações detalhadas sobre os dados necessários para cada uma dessas operações podem ser encontrados na [página específica para operações de crédito][Crédito].
 
-<!-->
+{::comment}
+
 ## Investimentos
 
 Os investimentos também são divididos em diferentes produtos. Abaixo tem-se uma lista dos produtos possíveis de investimento assim como o link leva ao documenta detalhado sobre os dados do produto em questão:
@@ -82,14 +83,15 @@ Os investimentos também são divididos em diferentes produtos. Abaixo tem-se um
 - [Fundos de investimento](./dados_investimentos/dados_fundos_investimento.md)
 
 Informações detalhadas sobre os dados necessários para este produto podem ser encontrados [página específica para investimentos](./dados_investimentos/README.md).
-<-->
+{:/comment}
+
 ## Câmbio
 
 Informações de operações de Câmbio realizadas nas instituições transmissoras por seus clientes, incluindo dados como informações da operação contratada, valor da operação em moeda nacional e moeda estrangeira, classificação da operação, forma de entrega, VET e, quando aplicável, valor a liquidar. Também serão compartilhados os eventos de alteração da operação, caso existam, com as informações modificadas. Não separa pessoa natural e pessoa jurídica.
 
 Informações detalhadas sobre os dados necessários para este produto podem ser encontrados na [página específica para câmbio][Câmbio].
 
-**gambia**: [API-Commons](../../../../swagger-ui/index.html?api=Opus-Commons)
+<!-- **gambia**: [API-Commons](../../../../swagger-ui/index.html?api=Opus-Commons) -->
 
 <!-- Definição de links utilizados nesta página -->
 
