@@ -64,7 +64,7 @@ Informações detalhadas sobre os *endpoints* e dados necessários para atender 
 No caso de operações de crédito o cliente efetua o compartilhamento por agrupamento de produtos ou seja, todas as modalidades de operações de crédito são compartilhadas no escopo do *Open Finance Brasil*. Abaixo temos uma listagem das operações:
 
 - Empréstimos
-- Financiamento
+- Financiamentos
 - Adiantamento a depositantes
 - Direitos creditórios Descontados
 
@@ -101,5 +101,5 @@ Informações detalhadas sobre os dados necessários para este produto podem ser
 [Dados-Cadastrais]: ../../../../apis/Dados-Cadastrais.html
 [Cartão-crédito]: ../../../../apis/Cartão-de-Crédito.html
 [Contas]: ../../../../apis/Contas.html
-[Crédito]: ../../../../apis/Crédito.html
+[Crédito]: ./OOF-Crédito.html
 [Câmbio]: ../../../../apis/Câmbio.html

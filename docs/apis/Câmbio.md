@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Câmbio"
+title: "API de Câmbio"
 parent: "Compartilhamento de Dados"
 nav_order: 5
 ---
@@ -27,6 +27,6 @@ Existem *endpoints* para:
 - Obter dados de uma operação de câmbio;
 - Obter dados de eventos de uma operação de câmbio.
 
-A documentação da API de Contas (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Contas].
+A documentação da API de Câmbio (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Câmbio].
 
-[API-Contas]: ../swagger-ui/index.html?api=Câmbio
+[API-Câmbio]: ../swagger-ui/index.html?api=Câmbio
