@@ -6,7 +6,9 @@ nav_order: 2
 has_children: true
 ---
 
-As instituições financeiras podem participar do Open Finance Brasil cumprindo vários papéis específicos, aqui denominados Perfis de Paticipação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instituições podem, voluntariamente, exercer todos os perfis existentes.
+# Perfis de Participação
+
+As instituições financeiras podem participar do *Open Finance Brasil* cumprindo vários papéis específicos, aqui denominados Perfis de Participação. Algumas instituições financeiras são obrigadas a participar com determinados perfis, mas todas as instituições podem, voluntariamente, exercer todos os perfis existentes.
 
 ![Perfis do Open Finance][Imagem dos perfis de participação]
 
@@ -33,7 +35,7 @@ O termo **TPP** (Third-Party Provider) é utilizado para representar ambas as pa
 
 ---
 
-## Perfis de Participação no Open Finance
+## Perfis de Participação no Open Finance Brasil
 
 Os perfis de atuação podem ser entendidos conforme a tabela abaixo:
 
@@ -44,9 +46,8 @@ Os perfis de atuação podem ser entendidos conforme a tabela abaixo:
 
 ---
 
-## A Plataforma Opus Open Finance
+## Plataforma Opus Open Finance
 
-A Plataforma Opus Open Finance oferece uma solução completa para atender aos requisitos necessários a todos os perfis de participação do Open Finance Brasil.
-
+A Plataforma Opus Open Finance oferece uma solução completa para atender aos requisitos necessários a todos os perfis de participação do *Open Finance Brasil*.
 
 [Imagem dos perfis de participação]: ./images/Perfis_OF.png

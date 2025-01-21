@@ -5,7 +5,7 @@ parent: "Open Finance Brasil"
 nav_order: 1
 ---
 
-## O Ecossitema
+## O Ecossistema
 
 O Open Finance Brasil carrega um peso significativo na transformação do sistema de pagamentos do país. Assim como o Pix foi um sucesso, o Open Finance possui diversos benefícios para toda a população brasileira, especialmente a médio e longo prazo. Para o Banco Central, o propósito do Open Finance é incentivar um ambiente de maior competição no sistema financeiro, melhorando os qualidade dos serviços, promovendo inovação e proporcionando maior disputa pelos clientes, tendendo à natural redução das taxas e custos pelo mercado.
 
@@ -34,7 +34,6 @@ Cada fase é descrita em detalhes na imagem abaixo:
 Para garantir a implementação do Open Finance, o Banco Central definiu uma estrutura para concretizar os objetivos do ecossistema. A estrutura está dividida da seguinte forma:
 
 ![Organograma Open Finance](./images/Organograma_OF.png)
-Fonte: Opus
 
 ### Banco Central
 

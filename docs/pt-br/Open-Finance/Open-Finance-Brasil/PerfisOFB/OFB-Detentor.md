@@ -22,7 +22,7 @@ As Detentoras de Contas são as instituições onde os clientes possuem contas q
 Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 - **Pix**
-- **Boleto*** 
+- **Boleto***
 - **Débito em Conta***
 - **TED/TEF***
 - **Cartão de Crédito***
@@ -33,22 +33,24 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ## Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.md).
+O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.html).
 
 ---
 
 ## Roadmap Regulatório
 
-### Funcionalidades já disponíveis:
+### Funcionalidades já disponíveis
+
 - **Pagamento Pix imediato**
 - **Pagamento Pix agendado**
 - **Recorrência de pagamentos agendados**
-- **Transferências automáticas entre contas de mesma titularidade** (conhecidas como *sweeping accounts*)
+- **Transferências automáticas entre contas de mesma titularidade** (recurso também conhecido como *sweeping accounts* ou *transferências inteligentes*)
 
-### Funcionalidades previstas:
+### Funcionalidades previstas
+
 - **Pagamentos em lote (1:n)**
 - **Pagamentos sem redirecionamento** (ausência do redirecionamento para a Detentora de Conta na perspectiva do usuário)
-- **Pagamentos recorrentes** (Variable Recurring Payment - VRP)
+- **Pagamentos recorrentes** (Variable Recurring Payment - VRP - implementado pelo *Pix Automático*)
 - **Pix por aproximação**
 
 O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/DraftOF/calendars) oferece um calendário com as próximas entregas.
@@ -57,16 +59,18 @@ O [portal do desenvolvedor](https://openfinancebrasil.atlassian.net/wiki/spaces/
 
 ## APIs Regulatórias
 
-### APIs Vigentes:
-|**Descrição**                     | **Link para o Portal do Desenvolvedor**                           | 
+### APIs Vigentes
+
+|**Descrição**                     | **Link para o Portal do Desenvolvedor**                           |
 |----------------------------------|:-------------------------------------------------------------------:|
 |**Iniciação de Pagamento**        |[Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17375943/SV+API+-+Pagamentos) |
 |**Iniciação de Pagamentos Automáticos**        |[Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/198410569/SV+API+-+Pagamentos+Autom+ticos) |
 |**Iniciação de Pagamento**        |[Acesse aqui](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/141557761/SV+API+-+Pagamentos+sem+Redirecionamento) |
 
-## Utilização do produto
+## Plataforma Opus Open Finance
 
-Para utilizar a solução de Detentor de Conta, é necessário concluir as seguintes etapas:
-1. Completar todo o processo de [implantação](../../Plataforma-OpusOpenFinance/Implantação/OOF-Implantação.md).
-2. Construir a experiência do usuário para aplicativo e internet banking (se houver). [O guia de experiência do usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio) dá mais detalhes sobre o fluxo.
-3. Contruir a camada de integração com os sistemas de retaguarda de pagamentos.
+Para utilizar a **Plataforma Opus Open Finance** para atender às exigências regulatórias do perfil de participação Detentor de Conta, é necessário concluir as seguintes etapas:
+
+1. Completar o processo de [implantação](../../Plataforma-OpusOpenFinance/Implantação/OOF-Implantação.html).
+2. Construir a experiência do usuário para aplicativo e Internet Banking (se houver). [O guia de experiência do usuário](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+rio) apresenta os detalhes do fluxo de interação com  o usuário final que os canais digitais de atendimento devem implementar para atender às normas regulatórias.
+3. Construir a camada de integração com os sistemas de retaguarda de pagamentos.
