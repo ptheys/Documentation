@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Autenticação App"
-parent: "Autenticação"
+title: "Aplicativo mobile"
+parent: "Canais de atendimento"
 nav_order: 1
 ---
 

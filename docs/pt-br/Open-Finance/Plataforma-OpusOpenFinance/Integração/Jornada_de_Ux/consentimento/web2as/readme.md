@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Autenticação web"
-parent: "Autenticação"
+title: "Internet Banking"
+parent: "Canais de atendimento"
 nav_order: 2
 ---
 
