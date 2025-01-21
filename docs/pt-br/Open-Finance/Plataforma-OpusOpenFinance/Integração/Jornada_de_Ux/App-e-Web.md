@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Canais de atendimento"
-parent: "Integração com a Plataforma"
+parent: "Integração da Plataforma"
 nav_order: 3
 has_children: true
 ---
