@@ -13,10 +13,10 @@ Nessa seção você encontra os detalhes da solução Opus Open Finance para cad
 1. A Plataforma Opus Open Finance  
   1.1 [Arquitetura][Arquitetura Opus Open Finance]   
   1.2 [APIs de backoffice][APIs backoffice]  
-  1.3 [Implantação da plataforma][Implantação da plataforma]
-    1.3.1 [Integração da plataforma aos sistemas da instituição financeira][Integração da plataforma]  
-    1.3.2 [Integração para compartilhamento de dados][Integração Dados] 
-    1.3.3 [Integração para pagamentos][Integração pagamentos]
+  1.3 [Implantação da plataforma][Implantação da plataforma]  
+    1.3.1 [Integração da plataforma aos sistemas da instituição financeira][Integração da plataforma]    
+    1.3.2 [Integração para compartilhamento de dados][Integração Dados]   
+    1.3.3 [Integração para pagamentos][Integração pagamentos]  
     1.3.4 [Deploy da plataforma Opus Open Finance][Deploy da Plataforma]  
 
 [Arquitetura Opus Open Finance]: ./Arquitetura/OOF-Arquitetura.html

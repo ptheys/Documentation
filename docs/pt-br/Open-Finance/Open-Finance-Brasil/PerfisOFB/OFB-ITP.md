@@ -73,5 +73,5 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 [DiagramaSequência]: ../../Plataforma-OpusOpenFinance/ITP/images/consent-sequence.png
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+ri
 
-[API-pagamentos]: ../swagger-ui/index.html?api=OAS-ITP-pagamentos
-[API-pagamentos-automaticos]: ../swagger-ui/index.html?api=OAS-ITP-pagamentos-automaticos
+[API-pagamentos]: ../../../../swagger-ui/index.html?api=OAS-ITP-pagamentos
+[API-pagamentos-automaticos]: ../../../../swagger-ui/index.html?api=OAS-ITP-pagamentos-automaticos

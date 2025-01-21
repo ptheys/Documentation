@@ -218,4 +218,4 @@ Os escopos necessários para acesso estão listados na seção de [segurança](.
 
 - `*1`: Podem ser utilizados apenas para consultas de consentimentos de pagamento.
 
-[API-backoffice]: ../swagger-ui/index.html?api=OAS-back-dados
+[API-backoffice]: ../../../../swagger-ui/index.html?api=OAS-back-dados
