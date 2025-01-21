@@ -12,7 +12,7 @@ Quando um pedido de criação de consentimento vindo de outra instituição fina
 
 ## Requisitos de UX
 
-A jornada de experiência do usuário deve respeitar uma série de requisitos regulatórios, assim como o pix é hoje. Existem duas frentes que precisam ser construídas para a jornada de UX, são elas:
+A jornada de experiência do usuário deve respeitar uma série de requisitos regulatórios, assim como o pix é hoje. Existem duas frentes que precisam ser construídas para a jornada de UX, são elas: 
 
 1. **Jornada de consentimento**
 
