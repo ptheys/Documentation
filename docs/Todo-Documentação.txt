@@ -1,7 +1,6 @@
 Documentação Plataforma Opus Open Finance - Todo list
 =========================================   =========
 
-2) Suporte a APIs
 3) Links quebrados e Forma automática de "próxima página"?
 4) Páginas a revisar completamente
     - OOF-APIBack.md
@@ -20,3 +19,4 @@ Documentação Plataforma Opus Open Finance - Todo list
     - Iniciador de pagamentos e receptor de dados
 6) Revisar formatação de tabelas
 7) Multi-idioma
+8) Abrir links externos em nova aba.

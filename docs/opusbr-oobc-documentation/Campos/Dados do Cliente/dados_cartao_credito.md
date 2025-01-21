@@ -52,7 +52,7 @@ Lista de contas de pagamento pós-paga mantidas pelo cliente na instituição tr
     - ELO
     - OUTRAS (nesse caso especifique qual seria a bandeira)
 
-## Dados de indentificação da conta
+## Dados de identificação da conta
 
 Obtém dados de identificação da conta identificada pelo campo **`creditCardAccountId`**. Os dados obtidos aqui devem ser possíveis de se recuperar para cada conta listada na seção anterior. Os dados que precisam ser enviados são os seguintes:
 
@@ -164,7 +164,7 @@ Obtém os limites da conta de pagamento pós-paga identificada por **`creditCard
     - LIMITE_CREDITO_TOTAL
     - LIMITE_CREDITO_MODALIDADE_OPERACAO
 - **`consolidationType`**: Indicador que permite informar se o valor do limite é consolidado ou individual
-- **`identificationNumber`**: Número de identificação do cartão: corresponde aos 4 últimos dígitos do cartão para PF, ou então, preencher com um identificador para PJ, com as caracteristicas definidas para os IDs no Open Finance
+- **`identificationNumber`**: Número de identificação do cartão: corresponde aos 4 últimos dígitos do cartão para PF, ou então, preencher com um identificador para PJ, com as características definidas para os IDs no Open Finance
 - **`lineName`**: Opcional. campo indicando tipo de crédito. Exemplos:
     - CREDITO_A_VISTA
     - CREDITO_PARCELADO
@@ -172,8 +172,8 @@ Obtém os limites da conta de pagamento pós-paga identificada por **`creditCard
     - SAQUE_CREDITO_EXTERIOR
     - EMPRESTIMO_CARTAO_CONSIGNADO
     - OUTROS (nesse caso especificar o outro tipo de crédito)
-- **`isLimitFlexible`**: Indica se a conta possui lmite total flexível ou um limite pre-determinado
-- **`limitAmount`**: Valor e moeda do limite informado caso não tenha um limite flexível ou pre-determinado. Caso for zero, uma razão precisa ser fornecida
+- **`isLimitFlexible`**: Indica se a conta possui limite total flexível ou um limite pré-determinado
+- **`limitAmount`**: Valor e moeda do limite informado caso não tenha um limite flexível ou pré-determinado. Caso for zero, uma razão precisa ser fornecida
 - **`usedAmount`**: Valor e moeda do limite informado
-- **`availableAmount`**: Valor e moeda disponível do limite informado, sendo obrigatório quando não tem limite flexível ou pre-determinado
+- **`availableAmount`**: Valor e moeda disponível do limite informado, sendo obrigatório quando não tem limite flexível ou pré-determinado
 - **`customizedLimitAmount`**: Valor total do limite customizado pelo cliente nos canais eletrônicos da instituição. Esse objeto é de envio obrigatório nos casos em que a instituição permita ao cliente alterar o seu limite. Valor e moeda do limite

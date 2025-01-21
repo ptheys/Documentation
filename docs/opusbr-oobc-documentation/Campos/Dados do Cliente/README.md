@@ -4,7 +4,7 @@ Essa fase permite que clientes da instituição solicitem o compartilhamento de 
 
 Para esta fase, vários endpoints de consulta precisam ser fornecidos para que a instituição possa compartilhar os dados necessários e então ter acesso aos dados das outras instituições participantes. Uma boa documentação desses endpoints, com exemplos de casos de sucesso e falha, assim como o formato das mensagens, facilita no desenvolvimento dos conectores, uma vez que esses endpoints serão acessados com frequência pelas rotas. Documentar bem os casos de falhas dos endpoints é de grande ajuda para que uma boa resposta detalhada do erro possa ser retornada quando ocorra.
 
-Abaixo vamos listar os dados necessários para cada um dos diferentes produtos que podem ser compartilhados. Vamos dar uma pequena descrição dos produtos, assim como as infomrações necessárias para cada caso em outras páginas. Essas páginas tem uma breve descrição dessas informações e mencionam se são obrigatórias ou opcionais para montar as requisições e respostas entre produto e instituição.
+Abaixo vamos listar os dados necessários para cada um dos diferentes produtos que podem ser compartilhados. Vamos dar uma pequena descrição dos produtos, assim como as informações necessárias para cada caso em outras páginas. Essas páginas tem uma breve descrição dessas informações e mencionam se são obrigatórias ou opcionais para montar as requisições e respostas entre produto e instituição.
 
 Vale ressaltar que a instituição não necessariamente irá ter todos os produtos previstos pelo OFB, portanto, a instituição só precisaria de um subconjunto dos endpoints que aqui vão ser descritos.
 
