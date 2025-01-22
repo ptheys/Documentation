@@ -15,7 +15,7 @@ De maneira análoga, quando o cliente autoriza um *iniciador de transação de p
 
 ## Deep Link e Universal Link
 
-O aplicativo da instituição precisa interceptar as chamadas do receptor de dados (que está requisitando a criação de um consentimento de compartilhamento de dados) ou do iniciador de transação de  pegamentos  e enviar ao Authorization Server quando essas ocorrem no celular do usuário, permitindo dessa forma realizar a geração do consentimento no aplicativo.
+O aplicativo da instituição precisa interceptar as chamadas do receptor de dados (que está requisitando a criação de um consentimento de compartilhamento de dados) ou do iniciador de transação de  pegamentos e enviar ao Authorization Server quando essas ocorrem no celular do usuário, permitindo dessa forma realizar a geração do consentimento no aplicativo.
 
 O aplicativo também pode ser acionado durante fluxo *hybrid flow* com *Handoff*, onde o usuário está criando o consentimento em  um computador via Web e a instituição só possui autenticação através do seu aplicativo mobile. Nesse cenário o Authorization Server
 (AS) da **Plataforma Opus Open Finance** exibirá um QR-code com uma URL que também deve ser interceptada pelo aplicativo. Utilizar uma URL interceptável pelo aplicativo permite ao usuário, inclusive, realizar a leitura do QR-code através de qualquer aplicativo além do próprio da instituição.
@@ -67,6 +67,6 @@ Vários cenários estão mockados e são acionados através das respectivas URLs
 | Hybrid-flow / INVALID_STATUS_CONFIRMATION na confirmação                  | <http://localhost:3301/auth/auth?id=resource>          |
 | Hybrid-flow / GENERIC_ERROR no link inicial                               | <http://localhost:3301/auth/auth?id=generic>           |
 
-Para executar o mock basta importar o JSON na ferramenta *Mockoon* e iniciar o servidor do _environment_ "Opus Open Finance Authorization Server Apps API".
+Para executar o mock basta importar o JSON na ferramenta *Mockoon* e iniciar o servidor do *environment* "Opus Open Finance Authorization Server Apps API".
 
 [API-Mobile]: ../../../../../../../swagger-ui/index.html?api=Mobile
