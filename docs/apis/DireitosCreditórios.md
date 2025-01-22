@@ -21,6 +21,8 @@ Existem *endpoints* para:
 - Obter a lista de garantias vinculadas a um contrato de antecipação de recebíveis;
 - Obter os dados de pagamento de um contrato de antecipação de recebíveis.
 
-A documentação da API de Operações de Crédito (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Direitos-Creditórios].
+## *Open API Specification* da API
+
+A documentação da API de Operações de Crédito a ser construída na *camada de integração* pode ser encontrada [aqui][API-Direitos-Creditórios].
 
 [API-Direitos-Creditórios]: ../swagger-ui/index.html?api=Direitos-Creditórios

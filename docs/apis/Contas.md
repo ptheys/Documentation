@@ -22,6 +22,8 @@ Existem *endpoints* para:
 - Obter a lista de transações recentes (últimos 7 dias) de uma conta;
 - Obter os limites de uma conta.
 
-A documentação da API de Contas (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Contas].
+## *Open API Specification* da API
+
+A documentação da API de Contas a ser construída na *camada de integração* pode ser encontrada [aqui][API-Contas].
 
 [API-Contas]: ../swagger-ui/index.html?api=Contas

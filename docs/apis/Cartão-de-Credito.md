@@ -22,6 +22,8 @@ Existem *endpoints* para:
 - Obter os limites de um cartão;
 - Obter a lista de transações recentes (últimos 7 dias) de  um cartão.
 
-A documentação da API de cartão de crédito (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Cartão-de-crédito].
+## *Open API Specification* da API
+
+A documentação da API de cartão de crédito a ser construída na *camada de integração* pode ser encontrada [aqui][API-Cartão-de-crédito].
 
 [API-Cartão-de-crédito]: ../swagger-ui/index.html?api=Cartão-de-crédito

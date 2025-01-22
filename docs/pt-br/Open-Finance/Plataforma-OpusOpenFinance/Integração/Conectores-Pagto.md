@@ -11,23 +11,25 @@ A integração com o pilar de pagamentos do _Open Finance Brasil_ é necessária
 
 ## Integração
 
+A imagem abaixo esquematiza como o funcionamento do conector. Quando uma instituição participante do *Open Finance Brasil* envia uma requisição de pagamento, a **Plataforma Opus Open Finance** a recebe e realiza todas as validações necessárias, incluindo a verificação do consentimento associado ao pagamento. Uma vez que a requisição seja considerada válida, a plataforma realizará uma chamada ao conector para efetivar o pagamento (no exemplo, acionando o serviço Pix da instituição). 
+
 ![Conector](./images/Conector.png)
 
-A imagem acima direciona como o conector funcionará: Quando uma instituição participante do Open Finance enviar uma requisição para o ecossistema, o produto Opus Open Finance recebe e trata de todos os protocolos de segurança exigidos pela regulação. Uma vez que isso foi feito, a requisição será direcionada à camada dos conectores, os quais serão resposáveis por chamar os sistemas de retaguarda do Detentor de Conta. Em geral, são 5 conectores que precisam ser construídos e eles são desenvolvidos em Camel.
+---
 
 ## Camada dos conectores
 
-Conectores são rotas definidas em Apache Camel que conectam endpoints de clientes (que geralmente é chamado de sistemas de retaguarda) ao produto da Opus que consegue integrar a instituição ao [Open Finance Brasil (OFB)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/overview?homepageId=17367041).
+Tipicamente, um Conector é uma rota definida no [Apache Camel](xxx) que conecta um endpoint do sistema de retaguarda da instituição financeira à plataforma, realizando o pagamento associado à requisição recebida.
 
-Os conectores são responsáveis por corretamente conectar os endpoints do produto com os endpoints corretos do legado que possuem as informações necessárias para realizar a iniciação de pagamento. Além disso, os conectores podem fazer pequenas transformações nos dados passados para respeitar formatos tanto do produto da Opus quanto formatos esperados da API do legado. Por fim, os conectores podem fazer as mudanças necessárias, omitindo ou adicionando campos das requisições e repostas, para que ambas estejam de acordo com aquilo esperado em ambos os lados da comunicação.
+ Além disso, os conectores podem fazer pequenas transformações nos dados passados para respeitar formatos tanto do plataforma da Opus quanto do sistema de retaguarda acionado. Por fim, os conectores podem fazer as mudanças necessárias, omitindo ou adicionando campos das requisições e repostas, para que ambas estejam de acordo com aquilo esperado em ambos os lados da comunicação.
 
 Para pagamentos, existem atualmente rotas para: criar a iniciação do pagamento (POST) depois de já terem o consentimento, recuperar iniciações de pagamentos (GET) já realizadas, cancelar a iniciação de pagamento (PATCH), descobrir e listar contas e validar pagamentos.
 
-Lembrando que esse pagamento será apenas iniciado pelo OFB e cabe à instituição de fato realizar ou agendar o pagamento e retornar o que foi feito para o produto da Opus. Os conectores aqui podem auxiliar fazendo diversas transformações nos dados para respeitarem as APIs de ambos os lados do produto e consequentemente do OFB e do legado da instituição.
+Lembrando que esse pagamento será apenas iniciado pelo plataforma e cabe à instituição de fato realizar ou agendar o pagamento e retornar o resultado para o produto da Opus.
 
 ## Rotas dos conectores
 
-A seguir, uma breve explicação de cada rota de integração do pagamento. Como o produto segue as especificações do OFB em todas as fases, caso alguma dúvida surja e a documentação da Opus não seja suficiente, pode-se utilizar a documentação oficial. Para essa parte de iniciação de pagamentos, pode-se referir a documentação de [Pagamentos V4](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/347079010/Informa+es+T+cnicas+-+SV+Pagamentos+-+v4.0.0) e de [Pagamentos Automáticos V1](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/345178397/Informa+es+T+cnicas+-+SV+Pagamentos+Autom+ticos+-+v2.0.0).
+A seguir, uma breve explicação de cada rota de integração do pagamento. Como o produto segue as especificações do _Open Finance Brasil_ em todas as fases, caso alguma dúvida surja, a palavra final será sempre da documentação oficial do regulatório. Especificamente para requisições de iniciação de pagamentos, pode-se referir a documentação de [Pagamentos V4](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/347079010/Informa+es+T+cnicas+-+SV+Pagamentos+-+v4.0.0) e de [Pagamentos Automáticos V1](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/345178397/Informa+es+T+cnicas+-+SV+Pagamentos+Autom+ticos+-+v2.0.0).
 
 ### Realizar um pagamento
 

@@ -6,31 +6,8 @@ nav_order: 1
 has_children: true
 ---
 
-Falar sobre o ecossistema, os perfis de participação, um conceito central que é a jornada de consentimento, a PCM, os requisitos não funcionais e o processo de onboarding.
+O Open Finance Brasil está mudando o jeito como os dados e serviços financeiros são compartilhados, colocando o cliente no controle. Regulamentado pelo Banco Central, ele permite que cada pessoa escolha com quem compartilhar suas informações financeiras, abrindo espaço para mais transparência, serviços personalizados e uma maior inclusão no sistema financeiro. Essa nova abordagem promete trazer mais inovação e competitividade para o mercado, criando oportunidades tanto para clientes quanto para instituições financeiras.
 
-1. Open Finance Brasil  
-  1.1 [O ecossistema Open Finance Brasil][O Ecossistema Open Finance Brasil]  
-  1.2 [Perfis de participação][Perfis de participação]  
-    1.2.1 [Dados abertos][Dados abertos]  
-    1.2.2 [Transmissor de Dados][Transmissor de Dados]  
-    1.2.3 [Detentor de Conta][Detentor de Conta]  
-    1.2.4 [Receptor de Dados][Receptor de Dados]  
-    1.2.5 [ITP][ITP]  
-      1.2.5.1 [Onboarding ITP][Onboarding ITP]  
-  1.3 [Jornada de consentimento][Jornada de Consentimento]  
-  1.4 [Certificações][Certificações]  
-  1.5 [A Plataforma de coleta de métricas][Plataforma de Coleta de Métricas]  
-  1.6 [Requisitos não funcionais (SLAs)][Requisitos Não Funcionais]
+Para entender o Open Finance Brasil de verdade, é importante conhecer os conceitos básicos que sustentam o modelo. O ecossistema envolve diferentes tipos de participantes: transmissores e receptores de dados, detentores de conta e iniciadores de transação de pagamento. Além disso , um dos pilares do sistema é a jornada de consentimento, que garante que o cliente tenha total controle sobre seus dados, decidindo como e com quem quer compartilhá-los.
 
-[O ecossistema Open Finance Brasil]: ./Ecossistema/OFB-Ecossistema.html
-[Perfis de participação]: ./PerfisOFB/OFB-Perfis.html
-[Jornada de consentimento]: ./JornadaConsentimento/OFB-JornadaConsentimento.html
-[Certificações]: ./OFB-Certificações.html
-[Plataforma de Coleta de Métricas]: ./PCM/OFB-PCM.html
-[Requisitos não funcionais]: ./OFB-RequisitosNF.html
-[Onboarding ITP]: ./PerfisOFB/OnboardingITP.html
-[Dados abertos]: ./PerfisOFB/Dados-abertos.html
-[Transmissor de Dados]: ./PerfisOFB/OFB-Transmissor.html
-[Detentor de Conta]: ./PerfisOFB/OFB-Detentor.html
-[Receptor de Dados]: ./PerfisOFB/OFB-Receptor.html
-[ITP]: ./PerfisOFB/OFB-ITP.html
+Para poder entender melhor como a **Plataforma Opus Open Finance** proporciona a integração adequada entre os sistemas da instituição financeira e o ecossistema do *Open Finance Brasil* abordaremos nesta seção alguns conceitos chave da estrutura e do funcionamento desse ambiente regulatório, apresentando também características da plataforma.

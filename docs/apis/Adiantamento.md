@@ -21,6 +21,8 @@ Existem *endpoints* para:
 - Obter a lista de garantias vinculadas a um contrato de adiantamento a depositantes;
 - Obter os dados de pagamento de um contrato de adiantamento a depositantes.
 
-A documentação da API de Operações de Crédito (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Adiantamento].
+## *Open API Specification* da API
+
+A documentação da API de Operações de Crédito a ser construída na *camada de integração* pode ser encontrada [aqui][API-Adiantamento].
 
 [API-Adiantamento]: ../swagger-ui/index.html?api=Adiantamento

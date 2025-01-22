@@ -5,7 +5,7 @@ parent: "Perfis de participação"
 nav_order: 4
 ---
 
-## Receptor de Dados
+# Receptor de Dados
 
 O Receptor de Dados corresponde a um perfil do Open Finance que tem autoridade para requisitar dados de outras instituições que são Transmissoras de Dados. De acordo com a regulação do Open Finance, existem diversos produtos listados pelas Transmissoras que podem ser recolhidos pela Receptora.
 
@@ -81,9 +81,6 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 > - A API do módulo de recepção de dados pode ser [encontrado aqui][API-Recepção]
 > - Para avaliar o guia de experiência do usuário, [clique aqui][GuiaUX].
 
-
-[Recepção]: ../../Plataforma-OpusOpenFinance/Receptor_de_Dados/oas-opustpp-dados.yml
 [DiagramaSequência]: ../../Plataforma-OpusOpenFinance/Receptor_de_Dados/images/consent-sequence.png
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+ri
-
 [API-Recepção]: ../../../../swagger-ui/index.html?api=OAS-Receptor

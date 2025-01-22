@@ -4,10 +4,9 @@ info:
   description: |-
     Opus Open Client - Core de gestão de consentimentos
 
-    # Dados Cadastrais e Transacionais
+    # (Pedidos de Recepção de) Dados Cadastrais e Transacionais
 
-    Para mais informações sobre o fluxo de criação de consentimento,
-    leia a documentação sobre [Utilização](../readme.md).
+    Para mais informações sobre o fluxo de criação de consentimento, consulte a documentação da Plataforma Opus Open Finance.
   version: 1.0.0
 tags:
   - name: Opus Open Finance

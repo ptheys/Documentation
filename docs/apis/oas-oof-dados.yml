@@ -1,24 +1,24 @@
 openapi: 3.0.3
 info:
-  title: Consent BackOffice Services
+  title: Serviços de Consentimento do modulo de BackOffice
   version: 1.0.0
 security:
   - jwt: []
 tags:
   - name: General
-    description: opus open banking services
+    description: Serviços da plataforma Opus Open Finance
   - name: Consents
-    description: Consents opus open banking services
+    description: Serviços de consentimento
   - name: Payments
-    description: Consents opus open banking services
+    description: Serviços de pagamentos
   - name: Enrollments
-    description: Enrollments opus open banking services
+    description: Serviços de vínculo (de dispositivo - para Jornada Sem Redirecionamento)
 paths:
   /open-banking/oob-consents/v1/consents:
     get:
       tags:
         - General
-      description: Retrieve list of consents
+      description: Recupera a lista de consentimentos
       parameters:
         - name: consentOwner
           in: query
@@ -132,7 +132,7 @@ paths:
     get:
       tags:
         - General
-      description: Retrieve consent data
+      description: Recupera dados do consentimento
       parameters:
         - name: consentId
           in: path
@@ -160,156 +160,7 @@ paths:
       deprecated: true
       tags:
         - Consents
-      description: Revoke consent deprecated
-      parameters:
-        - name: consentId
-          in: path
-          required: true
-          schema:
-            $ref: "#/components/schemas/UUID"
-        - name: X-Correlation-ID
-          in: header
-          schema:
-            type: string
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/RequestRevokeOobConsent"
-      responses:
-        default:
-          description: Default error response
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ResponseConsentDetailSchema"
-  /open-banking/oob-consents/consents/v1/consents/{consentId}/payments:
-    get:
-      tags:
-        - Payments
-      description: Retrieve payments of a consent, ordered by payment date desc
-      parameters:
-        - name: consentId
-          in: path
-          required: true
-          schema:
-            $ref: "#/components/schemas/UUID"
-        - name: page
-          in: query
-          schema:
-            format: int32
-            default: 1
-            type: integer
-        - name: page-size
-          in: query
-          schema:
-            format: int32
-            default: 25
-            type: integer
-        - name: X-Correlation-ID
-          in: header
-          schema:
-            type: string
-      responses:
-        default:
-          description: Default error response
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ResponsePaymentsDetailSchema"
-  /open-banking/oob-consents/consents/v2/active:
-    get:
-      tags:
-        - General
-      description: Get active consents for a given time frame
-      parameters:
-        - name: startDate
-          in: query
-          schema:
-            format: date-time
-            type: string
-            example: 2022-01-30T17:31:28Z
-        - name: endDate
-          in: query
-          schema:
-            format: date-time
-            type: string
-            example: 2022-01-30T18:31:28Z
-        - name: page
-          in: query
-          schema:
-            format: int32
-            default: 1
-            type: integer
-        - name: page-size
-          in: query
-          schema:
-            format: int32
-            default: 25
-            type: integer
-      responses:
-        default:
-          description: Default error response
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ResponseConsentListSchema"
-  /open-banking/oob-consents/enrollments/v1/enrollments/{enrollmentId}:
-    patch:
-      tags:
-        - Enrollments
-      description: Revogar consentimento de vínculo
-      parameters:
-        - name: enrollmentId
-          in: path
-          required: true
-          schema:
-            $ref: "#/components/schemas/UUID"
-        - name: X-Correlation-ID
-          in: header
-          schema:
-            type: string
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: "#/components/schemas/RequestRevokeOobEnrollmentConsent"
-      responses:
-        default:
-          description: Resposta padrão de erro
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ResponseConsentDetailSchema"
-  /open-banking/oob-consents/payments/v1/consents/{consentId}:
-    patch:
-      tags:
-        - Payments
-      description: Revoke payment consent
+      description: Revoga consentimento de pagamento
       parameters:
         - name: consentId
           in: path
@@ -342,7 +193,7 @@ paths:
     patch:
       tags:
         - Consents
-      description: Revoke data sharing consent
+      description: Revoga consentimento de compartilhamento de dados
       parameters:
         - name: consentId
           in: path
@@ -379,7 +230,7 @@ paths:
     get:
       tags:
         - Payments
-      description: Get legacy payments generated in a period
+      description: Obtém pagamentos do legado dentro de um período
       parameters:
         - name: endDate
           in: query
@@ -408,7 +259,7 @@ paths:
     post:
       tags:
         - Payments
-      description: Post information about payments status change
+      description: Posta informação sobre mudança de status de pagamento
       requestBody:
         content:
           application/json:
@@ -427,7 +278,7 @@ paths:
     post:
       tags:
         - Payments
-      description: Post payment authorisation
+      description: Posta autorização de pagamento
       parameters:
         - name: consentId
           in: path
@@ -461,7 +312,7 @@ paths:
     get:
       tags:
         - Consents
-      description: Retrieve extended consent list
+      description: Recupera lista extendida de consentimentos
       parameters:
         - name: consentId
           in: path
@@ -501,7 +352,7 @@ paths:
     post:
       tags:
         - Consents
-      description: Post search key to consent
+      description: Posta chave de busca no consentimento
       parameters:
         - name: consentId
           in: path
@@ -534,7 +385,7 @@ paths:
     delete:
       tags:
         - Consents
-      description: Delete search key to consent
+      description: Remove chave de busca de consentimento
       parameters:
         - name: consentId
           in: path
@@ -568,7 +419,7 @@ paths:
     put:
       tags:
         - Consents
-      description: Put meta-data information to consent
+      description: Insere informações de meta-dados no consentimento
       parameters:
         - name: consentId
           in: path
@@ -601,7 +452,7 @@ paths:
     patch:
       tags:
         - Consents
-      description: Patch meta-data information to consent
+      description: Atualiza informações de meta-dados no consentimento
       parameters:
         - name: consentId
           in: path
@@ -634,7 +485,7 @@ paths:
     delete:
       tags:
         - Consents
-      description: Delete meta-data information to consent
+      description: Remove informações de meta-dados do consentimento
       parameters:
         - name: consentId
           in: path
@@ -662,7 +513,7 @@ paths:
     get:
       tags:
         - Consents
-      description: Get meta-data information frpm consent
+      description: Obtém informações de mta-dados do consentimento
       parameters:
         - name: consentId
           in: path
@@ -695,7 +546,7 @@ paths:
     patch:
       tags:
       - Consents Opus Open Banking
-      description: Revoke automatic payment consent
+      description: Revoga consentimento de pagamento automático
       parameters:
       - name: recurringConsentId
         in: path
@@ -1753,13 +1604,13 @@ components:
       properties:
         name:
           type: string
-          example: Permission's name
+          example: Nome da permissão
         title:
           type: string
-          example: Intelligible name for the permission
+          example: Nome inteligível para a permissão
         description:
           type: string
-          example: Description for what this permission allows
+          example: Descrição do que essa permissão permite
     RequestRevokeOobConsent:
       required:
         - data
@@ -1770,7 +1621,7 @@ components:
             - $ref: "#/components/schemas/RevokeConsentData"
             - nullable: false
         applicationName:
-          description: Client application name
+          description: Nome da aplicação cliente
           type: string
     RequestRevokeOobPaymentConsent:
       required:
@@ -1782,7 +1633,7 @@ components:
             - $ref: "#/components/schemas/RevokePaymentConsentData"
             - nullable: false
         applicationName:
-          description: Client application name
+          description: Nome da aplicação cliente
           type: string
     RequestRevokeOobPaymentPayment:
       required:
@@ -1793,7 +1644,7 @@ components:
           allOf:
             - $ref: "#/components/schemas/RevokePaymentPaymentData"
         applicationName:
-          description: Client application name
+          description: Nome da aplicação cliente
           type: string
     RequestPaymentConsentAuthorisation:
       required:
@@ -1811,13 +1662,13 @@ components:
         data:
           allOf:
             - $ref: "#/components/schemas/PaymentStatusChangeData"
-            - description: Payment status change notification data
+            - description: Dados de notificação de mudança de status de pagamento
               nullable: false
     PaymentIdLegacy:
       required:
         - key
       type: object
-      description: Key/Value pair for the payment id found on the legacy system
+      description: Par chave/valor para o id do pagamento encontrado no sistema de retaguarda
       properties:
         key:
           type: string
@@ -1911,7 +1762,7 @@ components:
         - $ref: "#/components/schemas/RejectionPaymentOob"
         - $ref: "#/components/schemas/RejectionEnrollment"
     Revocation:
-      description: Data Sharing consent revocation information
+      description: Informações sobre a revogação de consentimento de compartilhamento de dados
       required:
         - revokedBy
         - reason
@@ -1929,7 +1780,7 @@ components:
             - $ref: "#/components/schemas/RevocationReason"
             - nullable: false
     Rejection:
-      description: Data Sharing consent rejection information
+      description: Informação sobre rejeição de consentimento de compartilhamento de dados
       required:
         - reason
         - rejectedBy
@@ -2201,8 +2052,7 @@ components:
         ^(\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])T(?:[01]\d|2[0123]):(?:[012345]\d):(?:[012345]\d)Z$
       example: "2020-07-21T08:30:00Z"
       description: >
-        Data e hora da última atualização da iniciação de
-        pagamento.
+        Data e hora da última atualização da iniciação de pagamento.
         Uma string com data e hora conforme especificação
         RFC-3339,sempre com a utilização de timezone UTC(UTC time format).
     RevokeConsentData:
@@ -2228,7 +2078,7 @@ components:
       type: object
       properties:
         legacyId:
-          description: Payment legacy id
+          description: Id de pagamento do sistema de retaguarda
           type: array
           items:
             $ref: "#/components/schemas/PaymentIdLegacy"
@@ -2299,9 +2149,8 @@ components:
       type: object
       properties:
         externalId:
-          description:
-            The consentId is the consent's unique identifier and must be
-            a URN - Uniform Resource Name
+          description: 
+            O consentId é o identificador único do consentimento e deve ser um URN - Uniform Resource Name
           type: string
           example: urn:amazingbank:899dd8b2-34d1-4c75-b8de-f0ffa51ca720
         personDocumentType:
@@ -2340,7 +2189,7 @@ components:
                 - $ref: "#/components/schemas/Rejection"
                 - nullable: false
         applicationName:
-          description: Client application name
+          description: Nome da aplicação do cliente
           type: string
     RevokedByEnum:
       enum:

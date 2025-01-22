@@ -14,10 +14,11 @@ window.onload = () => {
     "Adiantamento": "../apis/overdraft-2-3-0.yml",
     "Direitos-Creditórios": "../apis/invoice-financings-2-3-0.yml",
     "Opus-Commons": "../apis/opus-commons-1-0-0.yml",
-    "OAS-Receptor": "../Plataforma-OpusOpenFinance/Receptor_de_Dados/oas-opustpp-dados.yml",
-    "OAS-ITP-pagamentos": "../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos.yml",
-    "OAS-ITP-pagamentos-automaticos": "../Plataforma-OpusOpenFinance/ITP/oas-opustpp-pagamentos-automaticos.yml",
-    "OAS-back-dados": "../Plataforma-OpusOpenFinance/APIs-de-backoffice/oas-oof-dados.yml",
+    "OAS-Receptor": "../apis/oas-opustpp-dados.yml",
+    "OAS-ITP-pagamentos": "../apis/oas-opustpp-pagamentos.yml",
+    "OAS-ITP-pagamentos-automaticos": "../apis/oas-opustpp-pagamentos-automaticos.yml",
+    "OAS-back-dados": "../apis/oas-oof-dados.yml",
+    "Mobile": "../apis/oas-webapp2as.yml,"
     // Adicione outras APIs aqui
   };
 

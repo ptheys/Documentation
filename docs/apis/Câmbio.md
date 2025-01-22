@@ -27,6 +27,8 @@ Existem *endpoints* para:
 - Obter dados de uma operação de câmbio;
 - Obter dados de eventos de uma operação de câmbio.
 
-A documentação da API de Câmbio (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Câmbio].
+## *Open API Specification* da API
+
+A documentação da API de Câmbio a ser construída na *camada de integração* pode ser encontrada [aqui][API-Câmbio].
 
 [API-Câmbio]: ../swagger-ui/index.html?api=Câmbio

@@ -1,34 +1,13 @@
 Documentação Plataforma Opus Open Finance - Todo list
 =========================================   =========
 
-1) Páginas de crédito
-1,5) Escrever página OpenFinanceBrasil.md
-2) Parei a revisão em  Perfis de "Participação->Detentor de Conta".
-3) Links quebrados e Forma automática de "próxima página"?
-4) Páginas a revisar completamente
-    - OOF-APIBack.md
-    - Receptor, transmissor, detentor e ITP serão subtópicos de OFB Perfis.
-    - Onboarding será subtópico de Perfis->ITP
-5) Páginas a escrever
-    - Integração para detentor de conta
-    - Iniciador de pagamentos e receptor de dados
-    - Integração para mobile app e Web
-6) Revisar formatação de tabelas
+3) Forma automática de "próxima página"?
 7) Multi-idioma
 8) Abrir links externos em nova aba.
 9) A API opus-commons deve ser listada na seção sobre a construção de conectores.
 
-10) APIs_recepção (2x)
+Dúvidas:
 
-  const apis = {
-    "Dados-cadastrais": "../apis/customers-2-1-0.yml",
-    "Cartão-de-crédito": "../apis/credit-cards-2-3-1.yml",
-    "Contas": "../apis/accounts-2-4-0.yml",
-    "Empréstimo": "../apis/loans-2-3-0.yml",
-    "Câmbio": "../apis/exchange-1-0-0.yml",
-    "Financiamento": "../apis/financings-2-3-0.yml",
-    "Adiantamento": "../apis/overdraft-2-3-0.yml",
-    "Direitos-Creditórios": "../apis/invoice-financings-2-3-0.yml",
-    "Opus-Commons": "../apis/opus-commons-1-0-0.yml",
-    // Adicione outras APIs aqui
-  };
+1) O que é essa "  API dos endpoints de pagamentos internos, responsável pelos endpoints não regulatórios." ????
+   Arquivo oas-oof-payment.yml
+2) Procurar {{..comment}}, há alguns trechos comentados que precisam ser esclarecidos/complementados.

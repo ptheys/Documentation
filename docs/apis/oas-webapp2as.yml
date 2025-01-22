@@ -1,27 +1,27 @@
 openapi: 3.0.0
 info:
   description: |-
-    Opus Open Banking - Authorization Server Mobile and Web Application authorization &
+    Plataforma Opus Open Finance - Authorization Server Mobile and Web Application authorization &
     consent API
   version: 0.1.4
-  title: OOB Authorization Server Apps API
+  title: Opus Open Finance Authorization Server Apps API
 tags:
   - name: DeepLink
     description: |-
       Links para aplicação tratar via deep link/universal link e iniciar um fluxo de autenticação.
-      Os links devem ser repassados integralmente para o AS.
+      Os links devem ser repassados integralmente para o Authorization Server.
   - name: App
     description: |-
-      APIs para os aplicativos da instituição (mobile e web) realizarem a autenticação e aceite dos consentimentos de fase 2 e 3
+      APIs para os aplicativos da instituição (mobile e web) realizarem a autenticação e aceite dos consentimentos de fase 2 e 3 (compartilhamento de dados e pagamentos)
 paths:
   /auth:
     get:
       tags:
         - DeepLink
-      summary: Início do fluxo de autenticação por TPPs
+      summary: Início do fluxo de autenticação por Third-Party Providers
       description: |-
         Request interceptado pelo aplicativo da instituição via deeplink e
-        enviado ao AS para instruções do consentimento
+        enviado ao Authorization Server para instruções do consentimento
       operationId: getAuthAuth
       responses:
         "200":
@@ -43,7 +43,7 @@ paths:
       summary: Início do fluxo de autenticação por QR
       description: |-
         Request interceptado pelo aplicativo da instituição via deeplink ou leitura direta do QR
-        e enviado ao AS para instruções do consentimento
+        e enviado ao Authorization Server para instruções do consentimento
       operationId: getAuthHandOff
       parameters:
         - $ref: '#/components/parameters/CommandId'
@@ -91,8 +91,8 @@ paths:
     put:
       tags:
         - App
-      summary: Envia o resultado de um comando de autenticação para o OOB AS
-      description: Envia o resultado de um comando de autenticação para o OOB Authorization Server
+      summary: Envia o resultado de um comando de autenticação para o Authorization Server do Opus Open Finance
+      description: Envia o resultado de um comando de autenticação para o Opus Open Finance Authorization Server
       operationId: postCommandAuthentication
       parameters:
         - $ref: '#/components/parameters/CommandId'
@@ -120,8 +120,8 @@ paths:
     put:
       tags:
         - App
-      summary: Envia o resultado de um comando de consentimento para o OOB AS
-      description: Envia o resultado de um comando de consentimento para o OOB Authorization Server
+      summary: Envia o resultado de um comando de consentimento para o Opus Open Finance Authorization Server
+      description: Envia o resultado de um comando de consentimento para o Opus Open Finance Authorization Server
       operationId: postCommandConsent
       parameters:
         - $ref: '#/components/parameters/CommandId'
@@ -388,7 +388,7 @@ components:
             redirectTo:
               type: string
               description: |-
-                URL para abrir no sistema operacional de retorno ao TPP,
+                URL para abrir no sistema operacional de retorno ao Third-Party Provider,
                 apenas para hybrid-flow tradicional (sem hand-off)
     CompletedCommand:
       type: object
@@ -415,11 +415,11 @@ components:
           maxLength: 40
         tpp:
           type: object
-          description: Informações sobre o TPP
+          description: Informações sobre o Third-Party Provider (TPP)
           properties:
             name:
               type: string
-              description: "Nome do TPP"
+              description: "Nome do Third-Party Provider (TPP)"
             logoUrl:
               type: string
               description: URL do logotipo (SVG)
@@ -453,11 +453,11 @@ components:
           maxLength: 40
         tpp:
           type: object
-          description: Informações sobre o TPP
+          description: Informações sobre o Third-Party Provider (TPP)
           properties:
             name:
               type: string
-              description: "Nome do TPP"
+              description: "Nome do Third-Party Provider (TPP)"
             logoUrl:
               type: string
               description: URL do logotipo (SVG)
@@ -485,11 +485,11 @@ components:
           maxLength: 40
         tpp:
           type: object
-          description: Informações sobre o TPP
+          description: Informações sobre o Third-Party Provider (TPP)
           properties:
             name:
               type: string
-              description: "Nome do TPP"
+              description: "Nome do Third-Party Provider (TPP)"
             logoUrl:
               type: string
               description: URL do logotipo (SVG)
@@ -530,20 +530,20 @@ components:
           maxLength: 20
         tpp:
           type: object
-          description: Detalhes do TPP que solicitou o consentimento
+          description: Detalhes do Third-Party Provider (TPP) que solicitou o consentimento
           additionalProperties: false
           required:
             - name
           properties:
             name:
               type: string
-              description: Nome do TPP que solicitou o consentimento
+              description: Nome do Third-Party Provider (TPP) que solicitou o consentimento
               example:
                 - GuiaBolsa
               maxLength: 100
         externalId:
           type: string
-          description: Identificador do consentimento utilizado fora da plataforma OOB
+          description: Identificador do consentimento utilizado fora da plataforma Opus Open Finance
           example:
             - urn:oob-bank:2f710909-4ccd-4998-8679-3d8de00e5ccf
           maxLength: 100
@@ -693,7 +693,7 @@ components:
         permissions:
           type: array
           items:
-            description: Somente para consentimentos de compartilhamento de dados. Especifica os tipos de permissões de acesso às APIs no escopo do Open Banking Brasil - Fase 2, de acordo com os blocos de consentimento fornecidos pelo usuário e necessários ao acesso a cada endpoint das APIs.
+            description: Somente para consentimentos de compartilhamento de dados. Especifica os tipos de permissões de acesso às APIs no escopo do Open Banking Brasil - Fase 2 (compartilhamento de dados), de acordo com os blocos de consentimento fornecidos pelo usuário e necessários ao acesso a cada endpoint das APIs.
             type: string
             enum:
               - ACCOUNTS_READ
@@ -788,20 +788,20 @@ components:
           maxLength: 20
         tpp:
           type: object
-          description: Detalhes do TPP que solicitou o consentimento
+          description: Detalhes do Third-Party Provider (TPP) que solicitou o consentimento
           additionalProperties: false
           required:
             - name
           properties:
             name:
               type: string
-              description: Nome do TPP que solicitou o consentimento
+              description: Nome do Third-Party Provider (TPP) que solicitou o consentimento
               example:
                 - GuiaBolsa
               maxLength: 100
         externalId:
           type: string
-          description: Identificador do consentimento utilizado fora da plataforma OOB
+          description: Identificador do consentimento utilizado fora da plataforma Opus Open Finance
           example:
             - urn:oob-bank:2f710909-4ccd-4998-8679-3d8de00e5ccf
           maxLength: 100
@@ -1095,20 +1095,20 @@ components:
           maxLength: 20
         tpp:
           type: object
-          description: Detalhes do TPP que solicitou o consentimento
+          description: Detalhes do Third-Party Provider (TPP) que solicitou o consentimento
           additionalProperties: false
           required:
             - name
           properties:
             name:
               type: string
-              description: Nome do TPP que solicitou o consentimento
+              description: Nome do Third-Party Provider (TPP) que solicitou o consentimento
               example:
                 - GuiaBolsa
               maxLength: 100
         externalId:
           type: string
-          description: Identificador do consentimento utilizado fora da plataforma OOB
+          description: Identificador do consentimento utilizado fora da plataforma Opus Open Finance
           example:
             - urn:oob-bank:2f710909-4ccd-4998-8679-3d8de00e5ccf
           maxLength: 100
@@ -1340,7 +1340,7 @@ components:
         permissions:
           type: array
           items:
-            description: Somente para consentimentos de compartilhamento de dados. Especifica os tipos de permissões de acesso às APIs no escopo do Open Banking Brasil - Fase 2, de acordo com os blocos de consentimento fornecidos pelo usuário e necessários ao acesso a cada endpoint das APIs.
+            description: Somente para consentimentos de compartilhamento de dados. Especifica os tipos de permissões de acesso às APIs no escopo do Open Banking Brasil - Fase 2 (compartilhamento de dados), de acordo com os blocos de consentimento fornecidos pelo usuário e necessários ao acesso a cada endpoint das APIs.
             type: string
             enum:
               - ACCOUNTS_READ

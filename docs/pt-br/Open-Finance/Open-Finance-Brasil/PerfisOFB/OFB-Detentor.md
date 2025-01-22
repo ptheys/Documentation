@@ -5,15 +5,15 @@ parent: "Perfis de participação"
 nav_order: 3
 ---
 
-## Introdução
+# Detentor de Conta
 
-O perfil de **Detentora de Conta** representa a instituição que recebe solicitações de pagamento de um **Iniciador de Transação de Pagamento (ITP)**. Este perfil na **Plataforma Opus Open Finance** é responsável por atender todas as exigências regulatórias estabelecidas pelo Banco Central.
+O perfil de participação como **Detentor de Conta** no *Open Finance Brasil* representa a instituição que recebe solicitações de pagamento de um **Iniciador de Transação de Pagamento (ITP)**. Este perfil na **Plataforma Opus Open Finance** é responsável por atender todas as exigências regulatórias estabelecidas pelo Banco Central.
 
 ---
 
 ## Ecossistema Open Finance - Detentor de Conta
 
-As Detentoras de Contas são as instituições onde os clientes possuem contas que podem ser acessadas no contexto do Open Finance para processar iniciações de pagamento. Uma vez homologada como ITP, a instituição poderá iniciar solicitações de pagamento para uma Detentora de Conta dentro do ambiente regulado do Open Finance.
+Os Detentores de Contas são as instituições onde os clientes possuem contas de deposito à vista, contas de poupança e contas de pagamento pré-pagas, que podem ser acessadas no contexto do *Open Finance Brasil* para processar iniciações de pagamento. Quem envia os pedidos de pagamento são instituições homologadas como *iniciadores de transação de pagamento*.
 
 ---
 
@@ -33,7 +33,7 @@ Atualmente, os meios de pagamento previstos no Open Finance incluem:
 
 ## Jornada de Consentimento
 
-O processo de autorização para efetuar pagamentos é feito por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.html).
+O processo de autorização para efetuar pagamentos é feito pelo cliente por meio de uma **jornada completa de consentimento**. Mais detalhes podem ser encontrados [aqui](../JornadaConsentimento/OFB-JornadaConsentimento.html).
 
 ---
 

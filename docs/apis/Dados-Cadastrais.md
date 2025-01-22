@@ -22,6 +22,8 @@ Em linhas gerais, existem *endpoints* para:
 - Obter os registros de qualificação de pessoa jurídica;
 - Obter os registros de relacionamento com a instituição financeira e de representantes da pessoa jurídica
 
-A documentação da API de Dados Cadastrais (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Dados-cadastrais]
+## *Open API Specification* da API
+
+A documentação da API de Dados Cadastrais a ser construída na *camada de integração* pode ser encontrada [aqui][API-Dados-cadastrais]
 
 [API-Dados-cadastrais]: ../swagger-ui/index.html?api=Dados-cadastrais

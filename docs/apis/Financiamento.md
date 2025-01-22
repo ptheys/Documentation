@@ -21,6 +21,8 @@ Existem *endpoints* para:
 - Obter a lista de garantias vinculadas a um contrato de financiamento;
 - Obter os dados de pagamento de um contrato de financiamento.
 
-A documentação da API de Operações de Crédito (em formato *Open API Specification*) a ser construída na *camada de integração* pode ser encontrada [aqui][API-Financiamento].
+## *Open API Specification* da API
+
+A documentação da API de Operações de Crédito a ser construída na *camada de integração* pode ser encontrada [aqui][API-Financiamento].
 
 [API-Financiamento]: ../swagger-ui/index.html?api=Financiamento
