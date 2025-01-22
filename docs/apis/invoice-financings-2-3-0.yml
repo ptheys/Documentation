@@ -1,32 +1,42 @@
 ﻿openapi: 3.0.0
 info:
-  title: API Invoice-financings - Open Finance Brasil
+  title: API Invoice-financings - Integration Layer - OPUS Open Finance Brasil
   description: |
-    API de informações de operações de antecipação de recebíveis do Open Finance Brasil. 
+    API de informações de operações de antecipação de recebíveis da Camada de Integração da Instituição Transmissora com o Opus Open Finance Brasil.
     API que retorna informações de operações de crédito do tipo antecipação de recebíveis, mantidas nas instituições transmissoras por seus clientes, incluindo dados como denominação, modalidade, número do contrato, tarifas, prazo, prestações, pagamentos (ao menos para os últimos 12 meses), amortizações, garantias, encargos e taxas de juros remuneratórios. \
-    Não possui segregação entre pessoa natural e pessoa jurídica.\
-    Requer consentimento do cliente para todos os `endpoints`.
+    Não possui segregação entre pessoa natural e pessoa jurídica.
 
-  version: 2.3.0
+    # Orientações
+
+    ### Observação:
+      - No endpoint `/contracts/{contratId}/payments` a paginação ocorrerá sob os dados contidos no campo `releases` do tipo lista.   
+
+  version: 0.1.0-alpha
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0'
 tags:
   - name: Invoice Financings
 paths:
   /contracts:
-    get:
+    post:
       tags:
         - Invoice Financings
       summary: Obtém a lista de contratos de antecipação de recebíveis consentidos pelo cliente.
       description: Método para obter a lista de contratos de antecipação de recebíveis mantidos pelo cliente na instituição transmissora e para os quais ele tenha fornecido consentimento.
       operationId: invoiceFinancingsGetContracts
       parameters:
-        - $ref: '#/components/parameters/Authorization'
-        - $ref: '#/components/parameters/xFapiAuthDate'
-        - $ref: '#/components/parameters/xFapiCustomerIpAddress'
-        - $ref: '#/components/parameters/xFapiInteractionId'
-        - $ref: '#/components/parameters/xCustomerUserAgent'
+        - $ref: '#/components/parameters/x-brand-id'
+        - $ref: '#/components/parameters/x-correlation-id'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/pageSize'
         - $ref: '#/components/parameters/pagination-key'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestWithConsent'
       responses:
         '200':
           $ref: '#/components/responses/OKResponseInvoiceFinancingsContractList'
@@ -56,14 +66,8 @@ paths:
           $ref: '#/components/responses/SiteIsOverloaded'
         default:
           $ref: '#/components/responses/Default'
-      security:
-        - OpenId:
-            - openid
-          OAuth2Security:
-            - 'consent:consentId'
-            - invoice-financings
   '/contracts/{contractId}':
-    get:
+    post:
       tags:
         - Invoice Financings
       summary: Obtém os dados do contrato de antecipação de recebíveis identificado por contractId
@@ -71,11 +75,14 @@ paths:
       operationId: invoiceFinancingsGetContractsContractId
       parameters:
         - $ref: '#/components/parameters/contractId'
-        - $ref: '#/components/parameters/Authorization'
-        - $ref: '#/components/parameters/xFapiAuthDate'
-        - $ref: '#/components/parameters/xFapiCustomerIpAddress'
-        - $ref: '#/components/parameters/xFapiInteractionId'
-        - $ref: '#/components/parameters/xCustomerUserAgent'
+        - $ref: '#/components/parameters/x-brand-id'
+        - $ref: '#/components/parameters/x-correlation-id'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestWithConsent'
       responses:
         '200':
           $ref: '#/components/responses/OKResponseInvoiceFinancingsContract'
@@ -105,14 +112,8 @@ paths:
           $ref: '#/components/responses/SiteIsOverloaded'
         default:
           $ref: '#/components/responses/Default'
-      security:
-        - OpenId:
-            - openid
-          OAuth2Security:
-            - 'consent:consentId'
-            - invoice-financings
   '/contracts/{contractId}/warranties':
-    get:
+    post:
       tags:
         - Invoice Financings
       summary: Obtém a lista de garantias vinculadas ao contrato de antecipação de recebíveis identificado por contractId
@@ -122,12 +123,15 @@ paths:
         - $ref: '#/components/parameters/contractId'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/pageSize'
-        - $ref: '#/components/parameters/Authorization'
-        - $ref: '#/components/parameters/xFapiAuthDate'
-        - $ref: '#/components/parameters/xFapiCustomerIpAddress'
-        - $ref: '#/components/parameters/xFapiInteractionId'
-        - $ref: '#/components/parameters/xCustomerUserAgent'
+        - $ref: '#/components/parameters/x-brand-id'
+        - $ref: '#/components/parameters/x-correlation-id'
         - $ref: '#/components/parameters/pagination-key'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestWithConsent'
       responses:
         '200':
           $ref: '#/components/responses/OKResponseInvoiceFinancingsWarranties'
@@ -157,14 +161,8 @@ paths:
           $ref: '#/components/responses/SiteIsOverloaded'
         default:
           $ref: '#/components/responses/Default'
-      security:
-        - OpenId:
-            - openid
-          OAuth2Security:
-            - 'consent:consentId'
-            - invoice-financings
   '/contracts/{contractId}/scheduled-instalments':
-    get:
+    post:
       tags:
         - Invoice Financings
       summary: Obtém os dados do cronograma de parcelas do contrato de antecipação de recebíveis identificado por contractId
@@ -174,12 +172,15 @@ paths:
         - $ref: '#/components/parameters/contractId'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/pageSize'
-        - $ref: '#/components/parameters/Authorization'
-        - $ref: '#/components/parameters/xFapiAuthDate'
-        - $ref: '#/components/parameters/xFapiCustomerIpAddress'
-        - $ref: '#/components/parameters/xFapiInteractionId'
-        - $ref: '#/components/parameters/xCustomerUserAgent'
+        - $ref: '#/components/parameters/x-brand-id'
+        - $ref: '#/components/parameters/x-correlation-id'
         - $ref: '#/components/parameters/pagination-key'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestWithConsent'
       responses:
         '200':
           $ref: '#/components/responses/OKResponseInvoiceFinancingsInstalments'
@@ -209,14 +210,8 @@ paths:
           $ref: '#/components/responses/SiteIsOverloaded'
         default:
           $ref: '#/components/responses/Default'
-      security:
-        - OpenId:
-            - openid
-          OAuth2Security:
-            - 'consent:consentId'
-            - invoice-financings
   '/contracts/{contractId}/payments':
-    get:
+    post:
       tags:
         - Invoice Financings
       summary: Obtém os dados de pagamentos do contrato de antecipação de recebíveis identificado por contractId
@@ -226,12 +221,15 @@ paths:
         - $ref: '#/components/parameters/contractId'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/pageSize'
-        - $ref: '#/components/parameters/Authorization'
-        - $ref: '#/components/parameters/xFapiAuthDate'
-        - $ref: '#/components/parameters/xFapiCustomerIpAddress'
-        - $ref: '#/components/parameters/xFapiInteractionId'
-        - $ref: '#/components/parameters/xCustomerUserAgent'
+        - $ref: '#/components/parameters/x-brand-id'
+        - $ref: '#/components/parameters/x-correlation-id'
         - $ref: '#/components/parameters/pagination-key'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestWithConsent'
       responses:
         '200':
           $ref: '#/components/responses/OKResponseInvoiceFinancingsPayments'
@@ -261,12 +259,6 @@ paths:
           $ref: '#/components/responses/SiteIsOverloaded'
         default:
           $ref: '#/components/responses/Default'
-      security:
-        - OpenId:
-            - openid
-          OAuth2Security:
-            - 'consent:consentId'
-            - invoice-financings
 components:
   schemas:
     EnumContractAmortizationScheduled:
@@ -798,6 +790,7 @@ components:
           type: string
           description: |
             Campo livre para complementar a informação relativa ao Tipo de taxa referencial ou indexador.
+
             [Restrição] Obrigatório para complementar a informação relativa ao Tipo de taxa referencial ou indexador, quando selecionada o tipo ou subtipo OUTRO.
           maxLength: 140
           pattern: '^(?!\s)[\w\W\s]*[^\s]$'
@@ -1046,7 +1039,8 @@ components:
           pattern: '^(?!\s)[\w\W\s]*[^\s]$'
           example: '15'
           description: |
-            Identificador de parcela, de responsabilidade de cada Instituição transmissora.  
+            Identificador de parcela, de responsabilidade de cada Instituição transmissora.
+
             [Restrição] Informação de envio obrigatório quando isOverParcelPayment tiver o valor FALSE.
         paidDate:
           type: string
@@ -1164,49 +1158,12 @@ components:
           minLength: 4
           example: '1000.0400'
           description: Valor do pagamento do encargo pago fora da parcela. Expresso em valor monetário com no mínimo 2 casas e no máximo 4 casas decimais.
-    Links:
-      type: object
-      description: Referências para outros recusos da API requisitada.
-      required:
-        - self
-      properties:
-        self:
-          type: string
-          format: url
-          maxLength: 2000
-          description: URI completo que gerou a resposta atual.
-          example: 'https://api.banco.com.br/open-banking/api/v1/resource'
-        first:
-          type: string
-          format: url
-          maxLength: 2000
-          description: URI da primeira página que originou essa lista de resultados. Restrição - Obrigatório quando não for a primeira página da resposta
-          example: 'https://api.banco.com.br/open-banking/api/v1/resource'
-        prev:
-          type: string
-          format: url
-          maxLength: 2000
-          description: "URI da página anterior dessa lista de resultados. Restrição - \tObrigatório quando não for a primeira página da resposta"
-          example: 'https://api.banco.com.br/open-banking/api/v1/resource'
-        next:
-          type: string
-          format: url
-          maxLength: 2000
-          description: URI da próxima página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta
-          example: 'https://api.banco.com.br/open-banking/api/v1/resource'
-        last:
-          type: string
-          format: url
-          maxLength: 2000
-          description: URI da última página dessa lista de resultados. Restrição - Obrigatório quando não for a última página da resposta
-          example: 'https://api.banco.com.br/open-banking/api/v1/resource'
     Meta:
       type: object
       description: Meta informações referente à API requisitada.
       required:
         - totalRecords
         - totalPages
-        - requestDateTime
       properties:
         totalRecords:
           type: integer
@@ -1218,12 +1175,6 @@ components:
           format: int32
           description: Número total de páginas no resultado
           example: 1
-        requestDateTime:
-          description: 'Data e hora da consulta, conforme especificação RFC-3339, formato UTC.'
-          type: string
-          maxLength: 20
-          format: date-time
-          example: '2021-05-21T08:30:00Z'
     ResponseError:
       type: object
       required:
@@ -1261,33 +1212,26 @@ components:
       type: object
       required:
         - data
-        - links
         - meta
       properties:
         data:
           $ref: '#/components/schemas/InvoiceFinancingsContract'
-        links:
-          $ref: '#/components/schemas/Links'
         meta:
           $ref: '#/components/schemas/Meta'
     ResponseInvoiceFinancingsInstalments:
       type: object
       required:
         - data
-        - links
         - meta
       properties:
         data:
           $ref: '#/components/schemas/InvoiceFinancingsInstalments'
-        links:
-          $ref: '#/components/schemas/Links'
         meta:
           $ref: '#/components/schemas/Meta'
     ResponseInvoiceFinancingsContractList:
       type: object
       required:
         - data
-        - links
         - meta
       properties:
         data:
@@ -1296,28 +1240,22 @@ components:
           description: Conjunto de informações  de contratos de direitos creditórios descontados mantidos pelo cliente na instituição transmissora e para os quais ele tenha fornecido consentimento
           items:
             $ref: '#/components/schemas/InvoiceFinancingsContractData'
-        links:
-          $ref: '#/components/schemas/Links'
         meta:
           $ref: '#/components/schemas/Meta'
     ResponseInvoiceFinancingsPayments:
       type: object
       required:
         - data
-        - links
         - meta
       properties:
         data:
           $ref: '#/components/schemas/InvoiceFinancingsPayments'
-        links:
-          $ref: '#/components/schemas/Links'
         meta:
           $ref: '#/components/schemas/Meta'
     ResponseInvoiceFinancingsWarranties:
       type: object
       required:
         - data
-        - links
         - meta
       properties:
         data:
@@ -1326,28 +1264,287 @@ components:
           description: Conjunto de informações referentes às garantias que avalizam a operação de direitos creditórios descontados contratada
           items:
             $ref: '#/components/schemas/InvoiceFinancingsContractedWarranty'
-        links:
-          $ref: '#/components/schemas/Links'
         meta:
           $ref: '#/components/schemas/Meta'
-    XFapiInteractionId:
-      description: Um UUID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação entre request e response. Campo de geração e envio obrigatório pela receptora (client) e o seu valor deve ser “espelhado” pela transmissora (server) no cabeçalho de resposta. Caso não seja recebido ou se for recebido um valor inválido, a transmissora deve gerar um x-fapi-interaction-id e retorná-lo na resposta com o HTTP Status Code 400. A receptora deve acatar o valor recebido da transmissora.'
-      type: string
-      format: uuid
-      pattern: '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
-      minLength: 1
-      maxLength: 36
-      example: "d78fc4e5-37ca-4da3-adf2-9b082bf92280"
+    RequestWithConsent:
+      type: object
+      required:
+        - consent
+      properties:
+        consent:
+          $ref: '#/components/schemas/ConsentDataSharing'
+    ConsentDataSharing:
+      description: Consentimento de compartilhamento de dados
+      type: object
+      required:
+        - brandId
+        - creationDateTime
+        - tpp
+        - externalId
+        - loggedUser
+        - permissions
+      properties:
+        authExtraData:
+          type: array
+          description: |
+            Array de chave e valor com dados adicionais vindos do autorizador. Esses
+            dados podem ser utilizados como filtros de recursos.
+          items:
+            type: object
+            required:
+              - key
+              - value
+            properties:
+              key:
+                type: string
+                example: agencia
+              value:
+                type: string
+                example: '0011'
+        consentOwner:
+          deprecated: true
+          type: array
+          description: |
+            [Obsoleto] Array de chave e valor com os dados de identificação
+            referente ao dono do consentimento.
+          items:
+            type: object
+            required:
+              - key
+              - value
+            properties:
+              key:
+                type: string
+                example: agencia
+              value:
+                type: string
+                example: '0011'
+        brandId:
+          type: string
+          description: Identificador da marca reportada pelo participante do Open Finance
+          example: cbanco
+          minLength: 1
+          maxLength: 50
+        creationDateTime:
+          description: |
+            Data e hora em que o consentimento foi criado. Uma string com data e
+            hora conforme especificação RFC-3339, sempre com a utilização de
+            timezone UTC (UTC time format).
+          type: string
+          pattern: |
+            ^(\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])T(?:[01]\d|2[0123]):(?:[012345]\d):(?:[012345]\d)Z$
+          example: '2021-05-21T08:30:00Z'
+          maxLength: 20
+        tpp:
+          type: object
+          description: Detalhes do TPP (Third Party Provider) que solicitou o consentimento
+          additionalProperties: false
+          required:
+            - name
+          properties:
+            name:
+              type: string
+              description: Nome do TPP que solicitou o consentimento
+              example: GuiaBolsa
+              maxLength: 100
+        externalId:
+          type: string
+          description: Identificador do consentimento utilizado fora da plataforma Opus Open Finance
+          example: urn:oob-bank:2f710909-4ccd-4998-8679-3d8de00e5ccf
+          maxLength: 100
+        loggedUser:
+          type: object
+          description: |
+            Usuário (pessoa natural) que encontra-se logado na instituição
+            Transmissora de Dados.
+          additionalProperties: false
+          required:
+            - document
+          properties:
+            document:
+              type: object
+              description: Documento de identificação oficial do usuário.
+              additionalProperties: false
+              required:
+                - identification
+                - rel
+              properties:
+                identification:
+                  type: string
+                  maxLength: 11
+                  description: Número do documento de identificação oficial do usuário.
+                  example: '11111111111'
+                  pattern: ^\d{11}$
+                rel:
+                  type: string
+                  maxLength: 3
+                  description: Tipo do documento de identificação oficial do usuário.
+                  example: CPF
+                  pattern: ^[A-Z]{3}$
+        businessDocumentType:
+          type: object
+          description: |
+            Usuário (pessoa jurídica) que encontra-se logado na instituição
+            Transmissora de Dados.
+
+            [Restrição] Preenchimento obrigatório se usuário logado na instituição
+            Transmissora de Dados for um CNPJ (pessoa jurídica).
+          additionalProperties: false
+          required:
+            - document
+          properties:
+            document:
+              type: object
+              description: Documento de identificação oficial do titular pessoa jurídica.
+              additionalProperties: false
+              required:
+                - identification
+                - rel
+              properties:
+                identification:
+                  type: string
+                  maxLength: 14
+                  description: |
+                    Número do documento de identificação oficial do titular pessoa
+                    jurídica.
+                  example: '11111111111111'
+                  pattern: ^\d{14}$
+                rel:
+                  type: string
+                  maxLength: 4
+                  description: |
+                    Tipo do documento de identificação oficial do titular pessoa
+                    jurídica.
+                  example: CNPJ
+                  pattern: ^[A-Z]{4}$
+        resources:
+          description: |
+            Lista de recursos permitidos pelo cliente
+          type: array
+          items:
+            type: object
+            description: Recursos selecionados pelo cliente
+            required:
+              - type
+              - resourceLegacyId
+            properties:
+              type:
+                description: Tipo do recurso
+                type: string
+                enum:
+                  - ACCOUNT
+                  - CREDIT_CARD_ACCOUNT
+                  - LOAN
+                  - FINANCING
+                  - UNARRANGED_ACCOUNT_OVERDRAFT
+                  - INVOICE_FINANCING
+                  - PAYMENT
+                  - BANK_FIXED_INCOME
+                  - CREDIT_FIXED_INCOME
+                  - VARIABLE_INCOME
+                  - TREASURE_TITLE
+                  - FUND
+                example: PAYMENT
+              resourceLegacyId:
+                type: string
+                description: 'Identifica de forma única o recurso do cliente, mantendo as regras de imutabilidade dentro da instituição transmissora.'
+                pattern: '^[a-zA-Z0-9][a-zA-Z0-9-]{0,99}$'
+                maxLength: 100
+                minLength: 1
+                example: '92792126019929279212650822221989319252576'
+              authorizers:
+                deprecated: true
+                description: |
+                  [Obsoleto] Lista dos autorizadores para o recurso para casos de
+                  múltipla alçada. Caso o recurso seja selecionado, todos os
+                  autorizadores deverão aceitar o consentimento que o recurso faz parte
+                type: array
+                items:
+                  type: object
+                  required:
+                    - cpf
+                    - name
+                  properties:
+                    cpf:
+                      description: CPF do autorizador
+                      type: string
+                      minLength: 11
+                      maxLength: 11
+                      pattern: ^\d{11}$
+                      example: '11111111111'
+                    name:
+                      description: Nome do autorizador
+                      type: string
+                      example: Marco Antonio de Brito
+                minItems: 1
+              hasMultipleAuthorisers:
+                deprecated: true
+                type: boolean
+                example: 'false'
+            additionalProperties: false
+          maxItems: 1000
+        expirationDateTime:
+          description: |
+            Data e hora de expiração da permissão. De preenchimento obrigatório,
+            reflete a data limite de validade do consentimento. Uma string com
+            data e hora conforme especificação RFC-3339, sempre com a utilização
+            de timezone UTC (UTC time format).
+          type: string
+          maxLength: 20
+          pattern: |
+            ^(\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])T(?:[01]\d|2[0123]):(?:[012345]\d):(?:[012345]\d)Z$
+          example: '2021-05-21T08:30:00Z'
+        permissions:
+          type: array
+          items:
+            description: |
+              Somente para consentimentos de compartilhamento de dados. Especifica
+              os tipos de permissões de acesso às APIs no escopo do Open Finance
+              Brasil - Fase 2, de acordo com os blocos de consentimento fornecidos
+              pelo usuário e necessários ao acesso a cada endpoint das APIs.
+            type: string
+            enum:
+              - ACCOUNTS_READ
+              - ACCOUNTS_BALANCES_READ
+              - ACCOUNTS_TRANSACTIONS_READ
+              - ACCOUNTS_OVERDRAFT_LIMITS_READ
+              - CREDIT_CARDS_ACCOUNTS_READ
+              - CREDIT_CARDS_ACCOUNTS_BILLS_READ
+              - CREDIT_CARDS_ACCOUNTS_BILLS_TRANSACTIONS_READ
+              - CREDIT_CARDS_ACCOUNTS_LIMITS_READ
+              - CREDIT_CARDS_ACCOUNTS_TRANSACTIONS_READ
+              - CUSTOMERS_PERSONAL_IDENTIFICATIONS_READ
+              - CUSTOMERS_PERSONAL_ADITTIONALINFO_READ
+              - CUSTOMERS_BUSINESS_IDENTIFICATIONS_READ
+              - CUSTOMERS_BUSINESS_ADITTIONALINFO_READ
+              - FINANCINGS_READ
+              - FINANCINGS_SCHEDULED_INSTALMENTS_READ
+              - FINANCINGS_PAYMENTS_READ
+              - FINANCINGS_WARRANTIES_READ
+              - INVOICE_FINANCINGS_READ
+              - INVOICE_FINANCINGS_SCHEDULED_INSTALMENTS_READ
+              - INVOICE_FINANCINGS_PAYMENTS_READ
+              - INVOICE_FINANCINGS_WARRANTIES_READ
+              - LOANS_READ
+              - LOANS_SCHEDULED_INSTALMENTS_READ
+              - LOANS_PAYMENTS_READ
+              - LOANS_WARRANTIES_READ
+              - UNARRANGED_ACCOUNTS_OVERDRAFT_READ
+              - UNARRANGED_ACCOUNTS_OVERDRAFT_SCHEDULED_INSTALMENTS_READ
+              - UNARRANGED_ACCOUNTS_OVERDRAFT_PAYMENTS_READ
+              - UNARRANGED_ACCOUNTS_OVERDRAFT_WARRANTIES_READ
+              - BANK_FIXED_INCOMES_READ
+              - CREDIT_FIXED_INCOMES_READ
+              - FUNDS_READ
+              - VARIABLE_INCOMES_READ
+              - TREASURE_TITLES_READ
+              - EXCHANGES_READ
+              - RESOURCES_READ
+          minItems: 1
+          maxItems: 30
+          example: ACCOUNTS_READ
+      additionalProperties: false
   parameters:
-    Authorization:
-      name: Authorization
-      in: header
-      description: Cabeçalho HTTP padrão. Permite que as credenciais sejam fornecidas dependendo do tipo de recurso solicitado
-      required: true
-      schema:
-        type: string
-        pattern: '[\w\W\s]*'
-        maxLength: 2048
     contractId:
       name: contractId
       in: path
@@ -1385,108 +1582,54 @@ components:
         minimum: 1
         format: int32
         maximum: 1000
-    xCustomerUserAgent:
-      name: x-customer-user-agent
+    x-brand-id:
+      name: x-brand-id
       in: header
-      description: Indica o user-agent que o usuário utiliza.
-      required: false
+      description: Identificador da marca reportada pelo participante do Open Finance
+      required: true
       schema:
         type: string
-        pattern: '[\w\W\s]*'
+        example: cbanco
         minLength: 1
-        maxLength: 100
-    xFapiAuthDate:
-      name: x-fapi-auth-date
+        maxLength: 50
+    x-correlation-id:
+      name: x-correlation-id
       in: header
-      description: 'Data em que o usuário logou pela última vez com o receptor. Representada de acordo com a [RFC7231](https://tools.ietf.org/html/rfc7231).Exemplo: Sun, 10 Sep 2017 19:43:31 UTC'
-      required: false
-      schema:
-        type: string
-        pattern: '^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), \d{2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{4} \d{2}:\d{2}:\d{2} (GMT|UTC)$'
-        minLength: 29
-        maxLength: 29
-    xFapiCustomerIpAddress:
-      name: x-fapi-customer-ip-address
-      in: header
-      description: O endereço IP do usuário se estiver atualmente logado com o receptor.
-      required: false
-      schema:
-        type: string
-        pattern: '[\w\W\s]*'
-        minLength: 1
-        maxLength: 100
-    xFapiInteractionId:
-      name: x-fapi-interaction-id
-      in: header
-      description: 'Um UUID [RFC4122](https://tools.ietf.org/html/rfc4122) usado como um ID de correlação entre request e response. Campo de geração e envio obrigatório pela receptora (client) e o seu valor deve ser “espelhado” pela transmissora (server) no cabeçalho de resposta. Caso não seja recebido ou se for recebido um valor inválido, a transmissora deve gerar um x-fapi-interaction-id e retorná-lo na resposta com o HTTP Status Code 400. A receptora deve acatar o valor recebido da transmissora.'
+      description: UUID que identifica o correlation ID da requisição realizada. Deve ser
+            propagado para todas as chamadas feitas entre sistemas e logado sempre
+            que possível para facilitar o trace de erros
       required: true
       schema:
         type: string
         format: uuid
-        pattern: '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
-        minLength: 1
-        maxLength: 36
-        example: "d78fc4e5-37ca-4da3-adf2-9b082bf92280"
-  securitySchemes:
-    OpenId:
-      type: openIdConnect
-      openIdConnectUrl: 'https://auth.mockbank.poc.raidiam.io/.well-known/openid-configuration'
-    OAuth2Security:
-      type: oauth2
-      description: Fluxo OAuth necessário para que a receptora tenha acesso aos dados na instituição transmissora. Requer o processo de redirecionamento e autenticação do usuário a que se referem os dados.
-      flows:
-        authorizationCode:
-          authorizationUrl: 'https://authserver.example/authorization'
-          tokenUrl: 'https://authserver.example/token'
-          scopes:
-            invoice-financings: Escopo necessário para acesso à API Invoice-financings. O controle dos endpoints específicos é feito via permissions.
+        example: 97623ed1-4732-4bf2-8d4b-ae7aced5443b
   responses:
     OKResponseInvoiceFinancingsContractList:
       description: Lista de contratos obtida com sucesso.
-      headers:
-        x-fapi-interaction-id:
-          schema:
-            $ref: '#/components/schemas/XFapiInteractionId'
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/ResponseInvoiceFinancingsContractList'
     OKResponseInvoiceFinancingsContract:
       description: Dados do contrato de antecipação de recebíveis identificado por contractId
-      headers:
-        x-fapi-interaction-id:
-          schema:
-            $ref: '#/components/schemas/XFapiInteractionId'
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/ResponseInvoiceFinancingsContract'
     OKResponseInvoiceFinancingsWarranties:
       description: Lista de garantias vinculadas ao contrato de antecipação de recebíveis identificado por contractId
-      headers:
-        x-fapi-interaction-id:
-          schema:
-            $ref: '#/components/schemas/XFapiInteractionId'
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/ResponseInvoiceFinancingsWarranties'
     OKResponseInvoiceFinancingsInstalments:
       description: Dados do cronograma de parcelas do contrato de antecipação de recebíveis identificado por contractId
-      headers:
-        x-fapi-interaction-id:
-          schema:
-            $ref: '#/components/schemas/XFapiInteractionId'
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/ResponseInvoiceFinancingsInstalments'
     OKResponseInvoiceFinancingsPayments:
       description: Dados de pagamentos do contrato de antecipação de recebíveis identificado por contractId
-      headers:
-        x-fapi-interaction-id:
-          schema:
-            $ref: '#/components/schemas/XFapiInteractionId'
       content:
         application/json:
           schema:

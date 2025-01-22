@@ -7,6 +7,9 @@ info:
     Possui segregação entre pessoa natural e pessoa jurídica.
     Requer consentimento do cliente para todos os `endpoints`.
   version: 0.1.0-alpha
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0'
 tags:
   - name: Customers
     description: Operações para listagem das informações Cadastrais do Cliente
@@ -408,9 +411,9 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/PartiesParticipation'
-          minItems: 1
+          minItems: 0
           description: |
-            Lista relativa às informações das partes envolvidas, como: sócio e /ou administrador
+            Lista relativa às informações das partes envolvidas, como: sócio e/ou administrador. Objeto de envio obrigatório para todos os CNPJs que possuam sócios e/ou administradores no cadastro do QSA (Quadro de Sócios e Administradores)
         contacts:
           $ref: '#/components/schemas/BusinessContacts'
     BusinessProcurator:
@@ -504,7 +507,7 @@ components:
           maxLength: 10
           pattern: '^(\d{4})-(1[0-2]|0?[1-9])-(3[01]|[12][0-9]|0?[1-9])$'
           example: '2021-05-21'
-          description: 'Data vigência do tipo de documento informado, conforme especificação RFC-3339.'
+          description: 'Data vigência do tipo de  documento informado, conforme especificação RFC-3339.'
     BusinessContacts:
       type: object
       description: Conjunto de informações referentes às formas para contatar o cliente.
