@@ -19,7 +19,7 @@ window.onload = () => {
     "OAS-ITP-pagamentos-automaticos": "../apis/oas-opustpp-pagamentos-automaticos.yml",
     "OAS-back-dados": "../apis/oas-oof-dados.yml",
     "Mobile": "../apis/oas-webapp2as.yml",
-    // Adicione outras APIs aqui
+    // Adicione outras APIs aqui. As linhas são terminadas por "," mesmo qdo é o último item...
   };
 
   // Determinar qual API carregar
