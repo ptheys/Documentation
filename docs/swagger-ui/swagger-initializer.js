@@ -18,7 +18,7 @@ window.onload = () => {
     "OAS-ITP-pagamentos": "../apis/oas-opustpp-pagamentos.yml",
     "OAS-ITP-pagamentos-automaticos": "../apis/oas-opustpp-pagamentos-automaticos.yml",
     "OAS-back-dados": "../apis/oas-oof-dados.yml",
-    "Mobile": "../apis/oas-webapp2as.yml,"
+    "Mobile": "../apis/oas-webapp2as.yml",
     // Adicione outras APIs aqui
   };
 
