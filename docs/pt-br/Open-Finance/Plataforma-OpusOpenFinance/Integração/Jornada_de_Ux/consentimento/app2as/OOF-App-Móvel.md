@@ -37,10 +37,6 @@ O Authorization Server, sabendo que a chamada foi realizada pelo aplicativo, pas
 
 A resposta do `GET` inicial é o primeiro de uma série de comandos que o aplicativo deve executar durante um loop de eventos vindos do Authorization Server. A definição deste loop de eventos será detalhada no momento de iniciar o projeto de integração do aplicativo móvel com a plataforma da Opus.
 
-<!-->
-A definição deste loop de eventos pode ser conferida [neste link](../loop-comandos.md).
-<-->
-
 ## Diagrama de sequência
 
 O diagrama de sequência a seguir ilustra de forma resumida o funcionamento da interação entre o aplicativo mobile da instituição e o Authorization Server.
