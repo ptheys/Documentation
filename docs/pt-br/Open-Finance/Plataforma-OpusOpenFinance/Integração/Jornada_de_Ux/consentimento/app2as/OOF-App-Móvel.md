@@ -37,9 +37,9 @@ O Authorization Server, sabendo que a chamada foi realizada pelo aplicativo, pas
 
 A resposta do `GET` inicial é o primeiro de uma série de comandos que o aplicativo deve executar durante um loop de eventos vindos do Authorization Server. A definição deste loop de eventos será detalhada no momento de iniciar o projeto de integração do aplicativo móvel com a plataforma da Opus.
 
-{{..comment}}
+<!-->
 A definição deste loop de eventos pode ser conferida [neste link](../loop-comandos.md).
-{{./comment}}
+<-->
 
 ## Diagrama de sequência
 
@@ -73,4 +73,4 @@ Vários cenários estão mockados e são acionados através das respectivas URLs
 
 Para executar o mock basta importar o JSON na ferramenta *Mockoon* e iniciar o servidor do _environment_ "Opus Open Finance Authorization Server Apps API".
 
-[API-Mobile]: ../swagger-ui/index.html?api=Mobile
+[API-Mobile]: ../../../../../../../swagger-ui/index.html?api=Mobile

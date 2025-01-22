@@ -27,17 +27,17 @@ A mescla permite a instituição receber o identificador através da `query-stri
 
  O exemplo fornecido na documentação utiliza o formato **Fragment** que é o mais recomendado dentre as opções existentes, pois ele também remove o identificador do histórico de navegação, evitando qualquer confusão por parte do cliente (por exemplo ao tentar utilizar uma URL antiga de consentimento).
 
-{{..comment}}
+<!-->
 Tal configuração (`TBD`) pode ser conferida com detalhes e exemplo na página que descreve as [configurações do Authorization Server](../deploy/oob-authorization-server/readme.md).
-{{./comment}}
+<-->
 
 Se essa configuração estiver definida o Authorization Server entenderá que se trata de um fluxo de autenticação web customizado e retornará então para a aplicação de autorização da instituição um endereço para redirecionamento contendo a identificação do `command` de autenticação criado para início do fluxo.
 
 A comunicação entre o aplicativo web da instituição e o Authorization Server acontecerá através de `command`s dentro de um loop de eventos. A definição deste loop de eventos será detalhada no momento de iniciar o projeto de integração do aplicativo móvel com a plataforma da Opus.
 
-{{..comment}}
+<!-->
 A definição deste loop de eventos pode ser conferida [neste link](../loop-comandos.md).
-{{./comment}}
+<-->
 
 ## Utilizando o fluxo de geração de consentimento customizado
 
@@ -45,9 +45,9 @@ A instituição pode escolher entre utilizar as telas de geração de consentime
 
 Há uma configuração no Authorization Server que permite definir qual será a escolha da instituição.
 
-{{..comment}}
+<!-->
 O nome (`TBD`) e exemplo podem ser conferidos na página de [configurações do Authorization Server](../deploy/oob-authorization-server/readme.md).
-{{./comment}}
+<-->
 
 Caso a instituição opte por utilizar suas próprias telas de geração de consentimento, a parte do fluxo relativa à escolha dos recursos e aprovação/recusa do consentimento, bem como a tela final responsável por realizar a transição da geração do consentimento de volta para a instituição financeira que realizou a requisição, ficará por conta da própria instituição, que deverá se comunicar via API com o Authorization Server para informar os recursos selecionados, bem como a aprovação/recusa do consentimento em questão.
 
@@ -63,4 +63,4 @@ telas customizadas.
 
 ![Diagrama de sequência](images/sequencia-web2as.svg)
 
-[API-Mobile]: ../swagger-ui/index.html?api=Mobile
+[API-Mobile]: ../../../../../../../swagger-ui/index.html?api=Mobile
