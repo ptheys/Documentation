@@ -22,10 +22,6 @@ O chamador (instituição receptor de dados ou iniciador de transação de pagam
 O Authorization Server possui uma configuração que define o *template* da URL de *handoff* feita pela instituição. Desta forma o identificador da intenção de consentimento que será tratado pela página de *handoff* pode ser mesclado na URL da forma que a
 instituição desejar.
 
-<!-->
-Ver [HANDOFF_RESOURCE_URL](../../deploy/oob-authorization-server/readme.md)
-<-->
-
 A mescla permite a instituição receber o identificador através da `query-string`, `fragment` ou `url`, como exibido na tabela abaixo:
 
 | Formato      | URL Exemplo                                                         |
@@ -148,10 +144,6 @@ A tela de *handoff* reage passivamente aos eventos ocorridos no fluxo.  Em qualq
 
 Para efetuar o cancelamento do fluxo é necessário realizar uma requisição para a api `https://as.instituicao.com.br/auth/handoff/v1/<oobStartCode>/abort`, sendo o **oobStartCode** o mesmo código usado para iniciar a biblioteca.
 
-<!-->
-./readme.md#como-usar-a-biblioteca
-<-->
-
 Após o cancelamento, a tela deve direcionar o usuário de volta à instituição chamadora e o app deve informar ao usuário (ex.: com uma mensagem de erro), interrompendo o fluxo de *handoff*.
 
 ## Exemplo
@@ -184,7 +176,3 @@ npx http-server -p 3030 --cors -c-1
 ## Página de *handoff* customizável
 
 Se a instituição preferir não implementar a própria página de *handoff*, é possível utilizar a solução fornecida pelo Opus Open Finance: uma página completa que configura as principais características estéticas e de conteúdo para se adaptar ao estilo da instituição.
-
-<!-->
-Essas são as [configurações](./custom-handoff-config/readme.md) possíveis.
-<-->
