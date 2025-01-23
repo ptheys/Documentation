@@ -19,6 +19,19 @@ window.onload = () => {
     "OAS-ITP-pagamentos-automaticos": "../apis/oas-opustpp-pagamentos-automaticos.yml",
     "OAS-back-dados": "../apis/oas-oof-dados.yml",
     "Mobile": "../apis/oas-webapp2as.yml",
+    "open-data-acquiring": "../apis-dados-abertos/open-data-acquiring-services.yml",
+    "open-data-accounts": "../apis-dados-abertos/open-data-accounts.yml",
+    "open-data-capitalization": "../apis-dados-abertos/open-data-capitalization-bonds.yml",
+    "open-data-channels": "../apis-dados-abertos/open-data-channels.yml",
+    "open-data-credit-cards": "../apis-dados-abertos/open-data-credit-cards.yml",
+    "open-data-exchanges": "../apis-dados-abertos/open-data-exchanges.yml",
+    "open-data-financings": "../apis-dados-abertos/open-data-financings.yml",
+    "open-data-insurance": "../apis-dados-abertos/open-data-insurance.yml",
+    "open-data-investments": "../apis-dados-abertos/open-data-investments.yml",
+    "open-data-invoice-financings": "../apis-dados-abertos/open-data-invoice-financings.yml",
+    "open-data-loans": "../apis-dados-abertos/open-data-loans.yml",
+    "open-data-pension": "../apis-dados-abertos/open-data-pension.yml",
+    "open-data-unarranged": "../apis-dados-abertos/open-data-unarranged-account-overdraft.yml",
     // Adicione outras APIs aqui. As linhas são terminadas por "," mesmo qdo é o último item...
   };
 
