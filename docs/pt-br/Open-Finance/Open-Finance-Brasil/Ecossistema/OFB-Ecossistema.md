@@ -74,7 +74,7 @@ Há também 6 GTs internos para suporte adicional às demandas recebidas.
 
 ### Instituições Participantes
 
-As instituições participantes devem acompanhar o andamento do ecossistema para garantir conformidade com os requisitos regulatórios. É essencial monitorar os principais canais de informação.
+As [instituições participantes](https://web.directory.openbankingbrasil.org.br/participants) devem acompanhar o andamento do ecossistema para garantir conformidade com os requisitos regulatórios. É essencial monitorar os principais canais de informação.
 
 ---
 
