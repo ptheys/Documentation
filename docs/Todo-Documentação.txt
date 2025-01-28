@@ -12,3 +12,5 @@ Dúvidas:
 1) O que é essa "  API dos endpoints de pagamentos internos, responsável pelos endpoints não regulatórios." ????
    Arquivo oas-oof-payment.yml
 2) Procurar {{..comment}}, há alguns trechos comentados que precisam ser esclarecidos/complementados.
+
+teste
