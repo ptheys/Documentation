@@ -14,8 +14,8 @@ just_the_docs:
   search_enabled: true # Gera a caixa de pesquisa no alto das páginas do site.
   custom_js:
     - /assets/js/open-links.js
-remote_theme: "just-the-docs/just-the-docs"
-#remote_theme: null  # Deve estar assim para usar o template local
+# remote_theme: "just-the-docs/just-the-docs"
+remote_theme: null  # Deve estar assim para usar o template local
 
 url: https://opusopenfinance.github.io
 baseurl: "/Documentation"

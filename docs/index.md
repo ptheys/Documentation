@@ -3,8 +3,8 @@ layout: default
 title: "Plataforma Opus Open Finance"
 nav_order: 1    # Página principal do site. 
 has_children: true
-# permalink: /plataforma-opus-open-finance/   # URL personalizada
 ---
+
 ## Documentação da Plataforma Opus Open Finance
 
 Bem-vindo à documentação da **Plataforma Opus Open Finance**!
@@ -51,6 +51,8 @@ Unindo sua vocação na prestação de serviços de desenvolvimento de software 
 Sabemos que a implementação de uma nova plataforma pode trazer desafios únicos. Por isso, nossa equipe de suporte está pronta para assisti-lo em cada etapa do processo.
 
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
+
+---
 
 {{..comment}}
 [O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.html
