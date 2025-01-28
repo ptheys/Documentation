@@ -53,7 +53,6 @@ Sabemos que a implementação de uma nova plataforma pode trazer desafios único
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
 
 {{..comment}}
-
 [O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.html
 [Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html
 [Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.html
@@ -64,5 +63,4 @@ Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em e
 [Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.html
 [Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.html
 [Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.html
-
 {{./comment}}
