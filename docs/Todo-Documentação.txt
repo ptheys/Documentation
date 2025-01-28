@@ -1,11 +1,12 @@
 Documentação Plataforma Opus Open Finance - Todo list
 =========================================   =========
 
-3) Forma automática de "próxima página"?
-7) Multi-idioma
-8) Abrir links externos em nova aba.
-9) A API opus-commons deve ser listada na seção sobre a construção de conectores.
-10) Acrescentar o Loop-Comandos.md às paginas que explicam integração Mobile e Internet Banking (talvez handoff)
+1) Search
+2) Forma automática de "próxima página"?
+3) Multi-idioma
+4) Abrir links externos em nova aba.
+5) A API opus-commons deve ser listada na seção sobre a construção de conectores.
+6) Acrescentar o Loop-Comandos.md às paginas que explicam integração Mobile e Internet Banking (talvez handoff)
 
 Dúvidas:
 
