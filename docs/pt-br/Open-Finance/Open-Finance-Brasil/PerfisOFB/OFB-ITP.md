@@ -73,6 +73,10 @@ Para iniciar a utilização do software, existem alguns pré-requisitos:
 ---
 > Para avaliar o guia de experiência do usuário, [clique aqui][GuiaUX]
 
+{% raw %}
+<script src="/Documentation/assets/js/open-links.js"></script>
+{% endraw %}
+
 [GuiaUX]: https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17378535/Guia+de+Experi+ncia+do+Usu+ri
 [API-pagamentos]: ../../../../swagger-ui/index.html?api=OAS-ITP-pagamentos
 [API-pagamentos-automáticos]: ../../../../swagger-ui/index.html?api=OAS-ITP-pagamentos-automaticos
