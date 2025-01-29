@@ -51,20 +51,3 @@ Unindo sua vocação na prestação de serviços de desenvolvimento de software 
 Sabemos que a implementação de uma nova plataforma pode trazer desafios únicos. Por isso, nossa equipe de suporte está pronta para assisti-lo em cada etapa do processo.
 
 Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em entrar em contato com seu *Delivery Manager***. Estamos aqui para garantir que sua experiência com a Plataforma Opus Open Finance seja tranquila e bem-sucedida.
-
----
-
-{% raw %}
-<!-->
-[O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.html
-[Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html
-[Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.html
-[Jornada de Consentimento]: ./pt-br/Open-Finance/Open-Finance-Brasil/JornadaConsentimento/OFB-JornadaConsentimento.html
-[Requisitos Não Funcionais]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-RequisitosNF.html
-[PCM]: ./pt-br/Open-Finance/Open-Finance/Open-Finance-Brasil/PCM/OFB-PCM.html
-[Onboarding]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding.html
-[Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.html
-[Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.html
-[Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.html
-<-->
-{% endraw %}
