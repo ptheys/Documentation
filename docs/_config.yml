@@ -18,6 +18,9 @@ just_the_docs:
     - /assets/js/open-links.js
 # remote_theme: "just-the-docs/just-the-docs"
 
+include:            # Tentando forçar o uso do layout default local em vez do remoto.
+  - _layouts
+
 url: https://opusopenfinance.github.io
 baseurl: "/Documentation"
 

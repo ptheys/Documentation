@@ -54,7 +54,8 @@ Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em e
 
 ---
 
-{{..comment}}
+{% raw %}
+<!-->
 [O Ecossistema Open Finance Brasil]: ./pt-br/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema.html
 [Perfis de participação]: ./pt-br/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Perfis.html
 [Certificações]: ./pt-br/Open-Finance/Open-Finance-Brasil/OFB-Certificações.html
@@ -65,4 +66,5 @@ Se você tiver dúvidas ou precisar de assistência técnica, **não hesite em e
 [Onboarding Detentor e Transmissor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/Onboarding-detent-transm.html
 [Onboarding ITP]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingITP.html
 [Onboarding Receptor]: ./pt-br/Open-Finance/Open-Finance-Brasil/Onboarding/OnboardingRecept.html
-{{./comment}}
+<-->
+{% endraw %}
