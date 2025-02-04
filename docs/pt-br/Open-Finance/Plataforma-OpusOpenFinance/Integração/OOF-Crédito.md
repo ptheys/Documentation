@@ -6,6 +6,8 @@ nav_order: 4
 has_children: true
 ---
 
+# Operações de Crédito
+
 Todas as modalidades de operações de crédito são passíveis de compartilhamento de dados no escopo do *Open Finance Brasil*.
 
 O consentimento para compartilhamento de dados efetuado pelo cliente é realizado por agrupamento de produtos. Isso significa que, se o cliente conceder um consentimento de compartilhamento de dados para "*Operações de Crédito*" todas as modalidades estarão incluídas.
