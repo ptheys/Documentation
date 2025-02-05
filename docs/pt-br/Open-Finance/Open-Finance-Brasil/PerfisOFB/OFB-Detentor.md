@@ -3,6 +3,8 @@ layout: default
 title: "Detentor de Conta"
 parent: "Perfis de participação"
 nav_order: 3
+lang: "pt-br"
+alternate_lang: "/docs/en/Open-Finance/Open-Finance-Brasil/PerfisOFB/OFB-Detentor/"
 ---
 
 # Detentor de Conta

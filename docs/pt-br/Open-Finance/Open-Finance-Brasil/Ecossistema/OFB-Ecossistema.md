@@ -3,6 +3,8 @@ layout: default
 title: "O Ecossistema"
 parent: "Open Finance Brasil"
 nav_order: 1
+lang: "pt-br"
+alternate_lang: "/docs/en/Open-Finance/Open-Finance-Brasil/Ecossistema/OFB-Ecossistema/"
 ---
 
 ## O Ecossistema

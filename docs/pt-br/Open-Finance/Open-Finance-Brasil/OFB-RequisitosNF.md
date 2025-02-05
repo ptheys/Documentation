@@ -3,6 +3,8 @@ layout: default
 title: Requisitos Não Funcionais
 parent: "Open Finance Brasil"
 nav_order: 6
+lang: "pt-br"
+alternate_lang: "/docs/en/Open-Finance/Open-Finance-Brasil/OFB-RequisitosNF/"
 ---
 
 Para garantir a eficiência do ecossistema de Open Finance, foram definidos requisitos não funcionais que devem ser cumpridos pelas instituições participantes. Estes requisitos visam assegurar qualidade, desempenho e confiabilidade no ecossistema.
