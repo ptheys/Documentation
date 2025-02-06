@@ -2,7 +2,7 @@
 layout: default
 title: "API de Câmbio"
 parent: "Compartilhamento de Dados"
-nav_order: 5
+nav_order: 6
 ---
 
 # Operações de Câmbio
