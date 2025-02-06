@@ -70,20 +70,17 @@ No caso de operações de crédito o cliente efetua o compartilhamento por agrup
 
 Informações detalhadas sobre os dados necessários para cada uma dessas operações podem ser encontrados na [página específica para operações de crédito][Crédito].
 
-{::comment}
-
 ## Investimentos
 
-Os investimentos também são divididos em diferentes produtos. Abaixo tem-se uma lista dos produtos possíveis de investimento assim como o link leva ao documenta detalhado sobre os dados do produto em questão:
+Os investimentos também são divididos em diferentes produtos. Abaixo tem-se uma lista dos produtos possíveis de investimento assim como o link leva ao documento detalhado sobre os dados do produto em questão:
 
-- [Renda fixa bancária](./dados_investimentos/dados_renda_fixa_bancaria.md)
-- [Renda fixa crédito](./dados_investimentos/dados_renda_fixa_credito.md)
-- [Renda variável](./dados_investimentos/dados_renda_variavel.md)
-- [Títulos do tesouro direto](./dados_investimentos/dados_titulo_tesouro_direto.md)
-- [Fundos de investimento](./dados_investimentos/dados_fundos_investimento.md)
+- [Renda fixa bancária](./dados-investimentos/dados-renda-fixa-bancaria.html)
+- [Renda fixa crédito](./dados-investimentos/dados-renda-fixa-credito.html)
+- [Renda variável](./dados-investimentos/dados-renda-variavel.html)
+- [Títulos do tesouro direto](./dados-investimentos/dados-tesouro.html)
+- [Fundos de investimento](./dados-investimentos/dados-fundos.html)
 
-Informações detalhadas sobre os dados necessários para este produto podem ser encontrados [página específica para investimentos](./dados_investimentos/README.md).
-{:/comment}
+Informações detalhadas sobre os dados necessários para este produto podem ser encontrados [página específica para investimentos](./OOF-Investimento.md).
 
 ## Câmbio
 
