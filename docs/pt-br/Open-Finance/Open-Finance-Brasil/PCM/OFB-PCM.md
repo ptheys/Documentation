@@ -3,6 +3,8 @@ layout: default
 title: Plataforma de Coleta de Métricas (PCM)
 parent: "Open Finance Brasil"
 nav_order: 5
+lang: "pt-br"
+alternate_lang: "/docs/en/Open-Finance/Open-Finance-Brasil/PCM/OFB-PCM/"
 ---
 ## Introdução
 

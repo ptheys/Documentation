@@ -3,6 +3,8 @@ layout: default
 title: "Dados abertos"
 parent: "Perfis de participação"
 nav_order: 1
+lang: "pt-br"
+alternate_lang: "/docs/en/Open-Finance/Open-Finance-Brasil/PefisOFB/Dados-abertos/"
 ---
 
 # Dados abertos

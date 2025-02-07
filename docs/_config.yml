@@ -3,27 +3,26 @@ description: "Documentação que descreve a Plataforma Opus Open Finance, inclui
 lang: pt-BR
 locale: "pt_BR"
 
+remote_theme: null  # Deve estar assim para usar o template local
+
 theme: "just-the-docs"
 just_the_docs:
   layout: default
-  navigaion_structure: true
+  navigation_structure: true
   show_toc: true    # Exibe a barra lateral de navegação em todas as páginas
   toc_levels: 1..3  # Define os niveis de cabeçalho a serem exibidos (H1 a H3, ou #, ## e ###)
   sidebar:
     position: fixed # Mantém a barra lateral fixa
-  search_enabled: true
-remote_theme: "just-the-docs/just-the-docs"
-#remote_theme: null  # Deve estar assim para usar o template local
+  search_enabled: true # Gera a caixa de pesquisa no alto das páginas do site.
+  custom_js:
+    - /assets/js/open-links.js
+# remote_theme: "just-the-docs/just-the-docs"
+
+include:            # Tentando forçar o uso do layout default local em vez do remoto.
+  - _layouts
 
 url: https://opusopenfinance.github.io
 baseurl: "/Documentation"
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
-defaults:
-  - scope:
-      path: "docs/assets/js"
-    values:
-      js:
-        permalink: /docs/assets/js/open-links.js

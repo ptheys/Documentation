@@ -32,6 +32,11 @@ window.onload = () => {
     "open-data-loans": "../apis-dados-abertos/open-data-loans.yml",
     "open-data-pension": "../apis-dados-abertos/open-data-pension.yml",
     "open-data-unarranged": "../apis-dados-abertos/open-data-unarranged-account-overdraft.yml",
+    "data-funds": "../apis/dados-investimento/oas-funds.yml",
+    "data-bank-fixed-incomes": "../apis/dados-investimento/oas-bank-fixed-incomes.yml",
+    "data-credit-fixed-incomes": "../apis/dados-investimento/oas-credit-fixed-incomes.yml",
+    "data-treasure-titles": "../apis/dados-investimento/oas-treasure-titles.yml",
+    "data-variable-incomes": "../apis/dados-investimento/oas-variable-incomes.yml",
     // Adicione outras APIs aqui. As linhas são terminadas por "," mesmo qdo é o último item...
   };
 
